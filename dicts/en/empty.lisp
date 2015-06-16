@@ -1,0 +1,6 @@
+({parsenode ((type . adj)
+	     (is empty)
+	     (flags)
+	     (descs)
+	     (other)
+	     (remsen))})

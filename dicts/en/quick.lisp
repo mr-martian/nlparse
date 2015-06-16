@@ -1,0 +1,6 @@
+({parsenode ((type . adj)
+	     (is quick)
+	     (flags)
+	     (descs)
+	     (other)
+	     (remsen))})

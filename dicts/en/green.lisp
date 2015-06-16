@@ -1,0 +1,12 @@
+({parsenode ((type . adj)
+	     (is green)
+	     (flags)
+	     (descs)
+	     (other)
+	     (remsen))}
+ {parsenode ((type . noun)
+	     (is green)
+	     (flags :plural nil)
+	     (descs)
+	     (other)
+	     (remsen))})

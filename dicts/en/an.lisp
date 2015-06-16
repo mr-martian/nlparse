@@ -1,0 +1,6 @@
+({parsenode ((type . art)
+	     (is a)
+	     (flags)
+	     (descs)
+	     (other)
+	     (remsen))})
