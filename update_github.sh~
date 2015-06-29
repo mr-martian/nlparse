@@ -1,4 +1,0 @@
-echo -n "Commit Message: "
-read m
-git commit -am $m
-git push -u origin master

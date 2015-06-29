@@ -1,1 +1,0 @@
-{parsenode ((type . verb) (is to observe) (flags :tense :inf) (descs) (other) (remsen)}

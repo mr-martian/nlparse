@@ -1,1 +1,0 @@
-{parsenode ((type . verb) (is to criticize) (flags :tense :inf) (descs) (other) (remsen)}

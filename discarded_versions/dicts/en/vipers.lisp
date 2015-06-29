@@ -1,1 +1,0 @@
-{parsenode ((type . noun) (is viper) (flags :proper nil :plural t) (descs) (other) (remsen)}

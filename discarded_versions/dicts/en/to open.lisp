@@ -1,1 +1,0 @@
-{parsenode ((type . verb) (is to open) (flags :tense :inf) (descs) (other) (remsen)}

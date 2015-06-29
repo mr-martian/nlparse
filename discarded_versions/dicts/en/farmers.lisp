@@ -1,1 +1,0 @@
-{parsenode ((type . noun) (is farmer) (flags :proper nil :plural t) (descs) (other) (remsen)}

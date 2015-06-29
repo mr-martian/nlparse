@@ -1,1 +1,0 @@
-{parsenode ((type . verb) (is to reap) (flags :tense :inf) (descs) (other) (remsen)}

@@ -1,1 +1,0 @@
-{parsenode ((type . noun) (is attendant) (flags :proper nil :plural t) (descs) (other) (remsen)}
