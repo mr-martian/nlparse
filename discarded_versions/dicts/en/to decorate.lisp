@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to decorate) (flags :tense :inf) (descs) (other) (remsen)}

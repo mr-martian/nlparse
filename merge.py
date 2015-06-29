@@ -1,0 +1,12 @@
+import sys
+f = open(sys.argv[1])
+l1 = f.read().splitlines()
+f.close()
+f = open(sys.argv[2])
+l2 = f.read().splitlines()
+f.close()
+l3 = filter(lambda x: set(x) <= set('abcdefghijklmnopqrstuvwxyz'), list(set(l1 + l2)))
+l3.sort()
+f = open(sys.argv[3], 'w')
+f.write('\n'.join(l3))
+f.close()

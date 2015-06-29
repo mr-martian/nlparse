@@ -1,0 +1,1 @@
+{parsenode ((type . noun) (is oar) (flags :proper nil :plural t) (descs) (other) (remsen)}

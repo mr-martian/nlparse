@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to demand) (flags :tense :inf) (descs) (other) (remsen)}

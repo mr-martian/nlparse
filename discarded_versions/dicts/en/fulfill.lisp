@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is fulfill) (flags :tense :present :single nil) (descs) (other) (remsen)}

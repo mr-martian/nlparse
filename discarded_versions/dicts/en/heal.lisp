@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is heal) (flags :tense :present :single nil) (descs) (other) (remsen)}

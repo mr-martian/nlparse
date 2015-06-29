@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to crucify) (flags :tense :inf) (descs) (other) (remsen)}

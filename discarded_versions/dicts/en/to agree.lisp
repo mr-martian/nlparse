@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to agree) (flags :tense :inf) (descs) (other) (remsen)}

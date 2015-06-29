@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to suffer) (flags :tense :inf) (descs) (other) (remsen)}

@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to bend) (flags :tense :inf) (descs) (other) (remsen)}

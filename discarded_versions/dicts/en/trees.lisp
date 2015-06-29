@@ -1,0 +1,1 @@
+{parsenode ((type . noun) (is tree) (flags :proper nil :plural t) (descs) (other) (remsen)}

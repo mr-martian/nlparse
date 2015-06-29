@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to commit) (flags :tense :inf) (descs) (other) (remsen)}

@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to depend) (flags :tense :inf) (descs) (other) (remsen)}

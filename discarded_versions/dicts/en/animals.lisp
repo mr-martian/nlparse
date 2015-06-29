@@ -1,0 +1,1 @@
+{parsenode ((type . noun) (is animal) (flags :proper nil :plural t) (descs) (other) (remsen)}

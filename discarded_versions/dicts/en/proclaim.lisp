@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is proclaim) (flags :tense :present :single nil) (descs) (other) (remsen)}

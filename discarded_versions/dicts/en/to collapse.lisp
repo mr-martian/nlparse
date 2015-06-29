@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to collapse) (flags :tense :inf) (descs) (other) (remsen)}

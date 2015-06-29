@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to lease) (flags :tense :inf) (descs) (other) (remsen)}

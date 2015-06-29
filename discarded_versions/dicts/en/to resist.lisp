@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to resist) (flags :tense :inf) (descs) (other) (remsen)}

@@ -1,0 +1,71 @@
+def parse(line, do_word, make_dict, do_line=None):
+    if do_line:
+        l = do_line(line)
+    else:
+        l = []
+        for w in line.split():
+            l += do_word(w)
+    fr = []
+    r = [[[], l]]
+    while r:
+        n = r.pop()
+        if n[1]:
+            add = False
+            for i in xrange(1,len(n[1])+1):
+                for it in make_dict(' '.join(n[1][:i])):
+                    r.append([n[0] + [it], n[1][i:]])
+                    add = True
+            if not add:
+                r.append([n[0], n[1][1:]])
+                f = open('discarded_words.txt', 'a')
+                f.write(n[1][0] + '\n')
+                f.close()
+        else:
+            fr.append(n[0])
+    return fr
+def to_lisp(dct):
+    t = ''
+    i = ''
+    f = []
+    for k in dct.keys():
+        if k == 'type':
+            t = dct[k]
+        elif k == 'is':
+            i = dct[k]
+        else:
+            f.append('%s %s' % (k, dct[k]))
+    return "{parsenode ((type . %s) (is %s) (flags %s) (descs) (other) (remsen))}" % (t, i, ' '.join(f))
+if __name__ == '__main__':
+    import sys, runpy, os
+    if True: #try:
+        #mod = runpy.run_path(os.path.dirname(os.path.realpath(__file__)) + '/' + sys.argv[1] + '/parse.py')
+        f = open(sys.argv[2])
+        lines = f.read().splitlines()
+        f.close()
+        f = open(sys.argv[3], 'w')
+        f.write('(\n')
+        #FILE STRUCTURE: (minus spaces)
+        # ( ( (para1 possibility1)
+        #     (para1 possibility2)
+        #     ... )
+        #   ( (para2 possibility1)
+        #     (para2 possibility2)
+        #     ... )
+        #   ... )
+        #dl = mod['do_line'] if 'do_line' in mod else None
+        os.chdir(os.path.dirname(os.path.realpath(__file__)) + '/' + sys.argv[1])
+        print os.getcwd()
+        import parse
+        print dir(parse)
+        dl = parse.do_line if 'do_line' in dir(parse) else None
+        for l in lines:
+            f.write('  (\n')
+            #for p in parse(l.lower(), mod['do_word'], mod['make_dict'], dl):
+            for p in parse(l.lower(), parse.do_word, make_dict, dl):
+                f.write('    (\n      ' + '\n      '.join([to_lisp(i) for i in p]) + '\n    )\n')
+            f.write('\n  )\n')
+        f.write(')')
+        f.close()
+    #except:
+    #    print """Proper command line usage:
+#python parse.py lang infile outfile"""

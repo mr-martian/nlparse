@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to destroy) (flags :tense :inf) (descs) (other) (remsen)}

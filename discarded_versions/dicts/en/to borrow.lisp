@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to borrow) (flags :tense :inf) (descs) (other) (remsen)}

@@ -1,0 +1,1 @@
+{parsenode ((type . noun) (is paralytic) (flags :proper nil :plural t) (descs) (other) (remsen)}

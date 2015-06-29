@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is to defame) (flags :tense :inf) (descs) (other) (remsen)}

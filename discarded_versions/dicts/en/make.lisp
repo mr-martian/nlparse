@@ -1,0 +1,1 @@
+{parsenode ((type . verb) (is make) (flags :tense :present :single nil) (descs) (other) (remsen)}
