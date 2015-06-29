@@ -1,6 +1,0 @@
-({parsenode ((type . verb)
-	     (is to sing)
-	     (flags :tense :inf)
-	     (descs)
-	     (other)
-	     (remsen))})

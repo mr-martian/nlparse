@@ -90,7 +90,10 @@
   (and node
        (eq (type node) type)
        (or (not flags)
-           (eq (getf (flags node) (car flags)) (cadr flags)))))
+           (and (symbolp (car flags))
+                (eq (getf (flags node) (car flags)) (cadr flags)))
+           (loop for i in flags always
+                 (eq (getf (flags node) (car i)) (cadr i))))))
 (defun o= (a b)
   (string= (format nil "~a" a) (format nil "~a" b)))
 (defun ls (n) (if (listp n) n (list n)))
@@ -106,7 +109,7 @@
     (dolist (a args)
       (incf arpos)
       (ccase (car a)
-             (n (let ((name (or (seventh a) @)) (i @) (r @) (tn @) (it @))
+             (n (let ((name (or (seventh a) @)) (i @) (r @) (tn @))
                   (push `(let (,r)
                            (dolist (,i ,sen)
                              ,(if (eq (cadr a) '*)

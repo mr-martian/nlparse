@@ -1,6 +1,0 @@
-({parsenode ((type . adj)
-	     (is wet)
-	     (flags)
-	     (descs)
-	     (other)
-	     (remsen))})

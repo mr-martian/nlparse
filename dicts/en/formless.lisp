@@ -1,6 +1,0 @@
-({parsenode ((type . adj)
-	     (is formless)
-	     (flags)
-	     (descs)
-	     (other)
-	     (remsen))})

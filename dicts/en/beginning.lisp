@@ -1,6 +1,0 @@
-({parsenode ((type . noun)
-	     (is beginning)
-	     (flags :plural nil)
-	     (descs)
-	     (other)
-	     (remsen))})
