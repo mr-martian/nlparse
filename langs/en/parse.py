@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 MAX_WORD_LENGTH = 5 #will get out from under
-import os
+import os, re
 def load_list(fname):
     f = open(os.path.dirname(os.path.realpath(__file__)) + '/' + fname, 'r')
     l = f.read().splitlines()
@@ -62,6 +62,7 @@ special = {
     "“": [{"is":"|\"|", "type":"double-quote"}],
     "”": [{"is":"|\"|", "type":"double-quote"}],
     "–": [{"is":"–", "type":"M-dash"}],
+    "~": [{"is":"~", "type":"~"}], #paragraph break
     "a": [{"is":"a", "type":"article", ":definite":"nil"}],
     "an": [{"is":"a", "type":"article", ":definite":"nil"}],
     "awoke": [{"is":"awake", "type":"verb", ":tense":":past", ":mood":":indicative"}],
@@ -114,6 +115,8 @@ def with_ly(ls):
         else:
             pass
         yield i + 'ly'
+def check_verb(v):
+    return v in intransitives or v in transitives or v in ditransitives
 def do_verb(d):
     l = []
     if d['is'] in intransitives:
@@ -157,7 +160,10 @@ conds = [['', prepositions, 'prep', {}],
 def do_cond(w, c):
     if w.endswith(c[0]) and w in c[1]:
         return merge({'type':c[2], 'is':w}, c[3])
+verse = re.compile('^\d+:\d+$')
 def make_dict(word):
+    if verse.match(word):
+        return [[{'type':'chapter', 'is':word.split(':')[0]}, {'type':'verse', 'is':word.split(':')[1]}]]
     w = word.lower()
     ret = []
     for c in conds:
@@ -234,11 +240,11 @@ def make_dict(word):
                     i[':possesive'] = 't'
                     ret.append(i)
         elif w.endswith('ing'):
-            if make_dict(w[:-3]):
+            if check_verb(w[:-3]):
                 x = w[:-3]
-            elif make_dict(w[:-3] + 'e'):
+            elif check_verb(w[:-3] + 'e'):
                 x = w[:-3] + 'e'
-            elif len(w) >= 5 and w[-4] == w[-5] and make_dict(w[:-4]):
+            elif len(w) >= 5 and w[-4] == w[-5] and check_verb(w[:-4]):
                 x = w[:-4]
             else:
                 x = ''
