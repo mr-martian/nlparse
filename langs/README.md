@@ -1,0 +1,31 @@
+#nlparse/langs
+This is the folder for individual languages/dialects.
+Current languages & todo list:
+  - [ ] ```nlparse/langs/en```
+    - Standard American English
+    - [ ] remove old code
+    - [ ] morphology
+      - [x] dictionary (imported from en.wiktionary.org)
+      - [ ] parser rules (may be missing a few)
+        - [ ] pronouns
+        - [ ] auxilary verbs
+        - [ ] irregular conjugations
+        - [x] nearly everything else
+      - [ ] parser
+    - [ ] syntax
+      - [x] auxilary verbs
+      - [x] nouns
+      - [x] prepositions
+      - [x] conjunctions
+      - [ ] verbs
+      - [ ] other?
+  - [ ] ```nlparse/langs/vim```
+    - Vimium (a language I constructed for something else and am using as a test case)
+    - [ ] remove old code
+    - [ ] morphology
+      - [x] prepositions
+      - [x] conjunctions
+      - [x] pronouns
+      - [ ] everything else (sort of all the same)
+    - [ ] syntax
+      - not yet started
