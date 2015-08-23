@@ -1,1 +1,0 @@
-{parsenode ((type . noun) (is talent) (flags :proper nil :plural t) (descs) (other) (remsen)}

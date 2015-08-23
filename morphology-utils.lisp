@@ -1,0 +1,66 @@
+(load "/home/daniel/quicklisp/setup.lisp")
+(ql:quickload :cl-ppcre)
+(defpackage :morphology-utils
+  (:use :utils :cl-ppcre :cl)
+  (:export :*pats* :strip-end :lit-ls :lit-dict :load-ls :send :strip-send)
+  (:shadow :defmacro))
+(in-package :morphology-utils)
+
+(defvar *pats* nil)
+(cl:defmacro defmacro (name args &body body)
+             `(cl:defmacro ,name (name ,@args)
+                           (push name *pats*)
+                           ,@body))
+
+(defmacro strip-end (rem add pat dct)
+  (let ((p (create-scanner pat)) (s (gensym)) (r (gensym)))
+    `(defun ,name (,s)
+       (when (scan ,p ,s)
+         (let ((,r ,dct))
+           (setf (gethash :is ,r)
+                 (format nil "~a~a" (subseq ,s 0 (- (length ,s) ,rem)) ,add))
+           ,r)))))
+
+(defmacro lit-ls (&rest ls)
+  (let ((s (gensym)))
+    `(defun ,name (,s)
+       (getf (list ,@ls) ,s))))
+(defmacro lit-dict (dct &rest add)
+  (let ((s (gensym)) (r (gensym)) (a (gensym)))
+    `(defun ,name (,s)
+       (let ((,r (gethash ,s ,dct)))
+         ,@(loop for i in add collecting `(setf (gethash ,(car i) ,r) ,(cdr i)))
+         ,r))))
+
+(defmacro load-ls (lang file dct)
+  (let ((lst (with-open-file (f (format nil "langs/~a/~a" lang file))
+                             (loop for i = (read-line f nil nil)
+                                   while i collect i)))
+        (s (gensym)) (r (gensym)))
+    `(defun ,name (,s)
+       (when (member ,s ',lst)
+         (let ((,r ,dct))
+           (setf (gethash :is ,r) ,s)
+           ,r)))))
+
+(defmacro send (dest &rest pl)
+  (pop *pats*)
+  (let ((s (gensym)) (fn (gensym)) (r (gensym)))
+    `(defun ,name (,s)
+       (loop for ,fn in ',(ls dest) appending
+             (let ((,r (funcall ,fn ,s)))
+               ,@(loop for i in pl collecting
+                       `(setf (gethash ,(car i) ,r) ,(cdr i)))
+               ,r)))))
+(defmacro strip-send (rem add pat dest &rest pl)
+  (let ((p (create-scanner pat)) (s (gensym)) (r (gensym)) (fn (gensym)))
+    `(defun ,name (,s)
+       (when (scan ,p ,s)
+         (loop for ,fn in ',(ls dest) appending
+               (ls (let ((,r (funcall ,fn
+                                      (format nil "~a~a"
+                                              (subseq ,s 0 (- (length ,s) ,rem))
+                                              ,add))))
+                     ,@(loop for i in pl collecting
+                             `(setf (gethash ,(car i) ,r) ,(cdr i)))
+                     ,r)))))))
