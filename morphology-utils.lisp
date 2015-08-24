@@ -1,4 +1,4 @@
-(load "/home/daniel/quicklisp/setup.lisp")
+(load "~/quicklisp/setup.lisp")
 (ql:quickload :cl-ppcre)
 (defpackage :morphology-utils
   (:use :utils :cl-ppcre :cl)
