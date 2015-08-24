@@ -10,6 +10,7 @@ Current languages & todo list:
         - [ ] pronouns
         - [ ] auxilary verbs
         - [ ] irregular conjugations
+        - [ ] contractions
         - [x] nearly everything else
       - [ ] parser
     - [ ] syntax
