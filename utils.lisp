@@ -10,7 +10,9 @@
            :out :out-l
            :gensyms
            :hash->plist :n=
-           :copy))
+           :copy
+           :copy-replace :locate :getval
+           :str))
 (in-package :utils)
 
 (defun ls (n)
@@ -68,7 +70,7 @@
 (read-mac s #\[ `(lambda (_) ,(read-delimited-list #\] s t)))
 
 (defun plist->hash (p)
-  (let ((h (make-hash-table :size (length p))))
+  (let ((h (make-hash-table :size (length p) :test 'equal)))
     (dolist (i p)
       (if (eq i :~)
           (setf (gethash :~ h) nil)
@@ -81,7 +83,7 @@
 ;            (dolist (i l)
 ;              (setf (gethash (car i) g) (cdr i)))
 ;            g))
-(read-mac s #\{ `(plist->hash ',(read-delimited-list #\} s t)))
+(read-mac s #\{ (plist->hash (read-delimited-list #\} s t)))
 
 (defmacro aif (v c y n)
   `(let ((,v ,c))
@@ -133,3 +135,48 @@
       (maphash (lambda (k v) (setf (gethash k h) v)) thing)
       h))
    (t thing)))
+
+(defun copy-replace (struct thing rep &key (test #'n=))
+  (cond
+   ((funcall test struct thing) (copy rep))
+   ((null struct) nil)
+   ((listp struct) (cons (copy-replace (car struct) thing rep :test test)
+                         (copy-replace (cdr struct) thing rep :test test)))
+   ((hash-table-p struct)
+    (let ((h (make-hash-table :size (hash-table-size struct)
+                              :test (hash-table-test struct))))
+      (maphash (lambda (k v)
+                 (setf (gethash (copy-replace k thing rep :test test) h)
+                       (copy-replace v thing rep :test test)))
+               struct)
+      h))
+   (t struct)))
+
+(defun locate (struct thing &key (test #'n=) path)
+  (cond
+   ((funcall test struct thing) (values (reverse path) t))
+   ((null struct) nil)
+   ((listp struct) (or (locate (car struct) thing :test test
+                               :path (cons 'car path))
+                       (locate (cdr struct) thing :test test
+                               :path (cons 'cdr path))))
+   ((hash-table-p struct)
+    (let (r)
+      (maphash (lambda (k v)
+                 (aif n (locate v thing :test test
+                                :path (cons (list 'gethash k) path))
+                      (setf r n)
+                      nil))
+               struct)
+      r))
+   (t nil)))
+
+(defun getval (struct path)
+  (cond
+   ((null path) struct)
+   ((eq (car path) 'car) (getval (car struct) (cdr path)))
+   ((eq (car path) 'cdr) (getval (cdr struct) (cdr path)))
+   (t (getval (gethash (cadar path) struct) (cdr path)))))
+
+(defun str (thing)
+  (format nil "~a" thing))

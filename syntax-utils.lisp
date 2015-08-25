@@ -32,31 +32,23 @@
        :reader fn
        :initform (error "must supply a function"))))
 (defmethod match ((p ls-pat) insen)
-  ;(format t "(~a ~a)~%" (name p) insen)
   (labels ((match1 (pn sn)
-                   ;(format t "(match1 ~a ~a)~%" pn sn)
                    (loop for s in (ls sn) appending
                          (when (n= pn s)
-                           ;(format t "  ~a matched!~%" s)
                            (list s))))
            (apply-fn (fn now &optional pre)
-                     ;(format t "(apply-fn ~a ~a ~a)~%" fn now pre)
-                     (let* ((l (ls now)) (n (ls (car l))) (r (cdr l)))
-                       (loop for i in n appending
-                             (if r
-                                 (apply-fn fn r (append pre (list i)))
-                               (ls (apply fn (append pre (list i))))))))
+                     (loop for i in (car now) appending
+                           (if (cdr now)
+                               (apply-fn fn (cdr now) (append pre (list i)))
+                             (ls (apply fn (append pre (list i)))))))
            )
-          (let ((sen (copy insen)) pat pre now)
+          (let ((i 0) pat now sen)
             (tagbody
              fail
-             (setf pat (copy (nodes p)) now nil)
+             (setf pat (copy (nodes p)) now nil sen (subseq (copy insen) i))
              (when (< (length sen) (length pat)) (go nosen))
-             (loop while (and sen (not (match1 (car pat) (car sen)))) do
-                   (push (pop sen) pre))
-             (unless sen (go nosen))
              partial
-             (when pat
+             (when (and pat sen)
                (aif n (match1 (car pat) (car sen))
                     (progn
                       (push n now)
@@ -64,31 +56,30 @@
                       (pop sen)
                       (go partial))
                     (progn
-                      (let ((len (length pre)))
-                        (push (copy (elt insen len)) pre)
-                        (if (> (length insen) (+ (length (nodes p)) len))
-                            (setf sen (append (copy (subseq insen (1+ len)))
-                                              sen))
-                          (go nosen)))
+                      (incf i)
                       (go fail))))
              nosen)
             (unless pat
-              (append (reverse pre) (apply-fn (fn p) now) sen)))))
+              (loop for th in (apply-fn (fn p) (reverse now)) collect
+                    (append (copy (subseq insen 0 i)) (ls th)
+                            (copy (subseq insen (+ i (length (nodes p)))))))))
+          ))
 
 (defmacro bind (dir flag)
-  `(lambda ,(if (eq dir :<) '(a b) '(b a))
+  `(lambda ,(if (eq dir :<) '(b a) '(a b))
      (let ((r (copy b)))
        (setf (gethash ,flag r) (copy a))
        r)))
 (defmacro desc (dir)
-  `(lambda ,(if (eq dir :<) '(a b) '(b a))
+  `(lambda ,(if (eq dir :<) '(b a) '(a b))
      (let ((r (copy b)))
        (push (copy a) (gethash :descs r))
        r)))
-(read-mac s #\$ (let ((r {(:~)}))
+(read-mac s #\$ (let ((r (copy {(:~)})))
                   (setf (gethash :type r) (read s t nil t))
                   r))
-(read-mac s #\! (let* ((typ (read s t nil t)) (fl (read s t nil t)) (h {(:~)}))
+(read-mac s #\! (let* ((typ (read s t nil t)) (fl (read s t nil t))
+                       (h (copy {(:~)})))
                   (setf (gethash :type h) typ)
                   (dolist (i fl)
                     (setf (gethash (car i) h) (cdr i)))

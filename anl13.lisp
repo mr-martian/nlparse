@@ -32,6 +32,10 @@
 
 (defun parse-sen (s)
   (let ((m (multiple-value-list (wordify s))))
+    (out m)
     (apply-pats (car m) pats :multi (cadr m))))
 (out (mapcar #'name pats))
-(out (remove-duplicates (parse-sen "hh") :test #'n=))
+(out (remove-duplicates
+      (parse-sen "potato in the green yard")
+      :test #'n=)
+     )

@@ -23,7 +23,8 @@
 (load-ls talk-verb "en" "talk_verbs.txt"
          {(:type . :verb) (:valency . :transitive) (:talk . t) (:lang . :en)
           (:mood . :indicative) (:tense . :present) (:finite . t) (:impersonal)})
-(setf verbs '(intransitive transitive ditransitive talk-verb))
+;(setf verbs '(intransitive transitive ditransitive talk-verb))
+(send verbs (intransitive transitive ditransitive talk-verb))
 
 (lit-dict punct {("," . {(:is . :comma)})
                  ("." . {(:is . :period)})
@@ -41,6 +42,10 @@
                  ("”" . {(:is . :close-double-quote)})
                  ("–" . {(:is . :m-dash)})}
           (:type . :punct))
+(lit-dict articles {("a" . {(:is . "a") (:definite)})
+                    ("an" . {(:is . "a") (:definite)})
+                    ("the" . {(:is . "the") (:definite . t)})}
+          (:type . :article))
 
 (send singular-noun (noun proper) (:plural . nil))
 (send plural-noun (noun proper) (:plural . t))
@@ -56,8 +61,7 @@
 (strip-send adv5 3 "ey" ".+ily$" adverb)
 (strip-send adv6 1 "" ".+lly$" adverb)
 
-(strip-send imperative 0 "" ".*" verbs
-            (:finite . t) (:mood . :imperative) (:tense . :present))
+(strip-send imperative 0 "" ".*" verbs (:finite . t) (:mood . :imperative))
 
 (send past verbs (:tense . :past))
 (send past-part verbs (:tense . :past) (:finite) (:participle . t))
@@ -76,9 +80,12 @@
 
 (defun wordify (sen)
   (values (list
-           {(:type . :noun) (:is . "potato") (:plural . nil)}
-           {(:type . :preposition) (:is . "in")}
-           {(:type . :article) (:is . "the")}
-           {(:type . :desc) (:is . "green") (:verbal . nil)}
-           {(:type . :noun) (:is . "yard")})
+           (list {(:type . :noun) (:is . "potato") (:plural . nil)})
+           (list {(:type . :preposition) (:is . "in")})
+           (list {(:type . :article) (:is . "the")})
+           (list {(:type . :desc) (:is . "green") (:verbal . nil)})
+           (list {(:type . :noun) (:is . "yard")}))
           nil))
+
+(western-script-parser wordify- *pats* "!(),.?‘’“”'\"" )
+                       ;:contractions t :contraction-func (constantly nil))
