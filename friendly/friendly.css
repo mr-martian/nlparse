@@ -1,0 +1,23 @@
+.header {
+    display: inline;
+    margin: 10px;
+    font-style: italic;
+    color: #BFBFBF;
+}
+.delete {
+    margin: 10px;
+    color: #FF0000;
+}
+.value {
+    color: green;
+    font-size: 14pt;
+    text-transform: uppercase;
+    margin: 10px;
+}
+div {
+    border: 1px solid black;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 10px;
+}

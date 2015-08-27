@@ -62,3 +62,12 @@
        ;                           (setf (gethash (car i) r) (cdr i)))
        ;                         r))))
        ))
+
+(let ((r (make-instance 'ref-pat :optional t :next nil :name 'stuff
+                        :nodes '(:@1 :%1) :fn #'list)))
+  (format t "=====~%")
+  (out (match r '(a (b c) c d)))
+  (out (next-dict r))
+  (out (nodes r))
+  (out (base-nodes r))
+  (format t "=====~%"))
