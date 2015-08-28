@@ -21,3 +21,52 @@ div {
     width: max-content;
     border-radius: 10px;
 }
+input[type=radio] {
+    margin: 5px;
+}
+button {
+    margin: 5px;
+}
+.list-add, .node-add {
+    margin: 25px;
+    color: blue;
+}
+li {
+    margin-right: 5px;
+}
+ul {
+    margin: 5px;
+}
+#w1 {
+    background-color: #EE8888;
+}
+#w2 {
+    background-color: #DD8888;
+}
+#w3 {
+    background-color: #CC8888;
+}
+#w4 {
+    background-color: #88EE88;
+}
+#w5 {
+    background-color: #88DD88;
+}
+#w6 {
+    background-color: #88CC88;
+}
+#w7 {
+    background-color: #8888EE;
+}
+#w8 {
+    background-color: #8888DD;
+}
+#w9 {
+    background-color: #8888CC;
+}
+.key {
+    text-transform: uppercase;
+}
+.type, .is {
+    font-weight: bold;
+}

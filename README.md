@@ -18,10 +18,20 @@ Note, ```nlparse/morphology-utils.lisp``` depends on cl-ppcre, which it loads us
   - see ```nlparse/langs/README.md```
   - [ ] add more languages (never check this box)
 - [ ] documentation
-  - [ ] todo lists
+  - [x] todo lists
     - [x] this
     - [x] the list in ```nlparse/langs```
   - [ ] any other documentation of any kind
     - sorry about that, any one trying to make sense of my code
     - the syntax rule format is sort of explained in the wiki
+- [ ] make a user friendly interface (for non-programmers)
+  - See ```nlparse/friendly```
+  - [ ] syntax definer
+  - [ ] morphology definer
+  - [ ] compile program
+    - [ ] Linux
+    - [ ] Windows
+    - [ ] Mac? (I can't do this myself)
+  - [ ] make UI for program
+    - maybe run a local HTTP server?
 - [ ] maybe possibly someday be able to do things with the parse trees?
