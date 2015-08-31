@@ -29,21 +29,21 @@
 
 (setf pats
       (list
-       (make-instance 'ls-pat :optional t :next '(adv-adj adj) :name 'adv-adj
+       (make-instance the-pat :next '(adj) :name 'adv-adj
                       :nodes (list !:desc ((:verbal . t)) !:desc ((:verbal)))
                       :fn (desc :>))
-       (make-instance 'ls-pat :optional t :next '(adj article prep) :name 'adj
+       (make-instance the-pat :next '(article prep) :name 'adj
                       :nodes (list !:desc ((:verbal)) $:noun) :fn (desc :>))
-       (make-instance 'ls-pat :optional nil :next '(prep) :name 'article
+       (make-instance the-pat :next '(prep) :name 'article
                       :nodes (list $:article $:noun) :fn (bind :> :article))
-       (make-instance 'ls-pat :optional nil :next '(desc-prep) :name 'prep
+       (make-instance the-pat :next '(desc-prep) :name 'prep
                       :nodes (list $:preposition $:noun) :fn (bind :< :obj))
-       (make-instance 'ls-pat :optional t :next '() :name 'desc-prep
+       (make-instance the-pat :next '() :name 'desc-prep
                       :nodes (list $:noun !:preposition ((:obj . :~)))
                       :fn (desc :<))
-       (make-instance 'ls-pat :optional t :next '(conj-just-before conj-before)
-                      :name 'conj-after :nodes (list $:conjunction :~)
-                      :fn (bind :< :after))
+       ;(make-instance 'ref-pat :optional t :next '(conj-just-before conj-before)
+       ;               :name 'conj-after :nodes (list $:conjunction :~)
+       ;               :fn (bind :< :after))
        ;(make-conj-pats nil)
        ;(make-conj-pats t)
        ;(let (p)
@@ -63,11 +63,18 @@
        ;                         r))))
        ))
 
-(let ((r (make-instance 'ref-pat :optional t :next nil :name 'stuff
-                        :nodes '(:@1 :%1) :fn #'list)))
+(let ((r (make-instance 'ref-pat :next nil :name 'stuff
+                        :ref-nodes '(:@1 :%1) :fn #'list)))
   (format t "=====~%")
   (out (match r '(a (b c) c d)))
   (out (next-dict r))
   (out (nodes r))
-  (out (base-nodes r))
+  (out (syntax-utils::ref-nodes r))
+  (format t "=====~%"))
+(let ((r (make-instance 'ls-pat :next nil :name 'stuff2
+                        :nodes '(:~ :~) :fn #'list)))
+  (format t "=====~%")
+  (out (match r '(a (b c) c d)))
+  (out (next-dict r))
+  (out (nodes r))
   (format t "=====~%"))

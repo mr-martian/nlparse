@@ -40,6 +40,8 @@
                     dfn = dn.parentNode;
                 }
                 dfn.removeChild(dn);
+            } else if (e.target.tagName === "PRE") {
+                e.target.innerHTML += '\n\n' + jsontolisp(disnice(document.getElementById('pats').children[0]));
             }
         });
     </script>

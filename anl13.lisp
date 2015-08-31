@@ -22,20 +22,19 @@
                 (let ((sn (car l)) (pt (gethash (caadr l) pat-dict))
                       (pr (cdadr l)))
                   (aif ns (match pt sn)
-                       (progn
-                         (push (list ns (append (next pt) pr)) r)
-                         (when (optional pt)
-                           (push (list ns pr) r)))
+                       (dolist (n ns)
+                         (push
+                          (list n (remove-duplicates (append (list (name pt))
+                                                             (next pt)
+                                                             pr)))
+                          r))
                        (push (list sn pr) r))))
             (push (car l) ret)))
-    (remove nil ret)))
+    ret))
 
 (defun parse-sen (s)
   (let ((m (multiple-value-list (wordify s))))
     (out m)
     (apply-pats (car m) pats :multi (cadr m))))
 (out (mapcar #'name pats))
-(out (remove-duplicates
-      (parse-sen "potato in the green yard")
-      :test #'n=)
-     )
+(out (sort (parse-sen "potato in the green yard") #'< :key #'length))

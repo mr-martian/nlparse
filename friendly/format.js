@@ -27,7 +27,7 @@ var nicejson = function(dct) {
         return makehead(cls, '<span class="value">' + dct + '</span>', id);
         //return '<div class="' + cls + '"><span class="header">' + lab + '</span><span class="delete">Delete</span><br><span class="value">' + dct + '</span></div>';
     } else {
-        ret = '<div class="node"><span class="header">Node</span><span class="delete">Delete</span><br><table><tbody>';
+        ret = '<table><tbody>';
         if ('type' in dct) {
             ret += '<tr><td><span class="key type">type</span></td><td>' + nicejson(dct['type']) + '</td></tr>';
         }
@@ -39,18 +39,19 @@ var nicejson = function(dct) {
                 ret += '<tr><td><span class="key">' + i + '</span></td><td>' + nicejson(dct[i]) + '</td></tr>';
             }
         }
-        return ret + '</tbody></table><span class="node-add" onclick="nodeadd(event);">Add</span></div>';
+        return makehead('node', ret + '</tbody></table><span class="node-add" onclick="nodeadd(event);">Add</span>');
     }
 }
 var disnice = function(html) {
     var ret;
+    console.log(html.className);
     switch (html.className) {
         case 'list':
             ret = []
             for (var i = 0; i < html.children[3].children.length; i++) {
                 ret.push(disnice(html.children[3].children[i].children[0]));
             } break;
-        case 'val':
+        case 'symbol':
         case 'wildcard':
             ret = html.children[3].innerHTML;
             break;
@@ -95,11 +96,43 @@ var jsontolisp = function(dct) {
         return ret + '}';
     }
 }
+var makesel = function(onc) {
+    var typs = ['Boolean', 'List', 'Node', 'Symbol', 'Wildcard'];
+    r = '<div class="select">';
+    for (var i = 0; i < 5; i++) {
+        r += '<input type="radio" name="type-sel" value="' + typs[i] + '">' + typs[i] + '</input>';
+    }
+    return r + '<button onclick="' + onc + '">Add</button></div>';
+}
 var listadd = function(e) {
-    e.target.parentNode.children[3].innerHTML += '<li><div class="select"><input type="radio" name="list-sel" value="Boolean">Boolean</input><input type="radio" name="list-sel" value="List">List</input><input type="radio" name="list-sel" value="Node">Node</input><br><input type="radio" name="list-sel" value="Symbol">Symbol</input><input type="radio" name="list-sel" value="Wildcard">Wildcard</input><button class="list-sel" onclick="listsel(event);">Add</button></div></li>';
+    e.target.parentNode.children[3].innerHTML += '<li>' + makesel('listsel(event);') + '</li>';
 }
 var nodeadd = function(e) {
-    e.target.parentNode.children[3].children[0].innerHTML += '<tr><td><input type="text"></input></td><td><div class="select"><input type="radio" name="list-sel" value="Boolean">Boolean</input><input type="radio" name="list-sel" value="List">List</input><input type="radio" name="list-sel" value="Node">Node</input><br><input type="radio" name="list-sel" value="Symbol">Symbol</input><input type="radio" name="list-sel" value="Wildcard">Wildcard</input><button class="node-sel" onclick="nodesel(event);">Add</button></div>';
+    e.target.parentNode.children[3].children[0].innerHTML += '<tr><td><input type="text"></input></td><td>' + makesel('nodesel(event);') + '</td></tr>';
+}
+var addboolean = function() {
+}
+var addlist = function() {
+}
+var addnode = function() {
+}
+var addsymbol = function() {
+}
+var addwildcard = function() {
 }
 var listsel = function(e) {
+    var type = $('input[name="type-sel"]:checked').val();
+    var fns = {'Boolean': addboolean, 'List': addlist, 'Node': addnode, 'Symbol': addsymbol, 'Wildcard': addwildcard};
+    if (type) {
+        e.target.parentNode.outerHTML = fns[type]();
+    }
+}
+var nodesel = function(e) {
+    var type = $('input[name="type-sel"]:checked').val();
+    var fns = {'Boolean': addboolean, 'List': addlist, 'Node': addnode, 'Symbol': addsymbol, 'Wildcard': addwildcard};
+    var row = e.target.parentNode.parentNode.parentNode;
+    if (type && row.children[0].children[0].value) {
+        row.children[0].innerHTML = '<span class="key">' + row.children[0].children[0].value + '</span>';
+        e.target.parentNode.outerHTML = fns[type]();
+    }
 }
