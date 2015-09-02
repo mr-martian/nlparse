@@ -21,10 +21,14 @@ div {
     width: max-content;
     border-radius: 10px;
 }
-input[type=radio] {
+.patnodes > div {
+    display: inline-block;
+}
+h3 {
+    display: inline;
     margin: 5px;
 }
-button {
+input, button, select {
     margin: 5px;
 }
 .list-add, .node-add {
@@ -35,6 +39,9 @@ li {
     margin-right: 5px;
 }
 ul {
+    margin: 5px;
+}
+span {
     margin: 5px;
 }
 #w1 {

@@ -25,7 +25,6 @@ var nicejson = function(dct) {
             }
         }
         return makehead(cls, '<span class="value">' + dct + '</span>', id);
-        //return '<div class="' + cls + '"><span class="header">' + lab + '</span><span class="delete">Delete</span><br><span class="value">' + dct + '</span></div>';
     } else {
         ret = '<table><tbody>';
         if ('type' in dct) {
@@ -43,6 +42,7 @@ var nicejson = function(dct) {
     }
 }
 var disnice = function(html) {
+    console.log(html);
     var ret;
     console.log(html.className);
     switch (html.className) {
@@ -56,8 +56,10 @@ var disnice = function(html) {
             ret = html.children[3].innerHTML;
             break;
         case 'true':
+            ret = true;
+            break;
         case 'false':
-            ret = Boolean(html.children[3].innerHTML);
+            ret = false;
             break;
         case 'node':
             var ls = html.children[3].firstChild.children;
@@ -110,15 +112,43 @@ var listadd = function(e) {
 var nodeadd = function(e) {
     e.target.parentNode.children[3].children[0].innerHTML += '<tr><td><input type="text"></input></td><td>' + makesel('nodesel(event);') + '</td></tr>';
 }
+var _addtrue = function(e) {
+    e.target.parentNode.outerHTML = makehead('true', '<span class="bool">true</span>');
+}
+var _addfalse = function(e) {
+    e.target.parentNode.outerHTML = makehead('false', '<span class="bool">false</span>');
+}
 var addboolean = function() {
+    return '<div><button onclick="_addtrue(event);">True</button><button onclick="_addfalse(event);">False</button></div>';
 }
 var addlist = function() {
+    return makehead('list', '<ul></ul><span class="list-add" onclick="listadd(event);">Add</span>');
 }
 var addnode = function() {
+    return makehead('node', '<table><tbody></tbody></table><span class="node-add" onclick="nodeadd(event);">Add</span>');
+}
+var _makesymbol = function(e) {
+    var s = e.target.parentNode.children[0].value;
+    e.target.parentNode.outerHTML = makehead('symbol', '<span class="value">' + s + '</span>');
 }
 var addsymbol = function() {
+    return '<div><input type="text"></input><button onclick="_makesymbol(event);">Add</button></div>';
+}
+var _makewild = function(e) {
+    var s = $('input[name="wild-sel"]:checked').val();
+    if (s[0] === '@') {
+        e.target.parentNode.outerHTML = makehead('wildcard', '<span class="value">' + s + '</span>', 'w' + s[1]);
+    } else {
+        e.target.parentNode.outerHTML = makehead('wildcard', '<span class="value">' + s + '</span>');
+    }
 }
 var addwildcard = function() {
+    var r = '<div>';
+    var l = ['~', '@1', '@2', '@3', '@4', '@5', '@6', '@7', '@8', '@9', '%1', '%2', '%3', '%4', '%5', '%6', '%7', '%8', '%9'];
+    for (var i = 0; i < l.length; i++) {
+        r += '<input type="radio" name="wild-sel" value="' + l[i] + '">' + l[i] + '</input>';
+    }
+    return r + '<button onclick="_makewild(event);">Add</button></div>';
 }
 var listsel = function(e) {
     var type = $('input[name="type-sel"]:checked').val();
@@ -135,4 +165,69 @@ var nodesel = function(e) {
         row.children[0].innerHTML = '<span class="key">' + row.children[0].children[0].value + '</span>';
         e.target.parentNode.outerHTML = fns[type]();
     }
+}
+var patsel = function(e) {
+    var type = $('input[name="type-sel"]:checked').val();
+    var fns = {'Boolean': addboolean, 'List': addlist, 'Node': addnode, 'Symbol': addsymbol, 'Wildcard': addwildcard};
+    e.target.parentNode.outerHTML = fns[type]();
+}
+var addnext = function(e) {
+    e.target.parentNode.innerHTML += '<input></input>';
+}
+var newpat = function(n) {
+    var r = '<input class="patname">Name</input><br>';
+    r += '<div class="next"><h3>Next</h3><button onclick="addnext(event);">Add</button></div>';
+    r += '<div class="fn"><h3>Function</h3><select class="fnname"><option value="bind">Bind</option><option value="desc">Description</option></select>';
+    r += '<select class="fndir"><option value=":<">&#8592</option><option value=":>">&#8594</option></select><input class="fnkey">key (bind only)</input></div>';
+    r += '<div class="patnodes">';
+    for (var i = 0; i < n; i++) {
+        r += makesel('patsel(event);');
+    }
+    return makehead('patern', r + '</div>');
+}
+var parsepat = function(node) {
+    var patname = node.getElementsByClassName('patname')[0].value || 'nil';
+    var next = [];
+    for (var i = 2; i < node.getElementsByClassName('next')[0].children.length; i++) {
+        next.push(node.getElementsByClassName('next')[0].children[i].value || 'nil');
+    }
+    //var fn = [node.children[5].children[1].value, node.children[5].children[2].value, node.children[5].children[3].value];
+    var fn = [node.getElementsByClassName('fnname')[0].value, node.getElementsByClassName('fndir')[0].value, node.getElementsByClassName('fnkey')[0].value || 'nil'];
+    var nodes = [];
+    for (var i = 0; i < node.getElementsByClassName('patnodes')[0].children.length; i++) {
+        console.log(node.getElementsByClassName('patnodes')[0].children);
+        nodes.push(disnice(node.getElementsByClassName('patnodes')[0].children[i]));
+    }
+    var nodestr = '';
+    for (var i = 0; i < nodes.length; i++) {
+        console.log(nodes);
+        nodestr += ' ' + jsontolisp(nodes[i]);
+    }
+    nodestr = "'(" + nodestr.slice(1) + ')';
+    var fnstr = '(' + fn[0] + ' ' + fn[1];
+    if (fn[0] === 'bind') {
+        fnstr += ' ' + fn[2];
+    }
+    fnstr += ')';
+    var ptype = 'ls-pat';
+    var nn = ':nodes';
+    if (nodestr.indexOf('@') >= 0 || nodestr.indexOf('%') >= 0) {
+        ptype = 'ref-pat';
+        nn = ':ref-nodes';
+    }
+    return "(make-instance '" + ptype + " :next '(" + next.join(' ') + ") :name '" + patname + ' ' + nn + ' ' + nodestr + ' :fn ' + fnstr + ')';
+}
+var allpats = function(div) {
+    var ss = ';;Generated by nlparse/friendly\n\
+(defpackage :syntax\n\
+  (:use :syntax-utils :utils :cl)\n\
+  (:export :pats))\n\
+(in-package :syntax)\n\
+\n\
+(setf pats\n\
+      (list';
+    for (var i = 0; i < div.children.length; i++) {
+        ss += '\n       ' + parsepat(div.children[i]);
+    }
+    return ss + '\n      ))';
 }

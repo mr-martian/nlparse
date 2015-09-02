@@ -6,11 +6,12 @@
   </head>
   <body>
     <div id="pats"></div>
+    <hr>
     <div id="add">
       <span style="margin: 5px">Add a patern with </span>
       <input type="number" id="numnodes" style="margin: 5px; width: 40px" value="2"></input>
       <span style="margin: 5px"> nodes.</span>
-      <button id="add_go" style="margin: 5px">GO</button>
+      <button id="add_go" style="margin: 5px" onclick="addpat(event);">GO</button>
     </div>
     <div id="output">
       <h3 style="margin: 5px">Output</h3>
@@ -26,7 +27,7 @@
       ))</pre>
     </div>
     <script>
-        document.getElementById('pats').innerHTML = nicejson(['hi', 'hi', '~', '@2', '%2', {'type':'@1', '%7':true}]);
+        //document.getElementById('pats').innerHTML = nicejson(['hi', 'hi', '~', '@2', '%2', {'type':'@1', '%7':true}]);
         $(document).on('click', function(e) {
             if (e.target.tagName === "SPAN" && e.target.className === "delete") {
                 var dn = e.target.parentNode;
@@ -41,9 +42,14 @@
                 }
                 dfn.removeChild(dn);
             } else if (e.target.tagName === "PRE") {
-                e.target.innerHTML += '\n\n' + jsontolisp(disnice(document.getElementById('pats').children[0]));
+                //e.target.innerHTML += '\n\n' + jsontolisp(disnice(document.getElementById('pats').children[0]));
+                e.target.innerHTML = allpats(document.getElementById('pats'));
             }
         });
+        var addpat = function(e) {
+            var n = $('#numnodes').val();
+            document.getElementById('pats').innerHTML += newpat(n);
+        }
     </script>
   </body>
 </html>

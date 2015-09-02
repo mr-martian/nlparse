@@ -1,0 +1,130 @@
+{
+  "thisisa": "grammar",
+  "language": {
+    "thisisa": "langname",
+    "code": "en",
+    "shortname": "English",
+    "longname": "Standard American English"
+  },
+  "syntax": {
+    "adv-adv": {
+      "thisisa": "syntaxrule",
+      "next": ["adv-adj", "adv-verb"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": true,
+        },
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": true,
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "add",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "descs",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "adv-adj": {
+      "thisisa": "syntaxrule",
+      "next": ["adj-noun"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": true,
+        },
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": false,
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "add",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "descs",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "adj-noun": {
+      "thisisa": "syntaxrule",
+      "next": [],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": false,
+        },
+        {
+          "thisisa": "node",
+          "type": "noun",
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "add",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "descs",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "art-noun": {
+      "thisisa": "syntaxrule",
+      "next": ["prep-noun"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "article",
+          "definite": {
+            "thisisa": "wildcard",
+            "id": 1
+          },
+        },
+        {
+          "thisisa": "node",
+          "type": "noun",
+          "definite": null,
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "set",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "definite",
+        "val": {
+          "thisisa": "wildcard",
+          "id": 1
+        }
+      }
+    },
+  },
+  "morphology": []
+}

@@ -27,6 +27,8 @@ Note, ```nlparse/morphology-utils.lisp``` depends on cl-ppcre, which it loads us
 - [ ] make a user friendly interface (for non-programmers)
   - See ```nlparse/friendly```
   - [ ] syntax definer
+    - [x] display rules
+    - [ ] modify rules
   - [ ] morphology definer
   - [ ] compile program
     - [ ] Linux
