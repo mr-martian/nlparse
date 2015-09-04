@@ -1,8 +1,151 @@
 <html>
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://raw.githubusercontent.com/mr-martian/nlparse/master/nlparse.js"></script>
+  <script src="nlparse.js"></script>
 </head>
 <body>
+  <h2>Rules</h2>
+  <textarea id="rules">{
+  "thisisa": "grammar",
+  "language": {
+    "thisisa": "langname",
+    "code": "en",
+    "shortname": "English",
+    "longname": "Standard American English"
+  },
+  "syntax": {
+    "adv-adv": {
+      "thisisa": "syntaxrule",
+      "next": ["adv-adj", "adv-verb"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": true
+        },
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": true
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "add",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "descs",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "adv-adj": {
+      "thisisa": "syntaxrule",
+      "next": ["adj-noun"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": true
+        },
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": false
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "add",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "descs",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "adj-noun": {
+      "thisisa": "syntaxrule",
+      "next": [],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "desc",
+          "verbal": false
+        },
+        {
+          "thisisa": "node",
+          "type": "noun"
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "add",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "descs",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "art-noun": {
+      "thisisa": "syntaxrule",
+      "next": ["prep-noun"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "article",
+          "definite": {
+            "thisisa": "wildcard",
+            "id": 1
+          }
+        },
+        {
+          "thisisa": "node",
+          "type": "noun",
+          "definite": null
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "set",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "definite",
+        "val": {
+          "thisisa": "wildcard",
+          "id": 1
+        }
+      }
+    }
+  },
+  "morphology": []
+}</textarea>
+  <h2>Nodes</h2>
+  <textarea id="nodes">[{"thisisa":"node","type":"article", "definite":false},{"thisisa":"node", "type":"noun","is":"hair"}]</textarea>
+  <button onclick="parse();">GO</button>
+  <h2>Output</h2>
+  <textarea id="out"></textarea>
+  <script>
+    var parse = function() {
+      var rules = JSON.parse($('#rules').val()).syntax;
+      var nodes = JSON.parse($('#nodes').val());
+      $('#out').val(JSON.stringify(dosyntax(nodes, rules)));
+    }
+  </script>
 </body>
 </html>

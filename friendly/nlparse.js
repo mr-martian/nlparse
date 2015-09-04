@@ -1,11 +1,13 @@
 var matchone = function(pat, node, wilds) {
   if (pat === node) {
     return wilds;
-  } else if (pat.thisisa === node.thisisa) {
+  } else if (pat.thisisa === node.thisisa && typeof pat === "object") {
     //if they're both undefined, this will cover arrays as well
     for (var k in pat) {
-      if (pat[k] === null && node.hasOwnProperty(k)) {
-        return false;
+      if (pat[k] === null) {
+        if (node.hasOwnProperty(k)) {
+          return false;
+        }
       } else if (!node.hasOwnProperty(k)) {
         return false;
       } else if (pat[k] === node[k]) {
@@ -19,6 +21,7 @@ var matchone = function(pat, node, wilds) {
         }
       }
     }
+    return wilds;
   } else if (pat.thisisa === "wildcard") {
     if (wilds.hasOwnProperty(pat.id)) {
       return (node === wilds[wilds[pat.id]]) && wilds;
@@ -82,9 +85,12 @@ var applyfn = function(path, sen, fn) {
   return pre.concat(evalfn(fn, app, path.wilds), post);
 }
 var dosyntaxrule = function(insen, rule) {
+  if (!rule) {
+    return [];
+  }
   var sen = insen.map(ls);
   var paths = [];
-  for (var i = 0; i < sen.length - rule.nodes.length; i++) {
+  for (var i = 0; i <= sen.length - rule.nodes.length; i++) {
     for (var j = 0; j < sen[i].length; j++) {
       var m = matchone(rule.nodes[0], sen[i][j], {});
       if (m) {
@@ -95,11 +101,11 @@ var dosyntaxrule = function(insen, rule) {
   var temp = [];
   for (var i = 1; i < rule.nodes.length; i++) {
     for (var p in paths) {
-      var w = paths[p].nodes[i-1] + i; //position of node being tested
+      var w = paths[p].nodes[i-1][0] + i; //position of node being tested
       for (var n = 0; n < sen[w].length; n++) {
         var m = matchone(rule.nodes[i], sen[w][n], paths[p].wilds);
         if (m) {
-          temp.push({"nodes": paths[p].concat([[w,n]]), "wilds": m});
+          temp.push({"nodes": paths[p].nodes.concat([[w,n]]), "wilds": m});
         }
       }
     }
@@ -120,7 +126,7 @@ var dosyntax = function(sen, rules) {
   }
   sens.push([sen, l]);
   var ret = [];
-  while (sens) {
+  while (sens.length > 0) {
     var s = sens.pop();
     if (s[1].length > 0) {
       sens.push([s[0], s[1].slice(1)]);
