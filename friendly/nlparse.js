@@ -1,3 +1,6 @@
+var copy = function(thing) {
+  return JSON.parse(JSON.stringify(thing));
+}
 var matchone = function(pat, node, wilds) {
   if (pat === node) {
     return wilds;
@@ -76,13 +79,13 @@ var evalfn = function(fn, nodes, wilds) {
   return ret;
 }
 var applyfn = function(path, sen, fn) {
-  var pre = sen.slice(0, path.nodes[0][0]);
-  var post = sen.slice(path.nodes[path.nodes.length-1][0]);
+  var pre = copy(sen.slice(0, path.nodes[0][0]));
+  var post = copy(sen.slice(path.nodes[path.nodes.length-1][0]+1));
   var app = [];
   for (var i = 0; i < path.nodes.length; i++) {
-    app.push(sen[path.nodes[i][0]][path.nodes[i][1]])
+    app.push(copy(sen[path.nodes[i][0]][path.nodes[i][1]]));
   }
-  return pre.concat(evalfn(fn, app, path.wilds), post);
+  return pre.concat(evalfn(copy(fn), app, copy(path.wilds)), post);
 }
 var dosyntaxrule = function(insen, rule) {
   if (!rule) {

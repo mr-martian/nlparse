@@ -14,12 +14,12 @@
         {
           "thisisa": "node",
           "type": "desc",
-          "verbal": true,
+          "verbal": true
         },
         {
           "thisisa": "node",
           "type": "desc",
-          "verbal": true,
+          "verbal": true
         }
       ],
       "function": {
@@ -43,12 +43,12 @@
         {
           "thisisa": "node",
           "type": "desc",
-          "verbal": true,
+          "verbal": true
         },
         {
           "thisisa": "node",
           "type": "desc",
-          "verbal": false,
+          "verbal": false
         }
       ],
       "function": {
@@ -72,11 +72,11 @@
         {
           "thisisa": "node",
           "type": "desc",
-          "verbal": false,
+          "verbal": false
         },
         {
           "thisisa": "node",
-          "type": "noun",
+          "type": "noun"
         }
       ],
       "function": {
@@ -96,6 +96,7 @@
     "art-noun": {
       "thisisa": "syntaxrule",
       "next": ["prep-noun"],
+      "mandatory": true,
       "nodes": [
         {
           "thisisa": "node",
@@ -103,12 +104,12 @@
           "definite": {
             "thisisa": "wildcard",
             "id": 1
-          },
+          }
         },
         {
           "thisisa": "node",
           "type": "noun",
-          "definite": null,
+          "definite": null
         }
       ],
       "function": {
@@ -124,7 +125,7 @@
           "id": 1
         }
       }
-    },
+    }
   },
   "morphology": []
 }
