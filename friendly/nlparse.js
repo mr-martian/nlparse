@@ -7,7 +7,17 @@ var matchone = function(pat, node, wilds) {
   } else if (pat.thisisa === node.thisisa && typeof pat === "object") {
     //if they're both undefined, this will cover arrays as well
     for (var k in pat) {
-      if (pat[k] === null) {
+      if (pat[k] && pat[k].thisisa === "or") {
+        for (var i = 0; i < pat[k].options; i++) {
+          var pp = copy(pat);
+          pp[k] = pat[k][i];
+          var m = matchone(pp, node, wilds);
+          if (m) {
+            return m;
+          }
+        }
+        return false;
+      } else if (pat[k] === null) {
         if (node.hasOwnProperty(k)) {
           return false;
         }
@@ -146,6 +156,46 @@ var dosyntax = function(sen, rules) {
     } else {
       ret.push(s[0]);
     }
+  }
+  return ret;
+}
+var domorphologyrule = function(word, rule, rules) {
+  if (!rule) {
+    return [];
+  }
+  switch (rule.thisisa) {
+    case "load":
+      if (word === "hair") { //todo: actually load the list
+        return [evalfn(rule.function, copy([word]), {})];
+      } break;
+    case "morphologyrule":
+      if (RegExp(rule.pat).test(word)) {
+        var ret = [];
+        var w = word.replace(RegExp(rule.pat), rule.replace);
+        for (var i = 0; i < rule.next.length; i++) {
+          var r = domorphologyrule(w, rules[rule.next[i]], rules);
+          for (var i = 0; i < r.length; i++) {
+            ret.push(evalfn(rule.function, [r[i]], {}));
+          }
+        } return ret;
+      } break;
+    case "litdict":
+      if (rule.words.hasOwnProperty(word)) {
+        return [evalfn(rule.function, copy([rule.words[word]]), {})];
+      } break;
+    default:
+      return [];
+  }
+  return [];
+}
+var domorphology = function(words, rules) {
+  var ret = [];
+  for (var i = 0; i < words.length; i++) {
+    var p = [];
+    for (var r in rules) {
+      p = p.concat(domorphologyrule(words[i], rules[r], rules));
+    }
+    ret.push(p);
   }
   return ret;
 }

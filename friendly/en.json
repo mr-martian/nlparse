@@ -7,36 +7,7 @@
     "longname": "Standard American English"
   },
   "syntax": {
-    "adv-adv": {
-      "thisisa": "syntaxrule",
-      "next": ["adv-adj", "adv-verb"],
-      "nodes": [
-        {
-          "thisisa": "node",
-          "type": "desc",
-          "verbal": true
-        },
-        {
-          "thisisa": "node",
-          "type": "desc",
-          "verbal": true
-        }
-      ],
-      "function": {
-        "thisisa": "function",
-        "function": "add",
-        "node": {
-          "thisisa": "noderef",
-          "node": 1
-        },
-        "key": "descs",
-        "val": {
-          "thisisa": "noderef",
-          "node": 0
-        }
-      }
-    },
-    "adv-adj": {
+    "adv": {
       "thisisa": "syntaxrule",
       "next": ["adj-noun"],
       "nodes": [
@@ -47,8 +18,10 @@
         },
         {
           "thisisa": "node",
-          "type": "desc",
-          "verbal": false
+          "type": {
+            "thisisa": "or",
+            "options": ["desc", "verb"]
+          }
         }
       ],
       "function": {
@@ -125,7 +98,94 @@
           "id": 1
         }
       }
+    },
+    "subject": {
+      "thisisa": "syntaxrule",
+      "next": ["object"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": {
+            "thisisa": "or",
+            "options": ["noun", "desc"]
+          },
+          "verbal": {
+            "thisisa": "or",
+            "options": [false, null]
+          }
+        },
+        {
+          "thisisa": "node",
+          "type": "verb",
+          "finite": true,
+          "personal": true,
+          "subject": null
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "set",
+        "node": {
+          "thisisa": "noderef",
+          "node": 1
+        },
+        "key": "subject",
+        "val": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
     }
   },
-  "morphology": []
+  "morphology": {
+    "noun": {
+      "thisisa": "load",
+      "list": "en/nouns.txt",
+      "function": {
+        "thisisa": "node",
+        "lang": "en",
+        "type": "noun",
+        "is": {
+          "thisisa": "noderef",
+          "node": 0
+        },
+        "countable": true,
+        "proper": false,
+        "plural": false
+      }
+    },
+    "plural-noun": {
+      "thisisa": "morphologyrule",
+      "pat": "^(.*)s$",
+      "replace": "$1",
+      "next": ["noun", "proper"],
+      "function": {
+        "thisisa": "function",
+        "funciton": "set",
+        "node": {
+          "thisisa": "noderef",
+          "node": 0
+        },
+        "key": "plural",
+        "val": true
+      }
+    },
+    "article": {
+      "thisisa": "litdict",
+      "words": {
+        "a": false,
+        "an": false,
+        "the": true
+      },
+      "function": {
+        "thisisa": "node",
+        "type": "article",
+        "lang": "en",
+        "definite": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    }
+  }
 }
