@@ -37,7 +37,7 @@ var matchone = function(pat, node, wilds) {
     return wilds;
   } else if (pat.thisisa === "wildcard") {
     if (wilds.hasOwnProperty(pat.id)) {
-      return (node === wilds[wilds[pat.id]]) && wilds;
+      return matchone(wilds[pat.id], node, wilds);
     } else {
       wilds[pat.id] = node;
       return wilds;
@@ -66,6 +66,12 @@ var evalfn = function(fn, nodes, wilds) {
           ret = evalfn(fn.node, nodes, wilds);
           ret[fn.key] = (ret[fn.key] || []).concat(evalfn(fn.val, nodes, wilds));
           break;
+        case "merge":
+          ret = copy(evalfn(fn.to, nodes, wilds));
+          var mer = copy(evalfn(fn.from, nodes, wilds));
+          for (var k in mer) {
+            ret[k] = mer[k];
+          } break;
         default:
           ret = nodes;
       }
@@ -137,7 +143,8 @@ var dosyntax = function(sen, rules) {
   for (var k in rules) {
     l.push(k);
   }
-  sens.push([sen, l]);
+  //sens.push([sen, l]);
+  sens.push([sen, ["aux-verb"]]);
   var ret = [];
   while (sens.length > 0) {
     var s = sens.pop();

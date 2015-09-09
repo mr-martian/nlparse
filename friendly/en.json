@@ -99,6 +99,40 @@
         }
       }
     },
+    "aux-verb": {
+      "thisisa": "syntaxrule",
+      "next": ["subject", "object", "object2"],
+      "nodes": [
+        {
+          "thisisa": "node",
+          "type": "aux-verb",
+          "pat": {
+            "thisisa": "wildcard",
+            "id": 0
+          },
+          "give": {
+            "thisisa": "wildcard",
+            "id": 1
+          }
+        },
+        {
+          "thisisa": "wildcard",
+          "id": 0
+        }
+      ],
+      "function": {
+        "thisisa": "function",
+        "function": "merge",
+        "from": {
+          "thisisa": "wildcard",
+          "id": 1
+        },
+        "to": {
+          "thisisa": "noderef",
+          "node": 1
+        }
+      }
+    },
     "subject": {
       "thisisa": "syntaxrule",
       "next": ["object"],
@@ -184,6 +218,45 @@
         "definite": {
           "thisisa": "noderef",
           "node": 0
+        }
+      }
+    },
+    "aux-verb": {
+      "thisisa": "litdict",
+      "words": {
+        "will": {
+          "pat": {
+            "thisisa": "node",
+            "type": "verb",
+            "tense": "present"
+          },
+          "give": {
+            "tense": "future"
+          }
+        },
+        "it": {
+          "pat": {
+            "thisisa": "node",
+            "type": "verb",
+            "personal": true,
+            "subject": null
+          },
+          "give": {
+            "personal": false
+          }
+        }
+      },
+      "function": {
+        "thisisa": "function",
+        "function": "merge",
+        "from": {
+          "thisisa": "noderef",
+          "node": 0
+        },
+        "to": {
+          "thisisa": "node",
+          "type": "aux-verb",
+          "lang": "en"
         }
       }
     }
