@@ -36,7 +36,9 @@ var matchone = function(pat, node, wilds) {
     }
     return wilds;
   } else if (pat.thisisa === "wildcard") {
-    if (wilds.hasOwnProperty(pat.id)) {
+    if (pat.id === null) {
+      return true;
+    } else if (wilds.hasOwnProperty(pat.id)) {
       return matchone(wilds[pat.id], node, wilds);
     } else {
       wilds[pat.id] = node;
@@ -188,7 +190,11 @@ var domorphologyrule = function(word, rule, rules) {
       } break;
     case "litdict":
       if (rule.words.hasOwnProperty(word)) {
-        return [evalfn(rule.function, copy([rule.words[word]]), {})];
+        var ret = copy(ls(rule.words[word]));
+        for (var i = 0; i < ret.length; i++) {
+          ret[i] = evalfn(rule.function, [ret[i]], {});
+        }
+        return ret;
       } break;
     default:
       return [];
