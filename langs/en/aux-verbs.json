@@ -1,0 +1,59 @@
+{
+  "will": [
+    {
+      "pat": {
+        "thisisa": "node",
+        "type": "verb",
+        "tense": "present",
+        "finite": true,
+        "subject": null,
+        "personal": true
+      },
+      "give": {
+        "tense": "future"
+      }
+    },
+    {
+      "pat": {
+        "thisisa": "node",
+        "type": "verb",
+        "tense": "present",
+        "finite": "true",
+        "subject": {
+          "thisisa": "wildcard",
+          "id": null
+        },
+        "personal": true
+      },
+      "give": {
+        "tense": "future",
+        "question": true
+      }
+    },
+    {
+      "pat": {
+        "thisisa": "node",
+        "type": "verb",
+        "tense": "present",
+        "finite": "true",
+        "subject": null,
+        "personal": false
+      },
+      "give": {
+        "tense": "future",
+        "question": true
+      }
+    }
+  ],
+  "it": {
+    "pat": {
+      "thisisa": "node",
+      "type": "verb",
+      "personal": true,
+      "subject": null
+    },
+    "give": {
+      "personal": false
+    }
+  }
+}

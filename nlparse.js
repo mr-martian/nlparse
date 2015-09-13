@@ -1,4 +1,34 @@
-var copy = function(thing) {
+langs = {};
+lists = {};
+var loadlang = function(lang, fn) {
+  if (langs.hasOwnProperty(lang)) {
+    fn(langs[lang]);
+  } else {
+    $.getJSON("langs/" + lang + "/main.json", function(stuff) {
+      langs[lang] = stuff;
+      lists[lang] = {};
+      for (var k in stuff.morphology) {
+        if (stuff.morphology[k].thisisa === "load") {
+          $.getJSON("langs/" + lang + "/" + stuff.morphology[k].list, function(s) {
+            lists[lang][k] = s;
+          });
+        }
+      }
+      fn(stuff);
+    });
+  }
+}
+var listlangs = function(fn) {
+  $.getJSON("langs/langs.json", fn);
+}
+var loadalllangs = function() {
+  listlangs(function(stuff) {
+    for (var i = 0; i < stuff.length; i++) {
+      loadlang(stuff[i].code, function() {});
+    }
+  });
+}
+var copy_thing = function(thing) {
   return JSON.parse(JSON.stringify(thing));
 }
 var matchone = function(pat, node, wilds) {
@@ -9,7 +39,7 @@ var matchone = function(pat, node, wilds) {
     for (var k in pat) {
       if (pat[k] && pat[k].thisisa === "or") {
         for (var i = 0; i < pat[k].options; i++) {
-          var pp = copy(pat);
+          var pp = copy_thing(pat);
           pp[k] = pat[k][i];
           var m = matchone(pp, node, wilds);
           if (m) {
@@ -69,8 +99,8 @@ var evalfn = function(fn, nodes, wilds) {
           ret[fn.key] = (ret[fn.key] || []).concat(evalfn(fn.val, nodes, wilds));
           break;
         case "merge":
-          ret = copy(evalfn(fn.to, nodes, wilds));
-          var mer = copy(evalfn(fn.from, nodes, wilds));
+          ret = copy_thing(evalfn(fn.to, nodes, wilds));
+          var mer = copy_thing(evalfn(fn.from, nodes, wilds));
           for (var k in mer) {
             ret[k] = mer[k];
           } break;
@@ -97,13 +127,13 @@ var evalfn = function(fn, nodes, wilds) {
   return ret;
 }
 var applyfn = function(path, sen, fn) {
-  var pre = copy(sen.slice(0, path.nodes[0][0]));
-  var post = copy(sen.slice(path.nodes[path.nodes.length-1][0]+1));
+  var pre = copy_thing(sen.slice(0, path.nodes[0][0]));
+  var post = copy_thing(sen.slice(path.nodes[path.nodes.length-1][0]+1));
   var app = [];
   for (var i = 0; i < path.nodes.length; i++) {
-    app.push(copy(sen[path.nodes[i][0]][path.nodes[i][1]]));
+    app.push(copy_thing(sen[path.nodes[i][0]][path.nodes[i][1]]));
   }
-  return pre.concat(evalfn(copy(fn), app, copy(path.wilds)), post);
+  return pre.concat(evalfn(copy_thing(fn), app, copy_thing(path.wilds)), post);
 }
 var dosyntaxrule = function(insen, rule) {
   if (!rule) {
@@ -145,8 +175,7 @@ var dosyntax = function(sen, rules) {
   for (var k in rules) {
     l.push(k);
   }
-  //sens.push([sen, l]);
-  sens.push([sen, ["aux-verb"]]);
+  sens.push([sen, l]);
   var ret = [];
   while (sens.length > 0) {
     var s = sens.pop();
@@ -168,21 +197,37 @@ var dosyntax = function(sen, rules) {
   }
   return ret;
 }
-var domorphologyrule = function(word, rule, rules) {
-  if (!rule) {
+var domorphologyrule = function(word, lang, ruleid) {
+  if (!langs[lang].morphology.hasOwnProperty(rule)) {
     return [];
   }
+  var rule = langs[lang].morphology[ruleid];
   switch (rule.thisisa) {
     case "load":
-      if (word === "hair") { //todo: actually load the list
-        return [evalfn(rule.function, copy([word]), {})];
+      var l = lists[lang][ruleid];
+      if (l.constructor === Array) {
+        for (var i = 0; i < l.length; i++) {
+          if (typeof l[i] === "object") {
+            if (word === l[i].is) {
+              return [evalfn(rule.function, copy_thing([l[i]]), {})];
+            }
+          } else if (word === l[i]) {
+            return [evalfn(rule.function, copy_thing([word]), {})];
+          }
+        }
+      } else if (l.hasOwnProperty(word)) {
+        var ret = copy_thing(ls(l[word]));
+        for (var i = 0; i < ret.length; i++) {
+          ret[i] = evalfn(rule.function, [ret[i]], {});
+        }
+        return ret;
       } break;
     case "morphologyrule":
       if (RegExp(rule.pat).test(word)) {
         var ret = [];
         var w = word.replace(RegExp(rule.pat), rule.replace);
         for (var i = 0; i < rule.next.length; i++) {
-          var r = domorphologyrule(w, rules[rule.next[i]], rules);
+          var r = domorphologyrule(w, lang, rule.next[i]);
           for (var i = 0; i < r.length; i++) {
             ret.push(evalfn(rule.function, [r[i]], {}));
           }
@@ -190,7 +235,7 @@ var domorphologyrule = function(word, rule, rules) {
       } break;
     case "litdict":
       if (rule.words.hasOwnProperty(word)) {
-        var ret = copy(ls(rule.words[word]));
+        var ret = copy_thing(ls(rule.words[word]));
         for (var i = 0; i < ret.length; i++) {
           ret[i] = evalfn(rule.function, [ret[i]], {});
         }
@@ -201,12 +246,12 @@ var domorphologyrule = function(word, rule, rules) {
   }
   return [];
 }
-var domorphology = function(words, rules) {
+var domorphology = function(words, lang) {
   var ret = [];
   for (var i = 0; i < words.length; i++) {
     var p = [];
-    for (var r in rules) {
-      p = p.concat(domorphologyrule(words[i], rules[r], rules));
+    for (var r in langs[lang].morphology) {
+      p = p.concat(domorphologyrule(words[i], lang, r));
     }
     ret.push(p);
   }
