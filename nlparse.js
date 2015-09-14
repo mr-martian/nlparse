@@ -198,7 +198,7 @@ var dosyntax = function(sen, rules) {
   return ret;
 }
 var domorphologyrule = function(word, lang, ruleid) {
-  if (!langs[lang].morphology.hasOwnProperty(rule)) {
+  if (!langs[lang].morphology.hasOwnProperty(ruleid)) {
     return [];
   }
   var rule = langs[lang].morphology[ruleid];
