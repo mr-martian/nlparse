@@ -1,5 +1,15 @@
 langs = {};
 lists = {};
+var loadlib = function(lang, k, fn) {
+  if (lists[lang].hasOwnProperty(k)) {
+    fn(lists[lang][k]);
+  } else {
+    $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].list, function(s) {
+      lists[lang][k] = s;
+      fn(s);
+    });
+  }
+}
 var loadlang = function(lang, fn) {
   if (langs.hasOwnProperty(lang)) {
     fn(langs[lang]);
@@ -9,9 +19,7 @@ var loadlang = function(lang, fn) {
       lists[lang] = {};
       for (var k in stuff.morphology) {
         if (stuff.morphology[k].thisisa === "load") {
-          $.getJSON("langs/" + lang + "/" + stuff.morphology[k].list, function(s) {
-            lists[lang][k] = s;
-          });
+          loadlib(lang, k, function() {});
         }
       }
       fn(stuff);
