@@ -167,6 +167,40 @@
     }
   },
   "morphology": {
+    "article": {
+      "thisisa": "litdict",
+      "words": {
+        "a": false,
+        "an": false,
+        "the": true
+      },
+      "function": {
+        "thisisa": "node",
+        "type": "article",
+        "lang": "en",
+        "definite": {
+          "thisisa": "noderef",
+          "node": 0
+        }
+      }
+    },
+    "aux-verb": {
+      "thisisa": "load",
+      "list": "aux-verbs.json",
+      "function": {
+        "thisisa": "function",
+        "function": "merge",
+        "from": {
+          "thisisa": "noderef",
+          "node": 0
+        },
+        "to": {
+          "thisisa": "node",
+          "type": "aux-verb",
+          "lang": "en"
+        }
+      }
+    },
     "noun": {
       "thisisa": "load",
       "list": "nouns.json",
@@ -199,26 +233,73 @@
         "val": true
       }
     },
-    "article": {
+    "punct": {
       "thisisa": "litdict",
       "words": {
-        "a": false,
-        "an": false,
-        "the": true
+        ",": "comma",
+        ".": "period",
+        "!": "exclamation-point",
+        "?": "question-mark",
+        "–": "M-dash"
       },
       "function": {
         "thisisa": "node",
-        "type": "article",
+        "type": "punct",
         "lang": "en",
-        "definite": {
+        "is": {
           "thisisa": "noderef",
           "node": 0
         }
       }
     },
-    "aux-verb": {
-      "thisisa": "load",
-      "list": "aux-verbs.json",
+    "quot": {
+      "thisisa": "litdict",
+      "words": {
+        "(": {
+          "is": "paren",
+          "open": true
+        },
+        ")": {
+          "is": "paren",
+          "open": false
+        },
+        "'": [
+          {
+            "is": "single",
+            "open": true
+          },
+          {
+            "is": "single",
+            "open": false
+          }
+        ],
+        "\"": [
+          {
+            "is": "double",
+            "open": true
+          },
+          {
+            "is": "double",
+            "open": false
+          }
+        ],
+        "‘": {
+          "is": "single",
+          "open": true
+        },
+        "’": {
+          "is": "single",
+          "open": false
+        },
+        "“": {
+          "is": "double",
+          "open": true
+        },
+        "”": {
+          "is": "double",
+          "open": false
+        }
+      },
       "function": {
         "thisisa": "function",
         "function": "merge",
@@ -228,8 +309,7 @@
         },
         "to": {
           "thisisa": "node",
-          "type": "aux-verb",
-          "lang": "en"
+          "type": "quot"
         }
       }
     }
