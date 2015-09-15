@@ -2,6 +2,8 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="nlparse.js"></script>
+<script src="format2.js"></script>
+<link rel="stylesheet" type="text/css" href="friendly.css">
 </head>
 <body>
   <h2>Rules</h2>
@@ -13,6 +15,25 @@
   <button onclick="main();">GO</button>
   <h2>Output</h2>
   <textarea id="out"></textarea>
+  <br>
+  <table>
+    <thead>
+      <tr>
+        <th>Input</th>
+        <th>Output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div id="inpic"></div>
+        </td>
+        <td>
+          <div id="outpic"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
   <script>
   var parse = function() {
     var rules = JSON.parse($('#rules').val()).syntax;
@@ -22,7 +43,12 @@
   var main = function() {
     var lang = $('#rules').val();
     var nodes = JSON.parse($('#nodes').val());
-    loadlang(lang, function(rules) {$('#out').val(JSON.stringify(dosyntax(nodes, rules.syntax)));});
+    document.getElementById('inpic').innerHTML = display(nodes);
+    loadlang(lang, function(rules) {
+      var r = dosyntax(nodes, rules.syntax);
+      $('#out').val(JSON.stringify(r));
+      document.getElementById('outpic').innerHTML = display(r);
+    });
   }
   var test = function(ls) {
     return domorphology(ls, "en");
