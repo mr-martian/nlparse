@@ -224,7 +224,7 @@
       "next": ["noun", "proper"],
       "function": {
         "thisisa": "function",
-        "funciton": "set",
+        "function": "set",
         "node": {
           "thisisa": "noderef",
           "node": 0

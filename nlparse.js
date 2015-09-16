@@ -99,8 +99,8 @@ var evalfn = function(fn, nodes, wilds) {
     case "function":
       switch (fn.function) {
         case "set":
-          ret = evalfn(fn.node, nodes, wilds);
-          ret[fn.key] = evalfn(fn.val, nodes, wilds);
+          ret = copy_thing(evalfn(fn.node, nodes, wilds));
+          ret[fn.key] = copy_thing(evalfn(fn.val, nodes, wilds));
           break;
         case "add":
           ret = evalfn(fn.node, nodes, wilds);
@@ -235,10 +235,9 @@ var domorphologyrule = function(word, lang, ruleid) {
         var ret = [];
         var w = word.replace(RegExp(rule.pat), rule.replace);
         for (var i = 0; i < rule.next.length; i++) {
-          var r = domorphologyrule(w, lang, rule.next[i]);
-          for (var i = 0; i < r.length; i++) {
-            ret.push(evalfn(rule.function, [r[i]], {}));
-          }
+          $.each(domorphologyrule(w, lang, rule.next[i]), function(j, th) {
+            ret.push(evalfn(rule.function, [th], {}));
+          });
         } return ret;
       } break;
     case "litdict":

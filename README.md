@@ -7,19 +7,28 @@ If this bothers you, feel free to fix it (via pull request) or open an issue tel
 
 ## TODO
 - [x] rewrite Lisp code in JS
+- [ ] current coding:
+  - [ ] finish "friendly" IO
+  - [ ] add "friendly" editing
+  - [ ] discard old ```format.js```
+  - [ ] finish ```friendly.css```
+  - [ ] finish ```demo.html```
+  - [ ] finish ```langs/en/main.json```
+    - as complete example
+    - to be sure this stuff actually works for a whole language
 - [x] syntax
   - [x] define rules
   - [x] apply rules
 - [ ] morphology
   - [x] define rules
-  - [ ] apply rules
-    - may be done, requires further testing
+  - [x] apply rules
+  - [ ] properly split sentences into words
 - [ ] documentation
   - [ ] todo lists
     - [x] this
     - [ ] the list in language todo list (formerly at ```nlparse/langs/README.md```)
       - [ ] recreate
-  - [ ] JSON format refference
+  - [ ] JSON format reference
     - for each value of ```"thisisa"```
 - [ ] make a user friendly interface (for non-programmers)
   - [ ] syntax definer

@@ -3,8 +3,43 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="nlparse.js"></script>
 <script src="format2.js"></script>
+<link rel="stylesheet" type="text/css" href="friendly.css">
 </head>
 <body>
-  
+  <table>
+    <thead>
+      <tr>
+        <th>Input</th>
+        <th>Output</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Mode:
+          <select>
+            <option value="JSON">JSON</option>
+            <option value="nodes">Nodes</option>
+            <option value="text">Text</option>
+          </select>
+        </td>
+        <td>
+          Mode:
+          <select>
+            <option value="JSON">JSON</option>
+            <option value="nodes">Nodes</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div id="in"></div>
+        </td>
+        <td>
+          <div id="out"></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
