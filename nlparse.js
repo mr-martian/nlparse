@@ -42,29 +42,94 @@ var copy_thing = function(thing) {
 var parserule = function(in_txt) {
   var txt = in_txt.split('');
   var subparse = function(t) {
+    //console.log(["subparse", t.join('')]);
+    var rem = function(t, c) {
+      while (t.length > 0 && t[0] === c) { t.shift(); }
+    }
     var r;
-    for (k in t) {
-      console.log(k);
-    }
     if (t.length === 0) {
-      return null;
+      return undefined;
     }
-    console.log(t);
-    while (t[0] === ' ') { t.shift(); }
+    rem(t, ' ');
     switch (t[0]) {
       case '#':
-        r = {"thisisa": "noderef", "id": ""};
-        while (t[0].match(/^[0-9]/)) { r.id += t.shift(); }
-        r.id = parseInt(r.id);
+        r = {"thisisa": "noderef", "node": ""};
+        t.shift();
+        while (t.length > 0 && t[0].match(/^[0-9]/)) { r.node += t.shift(); }
+        r.node = parseInt(r.node);
+        break;
+      case '@':
+        r = {"thisisa": "wildcard", "id": ""};
+        t.shift();
+        while (t.length > 0 && t[0].match(/^[a-z\-0-9]/)) { r.id += t.shift(); }
+        if (r.id === "") {
+          r.id = null;
+        } break;
+      case '$':
+        t.shift();
+        r = {"thisisa": "node", "type": subparse(t)};
+        //console.log(['node', r]);
+        rem(t, ' ');
+        //console.log(t.length);
+        if (t.length > 0 && t[0] === '{') {
+          t.shift();
+          var a;
+          while (t.length > 0 && t[0] !== '}') {
+            a = subparse(t);
+            if (a.constructor === Array) {
+              r[a[0]] = a[1];
+            } else {
+              r[a] = {"thisisa": "wildcard", "id": null}
+            }
+            rem(t, ' ');
+          }
+          if (t.length === 0) {
+            return undefined;
+          } else {
+            t.shift();
+          }
+        } break;
+      case '[':
+        t.shift();
+        r = [];
+        while (t.length > 0 && t[0] !== ']') {
+          r.push(subparse(t));
+          rem(t, ' ');
+        }
+        if (t.length > 0) {
+          t.shift();
+        } else {
+          return undefined;
+        } break;
+      case '(':
+        t.shift();
+        r = {"thisisa": "or", "options": []};
+        while (t.length > 0 && t[0] !== ')') {
+          r.options.push(subparse(t));
+          rem(t, ' ');
+        }
+        if (t.length > 0) {
+          t.shift();
+        } else {
+          return undefined;
+        } break;
+      case '!':
+        t.shift();
+        r = [subparse(t), null];
         break;
       default:
         r = "";
-        while (t[0].match(/^[a-z\-]/)) { r += t.shift(); }
+        while (t.length > 0 && t[0].match(/^[a-z\-]/)) { r += t.shift(); }
+        //console.log(["def", r]);
+        if (r === "true" || r === "false" || r === "null") {
+          r = JSON.parse(r);
+        }
     }
+    //console.log(r);
     return r;
   }
   var ret = subparse(txt);
-  if (txt.length === 0) {
+  if (txt.length === 0 && ret !== undefined) {
     return ret;
   } else {
     return in_txt;
@@ -73,6 +138,14 @@ var parserule = function(in_txt) {
 var matchone = function(pat, node, wilds) {
   if (pat === node) {
     return wilds;
+  } else if (typeof pat === "string") {
+    var p = parserule(pat);
+    if (!(typeof p === "string")) {
+      var m = matchone(p, node, wilds);
+      if (m) {
+        return m;
+      }
+    }
   } else if (pat.thisisa === node.thisisa && typeof pat === "object") {
     //if they're both undefined, this will cover arrays as well
     for (var k in pat) {
@@ -113,9 +186,8 @@ var matchone = function(pat, node, wilds) {
       wilds[pat.id] = node;
       return wilds;
     }
-  } else {
-    return false;
   }
+  return false;
 }
 var ls = function(thing) {
   if (thing.constructor === Array) {
@@ -175,6 +247,13 @@ var evalfn = function(fn, nodes, wilds) {
         ret = {};
         for (var k in fn) {
           ret[k] = evalfn(fn[k], nodes, wilds);
+        }
+      } else if (typeof fn === "string") {
+        var pfn = parserule(fn);
+        if (typeof pfn === "string") {
+          ret = fn;
+        } else {
+          ret = evalfn(pfn, nodes, wilds);
         }
       } else {
         ret = fn;

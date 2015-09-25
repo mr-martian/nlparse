@@ -37,15 +37,8 @@
       "thisisa": "syntaxrule",
       "next": [],
       "nodes": [
-        {
-          "thisisa": "node",
-          "type": "desc",
-          "verbal": false
-        },
-        {
-          "thisisa": "node",
-          "type": "noun"
-        }
+        "$desc {[verbal false]}",
+        "$noun"
       ],
       "function": {
         "thisisa": "function",
@@ -66,19 +59,8 @@
       "next": ["prep-noun"],
       "mandatory": true,
       "nodes": [
-        {
-          "thisisa": "node",
-          "type": "article",
-          "definite": {
-            "thisisa": "wildcard",
-            "id": 1
-          }
-        },
-        {
-          "thisisa": "node",
-          "type": "noun",
-          "definite": null
-        }
+        "$article {[definite @1]}",
+        "$noun {!definite}"
       ],
       "--function": {
         "thisisa": "function",
@@ -93,7 +75,7 @@
           "id": 1
         }
       },
-      "function": {
+      "2--function": {
         "thisisa": "merge",
         "things": [
           {
@@ -106,6 +88,13 @@
               "id": 1
             }
           }
+        ]
+      },
+      "function": {
+        "thisisa": "merge",
+        "things": [
+          "#1",
+          "@1"
         ]
       }
     },
@@ -158,13 +147,7 @@
             "options": [false, null]
           }
         },
-        {
-          "thisisa": "node",
-          "type": "verb",
-          "finite": true,
-          "personal": true,
-          "subject": null
-        }
+        "$verb {[finite true] [personal true] !subject}"
       ],
       "function": {
         "thisisa": "function",
