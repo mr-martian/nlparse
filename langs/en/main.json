@@ -62,7 +62,7 @@
         "$article {[definite @1]}",
         "$noun {!definite}"
       ],
-      "--function": {
+      "old-function": {
         "thisisa": "function",
         "function": "set",
         "node": {
@@ -75,7 +75,7 @@
           "id": 1
         }
       },
-      "2--function": {
+      "old2-function": {
         "thisisa": "merge",
         "things": [
           {
