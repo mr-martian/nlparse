@@ -1,4 +1,18 @@
 {
+  "be": {
+    "pat": {
+      "thisisa": "node",
+      "type": "verb",
+      "finite": false,
+      "tense": "present",
+      "participle": true
+    },
+    "give": {
+      "finite": true,
+      "aspect": "progressive",
+      "participle": false
+    }
+  },
   "it": {
     "pat": {
       "thisisa": "node",
@@ -31,7 +45,7 @@
         "thisisa": "node",
         "type": "verb",
         "tense": "present",
-        "finite": "true",
+        "finite": true,
         "subject": {
           "thisisa": "wildcard",
           "id": null
@@ -48,7 +62,7 @@
         "thisisa": "node",
         "type": "verb",
         "tense": "present",
-        "finite": "true",
+        "finite": true,
         "subject": null,
         "personal": false
       },

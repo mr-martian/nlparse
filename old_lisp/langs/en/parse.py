@@ -41,7 +41,7 @@ should1       deontic modality       You should listen.
 should2       epistemic modality       That should help.
 will       epistemic modality       We will eat pie.
 would       epistemic modality       Nothing would accomplish that.
-""" #enwiki "Auxilary Verbs"
+""" #enwiki "Auxiliary Verbs"
 special = {
     ",": [{"is":"|,|", "type":"comma"}],
     "|,|": [{"is":"|,|", "type":"comma"}],

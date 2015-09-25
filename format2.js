@@ -1,33 +1,26 @@
 var display = function(obj, edit) {
   var ret = "";
-  var cls = "";
+  var cls = obj.thisisa;
   switch (obj.thisisa) {
     case "function":
-      cls = "Function";
       ret = JSON.stringify(obj);
       break;
     case "grammar":
-      cls = "Grammar";
       ret = JSON.stringify(obj);
       break;
     case "langname":
-      cls = "Langname";
       ret = JSON.stringify(obj);
       break;
     case "litdict":
-      cls = "Litdict";
       ret = JSON.stringify(obj);
       break;
     case "load":
-      cls = "Load";
       ret = JSON.stringify(obj);
       break;
     case "morphologyrule":
-      cls = "Morphologyrule";
       ret = JSON.stringify(obj);
       break;
     case "node":
-      cls = "Node";
       ret = '<table><tbody>';
       if ('type' in obj) {
         ret += '<tr><td><span class="key type">type</span></td><td>';
@@ -49,11 +42,9 @@ var display = function(obj, edit) {
       ret += '</tbody></table>';
       break;
     case "noderef":
-      cls = "Noderef";
       ret = '<span class="wildcard">' + obj.id + '</span>';
       break;
     case "or":
-      cls = "Or";
       ret = '<ul>';
       for (var i = 0; i < obj.options.length; i++) {
         ret += '<li>' + display(obj.options[i], edit) + '</li>';
@@ -61,26 +52,24 @@ var display = function(obj, edit) {
       ret += '</ul>';
       break;
     case "syntaxrule":
-      cls = "Syntaxrule";
       ret = JSON.stringify(obj);
       break;
     case "wildcard":
-      cls = "Wildcard";
       ret = '<span class="wild">' + obj.id + '</span>';
       break;
     default:
       if (obj.constructor === Array) {
         ret = '<ul>';
-        cls = "List";
+        cls = "list";
         for (var i = 0; i < obj.length; i++) {
           ret += '<li>' + display(obj[i], edit) + '</li>';
         }
         ret += '</ul>';
       } else if (typeof obj === "boolean") {
-        cls = "Boolean";
+        cls = "boolean";
         ret = '<span class="bool">' + obj + '</span>';
       } else if (typeof obj === "string") {
-        cls = "Symbol";
+        cls = "symbol";
         ret = '<span class="value">' + obj + '</span>';
       } else {
         ret = JSON.stringify(obj);
@@ -106,64 +95,44 @@ var parsediv = function(div) {
     }
     return ret;
   };
-  var ret = {};
+  var ret = {
+    "thisisa": div.className
+  };
   switch (div.className) {
-    case "Boolean":
+    case "boolean":
       if (div.getElementsByClassName('bool')[0].innerHTML === "true") {
         ret = true;
       } else {
         ret = false;
       }
       break;
-    case "Function":
-      ret = {
-        "thisisa": "function"
-      };
+    case "function":
       break;
-    case "Grammar":
-      ret = {
-        "thisisa": "grammar"
-      };
+    case "grammar":
       break;
-    case "Langname":
-      ret = {
-        "thisisa": "langname"
-      };
+    case "langname":
       break;
-    case "List":
+    case "list":
       ret = dochild(div, "UL", function(t) {
         return parsediv(t.firstChild);
       });
       break;
-    case "Litdict":
-      ret = {
-        "thisisa": "litdict"
-      };
+    case "litdict":
       break;
-    case "Load":
-      ret = {
-        "thisisa": "load"
-      };
+    case "load":
       break;
-    case "Morphologyrule":
-      ret = {
-        "thisisa": "morphologyrule"
-      };
+    case "morphologyrule":
       break;
-    case "Node":
-      ret = {"thisisa": "node"};
+    case "node":
       dochild(div, "TABLE", function(t) {
         $.each(t.childNodes, function(i, tr) {
           ret[tr.firstChild.firstChild.innerHTML] = parsediv(tr.childNodes[1].firstChild);
         });
       });
       break;
-    case "Noderef":
-      ret = {
-        "thisisa": "noderef"
-      };
+    case "noderef":
       break;
-    case "Or":
+    case "or":
       ret = {
         "thisisa": "or",
         "options": dochild(div, "UL", function(t) {
@@ -171,18 +140,13 @@ var parsediv = function(div) {
         })
       };
       break;
-    case "Symbol":
+    case "symbol":
       ret = div.getElementsByClassName('value')[0].innerHTML;
       break;
-    case "Syntaxrule":
-      ret = {
-        "thisisa": "syntaxrule"
-      };
+    case "syntaxrule":
       break;
-    case "Wildcard":
-      ret = {
-        "thisisa": "wildcard"
-      };
+    case "wildcard":
+      ret.id = div.getElementsByClassName('wild')[0].innerHTML;
       break;
     default:
       ret = {

@@ -80,7 +80,7 @@
           "definite": null
         }
       ],
-      "function": {
+      "--function": {
         "thisisa": "function",
         "function": "set",
         "node": {
@@ -92,6 +92,21 @@
           "thisisa": "wildcard",
           "id": 1
         }
+      },
+      "function": {
+        "thisisa": "merge",
+        "things": [
+          {
+            "thisisa": "noderef",
+            "node": 1
+          },
+          {
+            "definite": {
+              "thisisa": "wildcard",
+              "id": 1
+            }
+          }
+        ]
       }
     },
     "aux-verb": {

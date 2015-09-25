@@ -39,6 +39,37 @@ var loadalllangs = function() {
 var copy_thing = function(thing) {
   return JSON.parse(JSON.stringify(thing));
 }
+var parserule = function(in_txt) {
+  var txt = in_txt.split('');
+  var subparse = function(t) {
+    var r;
+    for (k in t) {
+      console.log(k);
+    }
+    if (t.length === 0) {
+      return null;
+    }
+    console.log(t);
+    while (t[0] === ' ') { t.shift(); }
+    switch (t[0]) {
+      case '#':
+        r = {"thisisa": "noderef", "id": ""};
+        while (t[0].match(/^[0-9]/)) { r.id += t.shift(); }
+        r.id = parseInt(r.id);
+        break;
+      default:
+        r = "";
+        while (t[0].match(/^[a-z\-]/)) { r += t.shift(); }
+    }
+    return r;
+  }
+  var ret = subparse(txt);
+  if (txt.length === 0) {
+    return ret;
+  } else {
+    return in_txt;
+  }
+}
 var matchone = function(pat, node, wilds) {
   if (pat === node) {
     return wilds;
@@ -115,6 +146,23 @@ var evalfn = function(fn, nodes, wilds) {
         default:
           ret = nodes;
       }
+      break;
+    case "merge":
+      ret = {};
+      $.each(
+        $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
+        function(i, obj) {
+          $.each(obj,
+            function(k, v) {
+              if (ret[k] && ret[k].prototype === Array || v.prototype === Array) {
+                ret[k] = ls(ret[k]).concat(v);
+              } else {
+                ret[k] = v;
+              }
+            }
+          );
+        }
+      );
       break;
     case "wildcard":
       ret = wilds[fn.id];
