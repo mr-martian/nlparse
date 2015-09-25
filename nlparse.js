@@ -26,6 +26,8 @@ var parserule = function(in_txt) {
         while (t.length > 0 && t[0].match(/^[a-z\-0-9]/)) { r.id += t.shift(); }
         if (r.id === "") {
           r.id = null;
+        } else {
+          r.id = parseInt(r.id);
         } break;
       case '$':
         t.shift();
@@ -135,7 +137,7 @@ var loadlang = function(lang, fn) {
           loadlib(lang, k, function() {});
         }
       }
-      fn(stuff);
+      fn(langs[lang]);
     });
   }
 }
@@ -192,8 +194,9 @@ var matchone = function(pat, node, wilds) {
       wilds[pat.id] = node;
       return wilds;
     }
+  } else {
+    return false;
   }
-  return false;
 }
 var ls = function(thing) {
   if (thing.constructor === Array) {
