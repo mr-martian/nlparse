@@ -198,6 +198,7 @@ var ls = function(thing) {
 }
 var evalfn = function(fn, nodes, wilds) {
   var ret;
+  console.log(fn);
   switch (fn.thisisa) {
     case "function":
       switch (fn.function) {
@@ -221,8 +222,13 @@ var evalfn = function(fn, nodes, wilds) {
       break;
     case "merge":
       ret = {};
+      var th = fn.things;
+      if (typeof th === "string") {
+        th = parserule(th);
+      }
+      console.log(th);
       $.each(
-        $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
+        $.map(copy_thing(th), function(t) { return evalfn(t, nodes, wilds); }),
         function(i, obj) {
           $.each(obj,
             function(k, v) {
