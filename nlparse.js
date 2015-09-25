@@ -117,8 +117,8 @@ var loadlib = function(lang, k, fn) {
     fn(lists[lang][k]);
   } else {
     $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].list, function(s) {
-      lists[lang][k] = parsetree(s);
-      fn(lists[lang][k]);
+      lists[lang][k] = s
+      fn(s);
     });
   }
 }
@@ -128,6 +128,7 @@ var loadlang = function(lang, fn) {
   } else {
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
       langs[lang] = parsetree(stuff);
+      console.log([stuff, langs[lang]]);
       lists[lang] = {};
       for (var k in langs[lang].morphology) {
         if (langs[lang].morphology[k].thisisa === "load") {
@@ -272,16 +273,19 @@ var dosyntaxrule = function(insen, rule) {
   if (!rule) {
     return [];
   }
+  console.log(rule);
   var sen = insen.map(ls);
   var paths = [];
   for (var i = 0; i <= sen.length - rule.nodes.length; i++) {
     for (var j = 0; j < sen[i].length; j++) {
       var m = matchone(rule.nodes[0], sen[i][j], {});
+      console.log(m);
       if (m) {
         paths.push({"nodes": [[i, j]], "wilds": m});
       }
     }
   }
+  console.log(paths);
   var temp = [];
   for (var i = 1; i < rule.nodes.length; i++) {
     for (var p in paths) {
