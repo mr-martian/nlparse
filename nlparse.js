@@ -1,41 +1,3 @@
-langs = {};
-lists = {};
-var loadlib = function(lang, k, fn) {
-  if (lists[lang].hasOwnProperty(k)) {
-    fn(lists[lang][k]);
-  } else {
-    $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].list, function(s) {
-      lists[lang][k] = s;
-      fn(s);
-    });
-  }
-}
-var loadlang = function(lang, fn) {
-  if (langs.hasOwnProperty(lang)) {
-    fn(langs[lang]);
-  } else {
-    $.getJSON("langs/" + lang + "/main.json", function(stuff) {
-      langs[lang] = stuff;
-      lists[lang] = {};
-      for (var k in stuff.morphology) {
-        if (stuff.morphology[k].thisisa === "load") {
-          loadlib(lang, k, function() {});
-        }
-      }
-      fn(stuff);
-    });
-  }
-}
-var listlangs = function(fn) {
-  $.getJSON("langs/langs.json", fn);
-}
-var loadalllangs = function() {
-  listlangs(function(stuff) {
-    for (var i = 0; i < stuff.length; i++) {
-      loadlang(stuff[i].code, function() {});
-    }
-  });
-}
 var copy_thing = function(thing) {
   return JSON.parse(JSON.stringify(thing));
 }
@@ -135,17 +97,60 @@ var parserule = function(in_txt) {
     return in_txt;
   }
 }
+var parsetree = function(thing) {
+  if (typeof thing === "string") {
+    return parserule(thing);
+  } else if (typeof thing === "object" && thing !== null) {
+    var ret = {};
+    for (k in thing) {
+      ret[k] = parsetree(thing[k]);
+    }
+    return ret;
+  } else {
+    return thing;
+  }
+}
+langs = {};
+lists = {};
+var loadlib = function(lang, k, fn) {
+  if (lists[lang].hasOwnProperty(k)) {
+    fn(lists[lang][k]);
+  } else {
+    $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].list, function(s) {
+      lists[lang][k] = parsetree(s);
+      fn(lists[lang][k]);
+    });
+  }
+}
+var loadlang = function(lang, fn) {
+  if (langs.hasOwnProperty(lang)) {
+    fn(langs[lang]);
+  } else {
+    $.getJSON("langs/" + lang + "/main.json", function(stuff) {
+      langs[lang] = parsetree(stuff);
+      lists[lang] = {};
+      for (var k in langs[lang].morphology) {
+        if (langs[lang].morphology[k].thisisa === "load") {
+          loadlib(lang, k, function() {});
+        }
+      }
+      fn(stuff);
+    });
+  }
+}
+var listlangs = function(fn) {
+  $.getJSON("langs/langs.json", fn);
+}
+var loadalllangs = function() {
+  listlangs(function(stuff) {
+    for (var i = 0; i < stuff.length; i++) {
+      loadlang(stuff[i].code, function() {});
+    }
+  });
+}
 var matchone = function(pat, node, wilds) {
   if (pat === node) {
     return wilds;
-  } else if (typeof pat === "string") {
-    var p = parserule(pat);
-    if (!(typeof p === "string")) {
-      var m = matchone(p, node, wilds);
-      if (m) {
-        return m;
-      }
-    }
   } else if (pat.thisisa === node.thisisa && typeof pat === "object") {
     //if they're both undefined, this will cover arrays as well
     for (var k in pat) {
@@ -198,7 +203,6 @@ var ls = function(thing) {
 }
 var evalfn = function(fn, nodes, wilds) {
   var ret;
-  console.log(fn);
   switch (fn.thisisa) {
     case "function":
       switch (fn.function) {
@@ -222,13 +226,8 @@ var evalfn = function(fn, nodes, wilds) {
       break;
     case "merge":
       ret = {};
-      var th = fn.things;
-      if (typeof th === "string") {
-        th = parserule(th);
-      }
-      console.log(th);
       $.each(
-        $.map(copy_thing(th), function(t) { return evalfn(t, nodes, wilds); }),
+        $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
         function(i, obj) {
           $.each(obj,
             function(k, v) {
@@ -253,13 +252,6 @@ var evalfn = function(fn, nodes, wilds) {
         ret = {};
         for (var k in fn) {
           ret[k] = evalfn(fn[k], nodes, wilds);
-        }
-      } else if (typeof fn === "string") {
-        var pfn = parserule(fn);
-        if (typeof pfn === "string") {
-          ret = fn;
-        } else {
-          ret = evalfn(pfn, nodes, wilds);
         }
       } else {
         ret = fn;
