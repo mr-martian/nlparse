@@ -102,6 +102,12 @@ var parserule = function(in_txt) {
 var parsetree = function(thing) {
   if (typeof thing === "string") {
     return parserule(thing);
+  } else if (thing !== null && thing.constructor === Array) {
+    var ret = [];
+    for (var i = 0; i < thing.length; i++) {
+      ret.push(parsetree(thing[i]));
+    }
+    return ret;
   } else if (typeof thing === "object" && thing !== null) {
     var ret = {};
     for (k in thing) {
@@ -276,13 +282,14 @@ var dosyntaxrule = function(insen, rule) {
   if (!rule) {
     return [];
   }
-  console.log(rule);
+  console.log([rule, insen]);
   var sen = insen.map(ls);
   var paths = [];
+  console.log([sen.length, rule.nodes, rule.nodes.length]);
   for (var i = 0; i <= sen.length - rule.nodes.length; i++) {
     for (var j = 0; j < sen[i].length; j++) {
       var m = matchone(rule.nodes[0], sen[i][j], {});
-      console.log(m);
+      console.log([rule.nodes[0], sen[i][j], m]);
       if (m) {
         paths.push({"nodes": [[i, j]], "wilds": m});
       }
