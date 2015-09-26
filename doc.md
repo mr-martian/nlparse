@@ -6,9 +6,7 @@ This is the toplevel object of the main file. It currently takes the following p
   - The language code, "en", "es", "zh", etc.
 - syntax
   - An object, each key is the name of a rule and each value is that rule.
-  - ```JSON
-  {"adj-noun": [syntaxrule], "subject": [syntaxrule], ...}
-  ```
+  - ```{"adj-noun": [syntaxrule], "subject": [syntaxrule], ...}```
 - morphology
   - same as syntax, but each value can be "litdict", "load", or "morphologyrule".
 ## langname
