@@ -4,7 +4,6 @@ var copy_thing = function(thing) {
 var parserule = function(in_txt) {
   var txt = in_txt.split('');
   var subparse = function(t) {
-    //console.log(["subparse", t.join('')]);
     var rem = function(t, c) {
       while (t.length > 0 && t[0] === c) { t.shift(); }
     }
@@ -32,9 +31,7 @@ var parserule = function(in_txt) {
       case '$':
         t.shift();
         r = {"thisisa": "node", "type": subparse(t)};
-        //console.log(['node', r]);
         rem(t, ' ');
-        //console.log(t.length);
         if (t.length > 0 && t[0] === '{') {
           t.shift();
           var a;
@@ -84,12 +81,10 @@ var parserule = function(in_txt) {
       default:
         r = "";
         while (t.length > 0 && t[0].match(/^[a-z\-]/)) { r += t.shift(); }
-        //console.log(["def", r]);
         if (r === "true" || r === "false" || r === "null") {
           r = JSON.parse(r);
         }
     }
-    //console.log(r);
     return r;
   }
   var ret = subparse(txt);
@@ -136,7 +131,6 @@ var loadlang = function(lang, fn) {
   } else {
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
       langs[lang] = parsetree(stuff);
-      console.log([stuff, langs[lang]]);
       lists[lang] = {};
       for (var k in langs[lang].morphology) {
         if (langs[lang].morphology[k].thisisa === "load") {
@@ -239,7 +233,6 @@ var evalfn = function(fn, nodes, wilds) {
       $.each(
         $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
         function(i, obj) {
-          console.log(obj);
           for (k in obj) {
             if (ret[k] && ret[k].prototype === Array || obj[k].prototype === Array) {
               ret[k] = ls(ret[k]).concat(obj[k]);
@@ -281,20 +274,16 @@ var dosyntaxrule = function(insen, rule) {
   if (!rule) {
     return [];
   }
-  console.log([rule, insen]);
   var sen = insen.map(ls);
   var paths = [];
-  console.log([sen.length, rule.nodes, rule.nodes.length]);
   for (var i = 0; i <= sen.length - rule.nodes.length; i++) {
     for (var j = 0; j < sen[i].length; j++) {
       var m = matchone(rule.nodes[0], sen[i][j], {});
-      console.log([rule.nodes[0], sen[i][j], m]);
       if (m) {
         paths.push({"nodes": [[i, j]], "wilds": m});
       }
     }
   }
-  console.log(paths);
   var temp = [];
   for (var i = 1; i < rule.nodes.length; i++) {
     for (var p in paths) {
