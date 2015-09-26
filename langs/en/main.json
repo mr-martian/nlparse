@@ -5,62 +5,27 @@
     "adv": {
       "thisisa": "syntaxrule",
       "next": ["adj-noun"],
-      "nodes": [
-        "$desc {[verbal true]}",
-        "$(desc verb)"
-      ],
-      "function": {
-        "thisisa": "function",
-        "function": "add",
-        "node": "#1",
-        "key": "descs",
-        "val": "#0"
-      }
+      "nodes": "[$desc{[verbal true]} $(desc verb)]",
+      "function": "+[#1 ${[descs [#0]]}]"
     },
     "adj-noun": {
       "thisisa": "syntaxrule",
       "next": [],
-      "nodes": [
-        "$desc {[verbal false]}",
-        "$noun"
-      ],
-      "function": {
-        "thisisa": "function",
-        "function": "add",
-        "node": "#1",
-        "key": "descs",
-        "val": "#0"
-      }
+      "nodes": "[$desc {[verbal false]} $noun]",
+      "function": "+[#1 ${[descs [#0]]}]"
     },
     "art-noun": {
       "thisisa": "syntaxrule",
       "next": ["prep-noun"],
       "mandatory": true,
-      "nodes": [
-        "$article {[definite @1]}",
-        "$noun {!definite}"
-      ],
-      "function": {
-        "thisisa": "merge",
-        "things": [
-          "#1",
-          "$noun {[definite @1]}"
-        ]
-      }
+      "nodes": "[$article {[definite @1]} $noun {!definite}]",
+      "function": "+[#1 ${[definite @1]}]"
     },
     "aux-verb": {
       "thisisa": "syntaxrule",
       "next": ["subject", "object", "object2"],
-      "nodes": [
-        "$aux-verb {[pat @0] [give @1]}",
-        "@0"
-      ],
-      "function": {
-        "thisisa": "function",
-        "function": "merge",
-        "from": "@1",
-        "to": "#1"
-      }
+      "nodes": "[$aux-verb {[pat @0] [give @1]} @0]",
+      "function": "+[#1 @1]"
     },
     "subject": {
       "thisisa": "syntaxrule",
@@ -69,13 +34,7 @@
         "$(noun desc) {[verbal (false null)]}",
         "$verb {[finite true] [personal true] !subject}"
       ],
-      "function": {
-        "thisisa": "function",
-        "function": "set",
-        "node": "#1",
-        "key": "subject",
-        "val": "#0"
-      }
+      "function": "+[#1 ${[subject #0]}]"
     }
   },
   "morphology": {
@@ -86,64 +45,24 @@
         "an": false,
         "the": true
       },
-      "function": {
-        "thisisa": "node",
-        "type": "article",
-        "lang": "en",
-        "definite": {
-          "thisisa": "noderef",
-          "node": 0
-        }
-      }
+      "function": "$article{[lang en] [definite #0]}"
     },
     "aux-verb": {
       "thisisa": "load",
       "list": "aux-verbs.json",
-      "function": {
-        "thisisa": "function",
-        "function": "merge",
-        "from": {
-          "thisisa": "noderef",
-          "node": 0
-        },
-        "to": {
-          "thisisa": "node",
-          "type": "aux-verb",
-          "lang": "en"
-        }
-      }
+      "function": "+[$aux-verb{[lang en]} #0]",
     },
     "noun": {
       "thisisa": "load",
       "list": "nouns.json",
-      "function": {
-        "thisisa": "node",
-        "lang": "en",
-        "type": "noun",
-        "is": {
-          "thisisa": "noderef",
-          "node": 0
-        },
-        "countable": true,
-        "proper": false,
-        "plural": false
-      }
+      "function": "$noun{[lang en] [is #0] [countable true] [proper false] [plural false]}"
     },
     "plural-noun": {
       "thisisa": "morphologyrule",
       "pat": "^(.*)s$",
       "replace": "$1",
       "next": ["noun", "proper"],
-      "function": {
-        "thisisa": "function",
-        "function": "set",
-        "node": {
-          "thisisa": "noderef",
-          "node": 0
-        },
-        "key": "plural",
-        "val": true
-      }
+      "function": "+[${[plural true]} #0]"
     },
     "punct": {
       "thisisa": "litdict",
@@ -154,76 +73,27 @@
         "?": "question-mark",
         "–": "M-dash"
       },
-      "function": {
-        "thisisa": "node",
-        "type": "punct",
-        "lang": "en",
-        "is": {
-          "thisisa": "noderef",
-          "node": 0
-        }
-      }
+      "function": "$punct {[lang en] [is #0]}"
     },
     "quot": {
       "thisisa": "litdict",
       "words": {
-        "(": {
-          "is": "paren",
-          "open": true
-        },
-        ")": {
-          "is": "paren",
-          "open": false
-        },
+        "(": "${[is paren] [open true]}",
+        ")": "${[is paren] [open false]}",
         "'": [
-          {
-            "is": "single",
-            "open": true
-          },
-          {
-            "is": "single",
-            "open": false
-          }
+          "${[is single] [open true]}",
+          "${[is single] [open false]}"
         ],
         "\"": [
-          {
-            "is": "double",
-            "open": true
-          },
-          {
-            "is": "double",
-            "open": false
-          }
+          "${[is double] [open true]}",
+          "${[is double] [open false]}"
         ],
-        "‘": {
-          "is": "single",
-          "open": true
-        },
-        "’": {
-          "is": "single",
-          "open": false
-        },
-        "“": {
-          "is": "double",
-          "open": true
-        },
-        "”": {
-          "is": "double",
-          "open": false
-        }
+        "‘": "${[is single] [open true]}",
+        "’": "${[is single] [open false]}",
+        "“": "${[is double] [open true]}",
+        "”": "${[is double] [open false]}"
       },
-      "function": {
-        "thisisa": "function",
-        "function": "merge",
-        "from": {
-          "thisisa": "noderef",
-          "node": 0
-        },
-        "to": {
-          "thisisa": "node",
-          "type": "quot"
-        }
-      }
+      "function": "+[#0 quot]"
     }
   }
 }

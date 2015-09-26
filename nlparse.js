@@ -31,6 +31,9 @@ var parserule = function(in_txt) {
       case '$':
         t.shift();
         r = {"thisisa": "node", "type": subparse(t)};
+        if (r.type === "") {
+          delete r.type;
+        }
         rem(t, ' ');
         if (t.length > 0 && t[0] === '{') {
           t.shift();
@@ -77,6 +80,10 @@ var parserule = function(in_txt) {
       case '!':
         t.shift();
         r = [subparse(t), null];
+        break;
+      case '+':
+        t.shift();
+        r = {"thisisa": "merge", "things": subparse(t)};
         break;
       default:
         r = "";
@@ -208,26 +215,6 @@ var ls = function(thing) {
 var evalfn = function(fn, nodes, wilds) {
   var ret;
   switch (fn.thisisa) {
-    case "function":
-      switch (fn.function) {
-        case "set":
-          ret = copy_thing(evalfn(fn.node, nodes, wilds));
-          ret[fn.key] = copy_thing(evalfn(fn.val, nodes, wilds));
-          break;
-        case "add":
-          ret = evalfn(fn.node, nodes, wilds);
-          ret[fn.key] = (ret[fn.key] || []).concat(evalfn(fn.val, nodes, wilds));
-          break;
-        case "merge":
-          ret = copy_thing(evalfn(fn.to, nodes, wilds));
-          var mer = copy_thing(evalfn(fn.from, nodes, wilds));
-          for (var k in mer) {
-            ret[k] = mer[k];
-          } break;
-        default:
-          ret = nodes;
-      }
-      break;
     case "merge":
       ret = {};
       $.each(
