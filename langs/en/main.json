@@ -50,7 +50,7 @@
     "aux-verb": {
       "thisisa": "load",
       "list": "aux-verbs.json",
-      "function": "+[$aux-verb{[lang en]} #0]",
+      "function": "+[$aux-verb{[lang en]} #0]"
     },
     "noun": {
       "thisisa": "load",
