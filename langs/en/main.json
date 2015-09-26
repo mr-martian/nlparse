@@ -6,31 +6,15 @@
       "thisisa": "syntaxrule",
       "next": ["adj-noun"],
       "nodes": [
-        {
-          "thisisa": "node",
-          "type": "desc",
-          "verbal": true
-        },
-        {
-          "thisisa": "node",
-          "type": {
-            "thisisa": "or",
-            "options": ["desc", "verb"]
-          }
-        }
+        "$desc {[verbal true]}",
+        "$(desc verb)"
       ],
       "function": {
         "thisisa": "function",
         "function": "add",
-        "node": {
-          "thisisa": "noderef",
-          "node": 1
-        },
+        "node": "#1",
         "key": "descs",
-        "val": {
-          "thisisa": "noderef",
-          "node": 0
-        }
+        "val": "#0"
       }
     },
     "adj-noun": {
@@ -43,15 +27,9 @@
       "function": {
         "thisisa": "function",
         "function": "add",
-        "node": {
-          "thisisa": "noderef",
-          "node": 1
-        },
+        "node": "#1",
         "key": "descs",
-        "val": {
-          "thisisa": "noderef",
-          "node": 0
-        }
+        "val": "#0"
       }
     },
     "art-noun": {
@@ -62,39 +40,11 @@
         "$article {[definite @1]}",
         "$noun {!definite}"
       ],
-      "old-function": {
-        "thisisa": "function",
-        "function": "set",
-        "node": {
-          "thisisa": "noderef",
-          "node": 1
-        },
-        "key": "definite",
-        "val": {
-          "thisisa": "wildcard",
-          "id": 1
-        }
-      },
-      "old2-function": {
-        "thisisa": "merge",
-        "things": [
-          {
-            "thisisa": "noderef",
-            "node": 1
-          },
-          {
-            "definite": {
-              "thisisa": "wildcard",
-              "id": 1
-            }
-          }
-        ]
-      },
       "function": {
         "thisisa": "merge",
         "things": [
           "#1",
-          "@1"
+          "$noun {[definite @1]}"
         ]
       }
     },
@@ -102,65 +52,29 @@
       "thisisa": "syntaxrule",
       "next": ["subject", "object", "object2"],
       "nodes": [
-        {
-          "thisisa": "node",
-          "type": "aux-verb",
-          "pat": {
-            "thisisa": "wildcard",
-            "id": 0
-          },
-          "give": {
-            "thisisa": "wildcard",
-            "id": 1
-          }
-        },
-        {
-          "thisisa": "wildcard",
-          "id": 0
-        }
+        "$aux-verb {[pat @0] [give @1]}",
+        "@0"
       ],
       "function": {
         "thisisa": "function",
         "function": "merge",
-        "from": {
-          "thisisa": "wildcard",
-          "id": 1
-        },
-        "to": {
-          "thisisa": "noderef",
-          "node": 1
-        }
+        "from": "@1",
+        "to": "#1"
       }
     },
     "subject": {
       "thisisa": "syntaxrule",
       "next": ["object"],
       "nodes": [
-        {
-          "thisisa": "node",
-          "type": {
-            "thisisa": "or",
-            "options": ["noun", "desc"]
-          },
-          "verbal": {
-            "thisisa": "or",
-            "options": [false, null]
-          }
-        },
+        "$(noun desc) {[verbal (false null)]}",
         "$verb {[finite true] [personal true] !subject}"
       ],
       "function": {
         "thisisa": "function",
         "function": "set",
-        "node": {
-          "thisisa": "noderef",
-          "node": 1
-        },
+        "node": "#1",
         "key": "subject",
-        "val": {
-          "thisisa": "noderef",
-          "node": 0
-        }
+        "val": "#0"
       }
     }
   },

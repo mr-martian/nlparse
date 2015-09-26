@@ -239,15 +239,14 @@ var evalfn = function(fn, nodes, wilds) {
       $.each(
         $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
         function(i, obj) {
-          $.each(obj,
-            function(k, v) {
-              if (ret[k] && ret[k].prototype === Array || v.prototype === Array) {
-                ret[k] = ls(ret[k]).concat(v);
-              } else {
-                ret[k] = v;
-              }
+          console.log(obj);
+          for (k in obj) {
+            if (ret[k] && ret[k].prototype === Array || obj[k].prototype === Array) {
+              ret[k] = ls(ret[k]).concat(obj[k]);
+            } else {
+              ret[k] = obj[k];
             }
-          );
+          }
         }
       );
       break;
