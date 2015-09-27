@@ -4,9 +4,18 @@
 <script src="nlparse.js"></script>
 <script src="format2.js"></script>
 <link rel="stylesheet" type="text/css" href="friendly.css">
+<style>
+  #in, #out {
+    border-width: 0px;
+  }
+</style>
 </head>
 <body>
-  <table>
+  <span>Language: </span>
+  <input value="en" id="langcode"></input>
+  <span id="loading" title="click for language list" onclick="alertlangs();"></span>
+  <br>
+  <table border="1" style="border: 1px solid black;">
     <thead>
       <tr>
         <th>Input</th>
@@ -17,15 +26,15 @@
       <tr>
         <td>
           Mode:
-          <select>
+          <select onclick="insel();" onselect="insel();" id="inmode">
             <option value="JSON">JSON</option>
             <option value="nodes">Nodes</option>
-            <option value="text">Text</option>
+            <option value="text" selected="selected">Text</option>
           </select>
         </td>
         <td>
           Mode:
-          <select>
+          <select id="outmode">
             <option value="JSON">JSON</option>
             <option value="nodes">Nodes</option>
           </select>
@@ -39,7 +48,87 @@
           <div id="out"></div>
         </td>
       </tr>
+      <tr>
+        <td colspan="2"><button onclick="outsel();">Parse</button></td>
+      </tr>
     </tbody>
   </table>
+  <script>
+    var inmode;
+    var insel = function() {
+      switch ($('#inmode').val()) {
+        case inmode:
+          break;
+        case "JSON":
+          $('#in').html('<textarea cols="60">[{"thisisa": "node", "type": "article", "definite": false},&#10;{"thisisa": "node", "type": "noun", "is": "example"}]</textarea>');
+          break;
+        case "nodes":
+          $('#in').html(display([
+            {"thisisa": "node", "type": "article", "definite": false},
+            {"thisisa": "node", "type": "noun", "is": "example"}
+          ], true));
+          break;
+        case "text":
+          $('#in').html('<ul><li><input value="an"></input></li><li><input value="example"></input></li></ul><button onclick="addword(event);">Add</button>');
+          break;
+        default:
+          $('#in').html('<p>Unknown Mode</p>');
+      }
+      inmode = $('#inmode').val();
+    }
+    var addword = function(e) {
+      e.target.parentNode.childNodes[0].innerHTML += '<li><input></input></li>';
+    }
+    var getin = function() {
+      switch (inmode) {
+        case "JSON":
+          return JSON.parse($('#in')[0].childNodes[0].value);
+          break;
+        case "nodes":
+          return parsediv($('#in')[0].childNodes[0]);
+          break;
+        case "text":
+          var w = $.map($('#in')[0].childNodes[0].childNodes, function(n) {
+            return n.childNodes[0].value;
+          });
+          return domorphology(w, $('#langcode').val());
+        default:
+          return [];
+      }
+    }
+    var outsel = function() {
+      var sen = dosyntax(getin(), $('#langcode').val());
+      switch ($('#outmode').val()) {
+        case "JSON":
+          $('#out').html(JSON.stringify(sen));
+          break;
+        case "nodes":
+          $('#out').html(display(sen));
+          break;
+        default:
+          $('#out').html('<p>Unknown Mode</p>')
+      }
+    }
+    $(document).ready(function() {
+      loadlang("en", function(stuff) {
+        insel();
+      });
+    });
+    $(document).mousemove(function() {
+      if (waiting === 0) {
+        $('#loading').html('Data Loaded');
+      } else {
+        $('#loading').html(waiting + ' Requests Remaing')
+      }
+    });
+    var alertlangs = function() {
+      var l = Object.keys(langs).join(', ');
+      if (l.length > 0) {
+        window.alert('these languages have loaded:\n' + l);
+      } else {
+        window.alert('no languages loaded');
+      }
+    }
+  </script>
 </body>
 </html>

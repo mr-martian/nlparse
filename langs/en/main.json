@@ -18,14 +18,36 @@
       "thisisa": "syntaxrule",
       "next": ["prep-noun"],
       "mandatory": true,
-      "nodes": "[$article {[definite @1]} $noun {!definite}]",
+      "nodes": "[$article {[definite @1]} $noun {!definite !possessor}]",
       "function": "+[#1 ${[definite @1]}]"
     },
     "aux-verb": {
       "thisisa": "syntaxrule",
       "next": ["subject", "object", "object2"],
-      "nodes": "[$aux-verb {[pat @0] [give @1]} @0]",
+      "nodes": "[$aux-verb{[pat @0] [give @1]} @0]",
       "function": "+[#1 @1]"
+    },
+    "noun-prep": {
+      "thisisa": "syntaxrule",
+      "next": ["prep-noun"],
+      "nodes": "[$noun $preposition{clause}]",
+      "function": "+[#0 ${[descs [#1]]}]"
+    },
+    "possessive": {
+      "thisisa": "syntaxrule",
+      "next": ["prep-noun"],
+      "mandatory": true,
+      "nodes": [
+        "$noun{[possessive true]}",
+        "$noun{!possessor !definite}"
+      ],
+      "function": "+[#1 ${[possessor #0] [definite true]}]"
+    },
+    "prep-noun": {
+      "thisisa": "syntaxrule",
+      "next": ["noun-prep"],
+      "nodes": "[$preposition{!clause} $noun]",
+      "function": "+[#0 ${[clause #1]}]"
     },
     "subject": {
       "thisisa": "syntaxrule",
@@ -63,6 +85,11 @@
       "replace": "$1",
       "next": ["noun", "proper"],
       "function": "+[${[plural true]} #0]"
+    },
+    "prep": {
+      "thisisa": "load",
+      "list": "prepositions.json",
+      "function": "$preposition{[lang en] [is #0]}"
     },
     "punct": {
       "thisisa": "litdict",

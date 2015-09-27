@@ -75,11 +75,20 @@ var display = function(obj, edit) {
         ret = JSON.stringify(obj);
       }
   }
-  var s = '<div class="' + cls + '"><span class="header">' + cls + '</span>';
+  var s = '<div class="' + cls + '"><span class="header">' + cls + '</span><span class="showhide" onclick="showhide(event);">Show/Hide</span>';
   if (edit) {
     return s + '<span class="delete" onclick="delthing(event);">Delete</span><br>' + ret + '</div>';
   } else {
     return s + '<br>' + ret + '</div>';
+  }
+}
+var showhide = function(e) {
+  switch (e.target.parentNode.lastChild.style.display) {
+    case "none":
+      e.target.parentNode.lastChild.style.display = "";
+      break;
+    default:
+      e.target.parentNode.lastChild.style.display = "none";
   }
 }
 var parsediv = function(div) {

@@ -132,16 +132,20 @@ var loadlib = function(lang, k, fn) {
     });
   }
 }
+waiting = 0;
 var loadlang = function(lang, fn) {
   if (langs.hasOwnProperty(lang)) {
     fn(langs[lang]);
   } else {
+    waiting += 1;
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
+      waiting -= 1;
       langs[lang] = parsetree(stuff);
       lists[lang] = {};
       for (var k in langs[lang].morphology) {
         if (langs[lang].morphology[k].thisisa === "load") {
-          loadlib(lang, k, function() {});
+          waiting += 1;
+          loadlib(lang, k, function() { waiting -= 1; });
         }
       }
       fn(langs[lang]);
@@ -206,7 +210,9 @@ var matchone = function(pat, node, wilds) {
   }
 }
 var ls = function(thing) {
-  if (thing.constructor === Array) {
+  if (thing === null || thing === undefined) {
+    return [];
+  } else if (thing.constructor === Array) {
     return thing;
   } else {
     return [thing];
@@ -221,7 +227,7 @@ var evalfn = function(fn, nodes, wilds) {
         $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
         function(i, obj) {
           for (k in obj) {
-            if (ret[k] && ret[k].prototype === Array || obj[k].prototype === Array) {
+            if (ret[k] && ret[k].constructor === Array || obj[k].constructor === Array) {
               ret[k] = ls(ret[k]).concat(obj[k]);
             } else {
               ret[k] = obj[k];
@@ -237,7 +243,12 @@ var evalfn = function(fn, nodes, wilds) {
       ret = nodes[fn.node];
       break;
     default:
-      if (typeof fn === "object" && fn !== null) {
+      if (fn.constructor === Array) {
+        ret = [];
+        for (var i = 0; i < fn.length; i++) {
+          ret.push(evalfn(fn[i], nodes, wilds));
+        }
+      } else if (typeof fn === "object" && fn !== null) {
         ret = {};
         for (var k in fn) {
           ret[k] = evalfn(fn[k], nodes, wilds);
@@ -291,7 +302,8 @@ var dosyntaxrule = function(insen, rule) {
   }
   return ret;
 }
-var dosyntax = function(sen, rules) {
+var dosyntax = function(sen, lang) {
+  var rules = langs[lang].syntax;
   var sens = [];
   var l = [];
   for (var k in rules) {
