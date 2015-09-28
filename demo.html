@@ -77,7 +77,9 @@
       inmode = $('#inmode').val();
     }
     var addword = function(e) {
-      e.target.parentNode.childNodes[0].innerHTML += '<li><input></input></li>';
+      var c = document.createElement('li');
+      c.innerHTML = '<input></input>';
+      e.target.parentNode.childNodes[0].appendChild(c);
     }
     var getin = function() {
       switch (inmode) {
@@ -97,7 +99,7 @@
       }
     }
     var outsel = function() {
-      var sen = dosyntax(getin(), $('#langcode').val());
+      var sen = dosyntax(getin(), $('#langcode').val(), true);
       switch ($('#outmode').val()) {
         case "JSON":
           $('#out').html(JSON.stringify(sen));

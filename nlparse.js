@@ -1,6 +1,23 @@
 var copy_thing = function(thing) {
   return JSON.parse(JSON.stringify(thing));
 }
+var objeq = function(a, b) {
+  if (typeof a !== "object" || typeof b !== "object") {
+    return a === b;
+  } else if (Object.keys(a).length !== Object.keys(b).length) {
+    return false;
+  } else {
+    for (k in a) {
+      if (!objeq(a[k], b[k])) {
+        if (!((a[k].constructor === Array && a[k].length === 1 && objeq(a[k][0], b[k])) ||
+              (b[k].constructor === Array && b[k].length === 1 && objeq(a[k], b[k][0])))) {
+          return false;
+        }
+      }
+    }
+  }
+  return true;
+}
 var parserule = function(in_txt) {
   var txt = in_txt.split('');
   var subparse = function(t) {
@@ -302,7 +319,7 @@ var dosyntaxrule = function(insen, rule) {
   }
   return ret;
 }
-var dosyntax = function(sen, lang) {
+var dosyntax = function(sen, lang, remdup) {
   var rules = langs[lang].syntax;
   var sens = [];
   var l = [];
@@ -326,7 +343,20 @@ var dosyntax = function(sen, lang) {
         }
       }
     } else {
-      ret.push(s[0]);
+      if (remdup) {
+        var notmatched = true;
+        for (var i = 0; i < ret.length; i++) {
+          if (objeq(ret[i], s[0])) {
+            notmatched = false;
+            break;
+          }
+        }
+        if (notmatched) {
+          ret.push(s[0]);
+        }
+      } else {
+        ret.push(s[0]);
+      }
     }
   }
   return ret;
