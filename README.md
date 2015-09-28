@@ -5,6 +5,8 @@ Warning: You are very likely to discover slightly non-standard Linguistics in th
 (e.g. English preposition "to" is parsed as an auxiliary verb when forming the infinitive)
 If this bothers you, feel free to fix it (via pull request) or open an issue telling me where I messed up.
 
+Click [here](http://mr-martian.github.io/nlparse/demo.html) for a demo.
+
 ## TODO
 - [x] rewrite Lisp code in JS
 - [ ] current coding:
@@ -12,7 +14,7 @@ If this bothers you, feel free to fix it (via pull request) or open an issue tel
   - [ ] add "friendly" editing
   - [ ] discard old ```format.js```
   - [ ] finish ```friendly.css```
-  - [ ] finish ```demo.html```
+  - [x] finish ```demo.html```
   - [ ] finish ```langs/en/main.json```
     - as complete example
     - to be sure this stuff actually works for a whole language
@@ -33,7 +35,7 @@ If this bothers you, feel free to fix it (via pull request) or open an issue tel
 - [ ] make a user friendly interface (for non-programmers)
   - [ ] syntax definer
     - [x] display rules
-    - [x] modify rules
+    - [ ] modify rules
     - [ ] correctly output rules
   - [ ] morphology definer
   - [x] make UI for program
