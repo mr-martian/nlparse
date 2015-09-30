@@ -1,7 +1,48 @@
-var display = function(obj, edit) {
+var display = function(obj, edit, parent) {
   var ret = "";
   var cls = obj.thisisa;
+  var disp;
+  if (obj.constructor === Array) {
+    disp = obj.map(function(o) { return display(o, edit, "array"); });
+  } else if (typeof obj === "object") {
+    disp = {};
+    for (var k in obj) {
+      if (obj.hasOwnProperty(k)) {
+        disp[k] = display(obj[k], edit, obj.thisisa);
+      }
+    }
+  } else {
+    disp = obj;
+  }
   switch (obj.thisisa) {
+    case "want":
+      if (edit) {
+        switch (obj.type) {
+          case "key":
+            ret = '<span>WANT KEY</span>';
+            break;
+          case "node":
+            cls = "node";
+            var v = display({"thisisa": "want", "type": "type", "typs": ["merge", "node", "noderef", "or", "wildcard"]}, edit, obj.thisisa);
+            ret = '<table><tbody><tr><td><span class="key type">type</span></td><td>' + v + '</td></tr><tr><td>';
+            ret += '<span class="key is">is</span></td><td>' + v + '</td></tr><tr><td>';
+            ret += display({"thisisa": "want", "type": "key"}, edit, obj.thisisa);
+            ret += '</td><td>' + v + '</td></tr></tbody></table>';
+            break;
+          case "string":
+            ret = '<span>WANT STRING</span>';
+            break;
+          case "type":
+            ret = '<div class="select">';
+            ret += obj.typs.map(function(t) { return '<input type="radio" name="type-sel" value="' + t + '">' + t + '</input>'; }).join('');
+            ret += '<button onclick="dotypesel(event, \'' + parent + '\');">Select</button></div>';
+            break;
+          default:
+            ret = '<span class="err">Unknown Want Type "' + obj.type + '"</span>';
+        }
+      } else {
+        ret = '<span class="want-type">Unset ' + obj.type + '</span>';
+      } break;
     case "function":
       ret = JSON.stringify(obj);
       break;
@@ -9,7 +50,9 @@ var display = function(obj, edit) {
       ret = JSON.stringify(obj);
       break;
     case "langname":
-      ret = JSON.stringify(obj);
+      ret += '<table><tbody><tr><td>Code:</td><td>' + disp.code + '</td></tr>';
+      ret += '<tr><td>Short Name:</td><td>' + disp.shortname + '</td></tr>';
+      ret += '<tr><td>Long Name:</td><td>' + disp.longname + '</td></tr></tbody></table>';
       break;
     case "litdict":
       ret = JSON.stringify(obj);
@@ -23,52 +66,41 @@ var display = function(obj, edit) {
     case "node":
       ret = '<table><tbody>';
       if ('type' in obj) {
-        ret += '<tr><td><span class="key type">type</span></td><td>';
-        ret += display(obj.type, edit);
-        ret += '</td></tr>';
+        ret += '<tr><td><span class="key type">type</span></td><td>' + disp.type + '</td></tr>';
       }
       if ('is' in obj) {
-        ret += '<tr><td><span class="key is">is</span></td><td>';
-        ret += display(obj.is, edit);
-        ret += '</td></tr>';
+        ret += '<tr><td><span class="key is">is</span></td><td>' + disp.is + '</td></tr>';
       }
       for (var k in obj) {
-        if (k !== 'is' && k !== 'type' && k !== 'thisisa') {
-          ret += '<tr><td><span class="key">' + k + '</span></td><td>';
-          ret += display(obj[k], edit);
-          ret += '</td></tr>';
+        if (k !== 'thisisa') {
+          ret += '<tr><td><span class="key">' + k + '</span></td><td>' + disp[k] + '</td></tr>';
         }
       }
       ret += '</tbody></table>';
       break;
     case "noderef":
-      ret = '<span class="wildcard">' + obj.id + '</span>';
+      ret = '<span class="wildcard">' + disp.id + '</span>';
       break;
     case "or":
-      ret = '<ul>';
-      for (var i = 0; i < obj.options.length; i++) {
-        ret += '<li>' + display(obj.options[i], edit) + '</li>';
-      }
-      ret += '</ul>';
+      ret = '<ul><li>' + disp.options.join('</li><li>') + '</li></ul>';
       break;
     case "syntaxrule":
       ret = JSON.stringify(obj);
       break;
     case "wildcard":
-      ret = '<span class="wild">' + obj.id + '</span>';
+      ret = '<span class="wild">' + disp.id + '</span>';
       break;
     default:
       if (obj.constructor === Array) {
-        ret = '<ul>';
+        ret = '<ul><li>' + disp.join('</li><li>') + '</li></ul>';
         cls = "list";
-        for (var i = 0; i < obj.length; i++) {
-          ret += '<li>' + display(obj[i], edit) + '</li>';
-        }
-        ret += '</ul>';
       } else if (typeof obj === "boolean") {
         cls = "boolean";
         ret = '<span class="bool">' + obj + '</span>';
       } else if (typeof obj === "string") {
+        if (parent !== "node") {
+          return obj;
+        }
         cls = "symbol";
         ret = '<span class="value">' + obj + '</span>';
       } else {
@@ -81,6 +113,10 @@ var display = function(obj, edit) {
   } else {
     return s + '<br>' + ret + '</div>';
   }
+}
+var dotypesel = function(e, par) {
+  console.log(e.target.parentNode.parentNode);
+  e.target.parentNode.parentNode.outerHTML = display({"thisisa": "want", "type": $('input[name="type-sel"]:checked').val()}, true, par);
 }
 var showhide = function(e) {
   switch (e.target.parentNode.lastChild.style.display) {
