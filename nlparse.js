@@ -453,24 +453,28 @@ var splittext = function(text, lang) {
   }
   var skip = new RegExp('^' + langs[lang].wordify.skip, 'g');
   var ret = [];
-  var cur = [[[], text]];
+  var cur = [{"tx": text, "words": []}];
   while (cur.length > 0) {
-    var l = cur.pop();
-    while (skip.exec(l[1])) {
-      l[1] = l[1].slice(skip.lastIndex);
-    }
-    if (l[1].length === 0) {
-      ret.push(l[0]);
-      console.log([ret, cur]);
+    var c = cur.pop();
+    if (c.tx === "") {
+      ret.push(c.words);
+    } else if (skip.exec(c.tx)) {
+      cur.push({"tx": c.tx.slice(skip.lastIndex), "words": c.words});
     } else {
+      var pr = true;
       for (var i = 0; i < pats.length; i++) {
-        var m = pats[i].exec(l[1]);
+        var m = pats[i].test(c.tx);
         if (m) {
-          console.log(m);
-          console.log(cur.length);
-          var ll = copy_thing(l);
-          cur.push([ll[0].concat(m[0]), ll[1].slice(pats[i].lastIndex)]);
-          console.log(cur.length);
+          pr = false;
+          var l = copy_thing(c.words);
+          l.push(c.tx.slice(0, pats[i].lastIndex));
+          cur.push({"tx": c.tx.slice(pats[i].lastIndex), "words": l});
+        }
+      }
+      if (pr) {
+        console.log(["no match", c, pats[1], pats[1].exec(c.tx) !== null, pats[1].exec(c.tx) !== null]);
+        for (k in c.tx) {
+          console.log([k, c.tx[k]]);
         }
       }
     }
