@@ -460,21 +460,15 @@ var splittext = function(text, lang) {
       ret.push(c.words);
     } else if (skip.exec(c.tx)) {
       cur.push({"tx": c.tx.slice(skip.lastIndex), "words": c.words});
+      skip.lastIndex = 0;
     } else {
-      var pr = true;
       for (var i = 0; i < pats.length; i++) {
-        var m = pats[i].test(c.tx);
+        var m = pats[i].exec(c.tx);
         if (m) {
-          pr = false;
           var l = copy_thing(c.words);
-          l.push(c.tx.slice(0, pats[i].lastIndex));
+          l.push(m[0]);
           cur.push({"tx": c.tx.slice(pats[i].lastIndex), "words": l});
-        }
-      }
-      if (pr) {
-        console.log(["no match", c, pats[1], pats[1].exec(c.tx) !== null, pats[1].exec(c.tx) !== null]);
-        for (k in c.tx) {
-          console.log([k, c.tx[k]]);
+          pats[i].lastIndex = 0;
         }
       }
     }
