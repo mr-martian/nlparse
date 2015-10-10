@@ -481,15 +481,15 @@ var fullparse = function(text, lang) {
   for (var i = 0; i < l.length; i++) {
     var m = domorphology(l[i], lang);
     var add = true;
+    console.log(m);
     for (var i = 0; i < m.length; i++) {
-      if (m[i] === []) {
+      if (objeq(m[i], [])) {
+        console.log(m[i]);
         add = false;
         break;
       }
     }
-    if (add) {
-      sens.push(dosyntax(m, lang, true));
-    }
+    if (add || true) { sens.push(dosyntax(m, lang, true)); }
   }
   return sens;
 }
