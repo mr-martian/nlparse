@@ -479,7 +479,17 @@ var fullparse = function(text, lang) {
   var l = splittext(text, lang);
   var sens = [];
   for (var i = 0; i < l.length; i++) {
-    sens.push(dosyntax(domorphology(l[i], lang), lang, true));
+    var m = domorphology(l[i], lang);
+    var add = true;
+    for (var i = 0; i < m.length; i++) {
+      if (m[i] === []) {
+        add = false;
+        break;
+      }
+    }
+    if (add) {
+      sens.push(dosyntax(m, lang, true));
+    }
   }
   return sens;
 }

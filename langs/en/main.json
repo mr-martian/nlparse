@@ -36,12 +36,20 @@
       "function": "$noun{[is #0] [countable true] [proper false] [plural false]}",
       "decapitalize": true
     },
+    "past": {
+      "thisisa": "morphologyrule",
+      "pat": "^([a-z]+)ed(( [a-z]+)*)",
+      "replace": "$1$2",
+      "next": ["verb"],
+      "function": "*[#0 tense past]",
+      "decapitalize": true
+    },
     "plural-noun": {
       "thisisa": "morphologyrule",
       "pat": "^(.*)s$",
       "replace": "$1",
       "next": ["noun", "proper"],
-      "function": "+[${[plural true]} #0]"
+      "function": "*[#0 plural true]"
     },
     "prep": {
       "thisisa": "load",
