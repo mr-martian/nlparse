@@ -174,7 +174,9 @@ var loadlang = function(lang, fn) {
     fn(langs[lang]);
   } else {
     waiting += 1;
+    console.log('waiting for main');
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
+      console.log('got main!');
       waiting -= 1;
       langs[lang] = parsetree(stuff);
       lists[lang] = {};
@@ -439,6 +441,34 @@ var domorphology = function(words, lang) {
       n.lang = lang;
       return n;
     }));
+  }
+  return ret;
+}
+var splittext = function(text, lang) {
+  var pats = [];
+  for (var i = 0; i < langs[lang].wordify.words; i++) {
+    pats.push(new Regexp('^' + langs[lang].wordify.words[i], 'g'));
+  }
+  var skip = new Regexp('^' + langs[lang].wordify.skip, 'g');
+  var ret = [];
+  var cur = [[[], text]];
+  while (cur.length > 0) {
+    var l = cur.pop();
+    while (skip.exec(l[1])) {
+      l[1] = l[1].slice(skip.lastIndex);
+    }
+    if (l[1].length === 0) {
+      ret.push(l[0]);
+      break;
+    }
+    for (var i = 0; i < pats.length; i++) {
+      if (pats[i].exec(l[1])) {
+        var l2 = copy_thing(l[0]);
+        l2.push(l[1].slice(0, pats[i].lastIndex));
+        var tx = l[1].slice(pats[i].lastIndex);
+        cur.push([l2, tx]);
+      }
+    }
   }
   return ret;
 }
