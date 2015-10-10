@@ -62,7 +62,6 @@ var parserule = function(in_txt) {
             } else {
               r[a] = {"thisisa": "wildcard", "id": null}
             }
-            rem(t, ' ');
           }
           if (t.length === 0) {
             return undefined;
@@ -75,7 +74,6 @@ var parserule = function(in_txt) {
         r = [];
         while (t.length > 0 && t[0] !== ']') {
           r.push(subparse(t));
-          rem(t, ' ');
         }
         if (t.length > 0) {
           t.shift();
@@ -87,7 +85,6 @@ var parserule = function(in_txt) {
         r = {"thisisa": "or", "options": []};
         while (t.length > 0 && t[0] !== ')') {
           r.options.push(subparse(t));
-          rem(t, ' ');
         }
         if (t.length > 0) {
           t.shift();
@@ -102,9 +99,20 @@ var parserule = function(in_txt) {
         t.shift();
         r = {"thisisa": "merge", "things": subparse(t)};
         break;
+      case '?':
+        t.shift();
+        r = {"thisisa": "syntaxrule"}
+        if (t[0] === '!') {
+          r.mandatory = true;
+          t.shift();
+        }
+        r.nodes = subparse(t);
+        r.function = subparse(t);
+        r.next = subparse(t);
+        break;
       default:
         r = "";
-        while (t.length > 0 && t[0].match(/^[a-z\-]/)) { r += t.shift(); }
+        while (t.length > 0 && t[0].match(/^[a-z0-9\-]/)) { r += t.shift(); }
         if (r === "true" || r === "false" || r === "null") {
           r = JSON.parse(r);
         }
@@ -416,7 +424,10 @@ var domorphology = function(words, lang) {
     for (var r in langs[lang].morphology) {
       p = p.concat(domorphologyrule(words[i], lang, r));
     }
-    ret.push(p);
+    ret.push(p.map(function(n) {
+      n.lang = lang;
+      return n;
+    }));
   }
   return ret;
 }

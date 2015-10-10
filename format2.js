@@ -202,8 +202,10 @@ var parsediv = function(div) {
 }
 var delthing = function(e) {
   var d = e.target.parentNode;
-  if (d.parentNode.tagName === "li") {
+  if (d.parentNode.tagName === "LI") {
     d = d.parentNode;
+  } else if (d.parentNode.tagName === "TD") {
+    d = d.parentNode.parentNode;
   }
   d.outerHTML = "";
 }
