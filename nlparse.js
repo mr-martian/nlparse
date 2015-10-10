@@ -110,6 +110,12 @@ var parserule = function(in_txt) {
         r.function = subparse(t);
         r.next = subparse(t);
         break;
+      case '*':
+        t.shift();
+        l = subparse(t);
+        r = {"thisisa": "merge", "things": [l[0], {"thisisa": "node"}]};
+        r.things[1][l[1]] = l[2];
+        break;
       default:
         r = "";
         while (t.length > 0 && t[0].match(/^[a-z0-9\-]/)) { r += t.shift(); }
@@ -138,7 +144,12 @@ var parsetree = function(thing) {
   } else if (typeof thing === "object" && thing !== null) {
     var ret = {};
     for (k in thing) {
-      ret[k] = parsetree(thing[k]);
+      if ((thing.thisisa === "morphologyrule" && k !== "function") ||
+          thing.thisisa === "wordify") {
+        ret[k] = thing[k];
+      } else {
+        ret[k] = parsetree(thing[k]);
+      }
     }
     return ret;
   } else {

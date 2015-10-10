@@ -2,14 +2,16 @@
   "thisisa": "grammar",
   "language": "en",
   "syntax": {
-    "adv": "?[$desc{[verbal true]} $(desc verb)] +[#1 ${[descs [#0]]}] [adj-noun]",
-    "adj-noun": "?[$desc{[verbal false]} $noun] +[#1 ${[descs [#0]]}] []",
-    "art-noun": "?![$article {[definite @1]} $noun {!definite !possessor}] +[#1 ${[definite @1]}] [prep-noun]",
-    "aux-verb": "?[$aux-verb{[pat @0] [give @1]} @0] +[#1 @1] [subject object object2]",
-    "noun-prep": "?[$noun $preposition{clause}] +[#0 ${[descs [#1]]}] [prep-noun]",
+    "adv": "?[$adv $(adj adv verb)] *[#1 descs [#0]] [adj-noun]",
+    "adj-noun": "?[$adj $noun] *[#1 descs [#0]] []",
+    "art-noun": "?![$article {[definite @1]} $noun {!definite !possessor}] *[#1 definite @1] [prep-noun]",
+    "aux-verb": "?[$aux-verb{[pat @0] [give @1]} @0] +[#1 @1] [subject object]",
+    "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
+    "object": "?[$verb{!object [valency (transitive ditransitive)]} $(noun adj)] *[#0 object #1] [object2]",
+    "object2": "?[$verb{object [valency ditransitive]} $(noun adj)] *[#0 object2 #1] []",
     "possessive": "?![$noun{[possessive true]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
-    "prep-noun": "?[$preposition{!clause} $noun] +[#0 ${[clause #1]}] [noun-prep]",
-    "subject": "?[$(noun desc) {[verbal (false null)]} $verb {[finite true] [personal true] !subject}] +[#1 ${[subject #0]}] [object]"
+    "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
+    "subject": "?[$(noun adj) $verb{[finite true] [personal true] !subject}] *[#1 subject #0] [object]"
   },
   "morphology": {
     "article": {
@@ -19,17 +21,17 @@
         "an": false,
         "the": true
       },
-      "function": "$article{[lang en] [definite #0]}"
+      "function": "$article{[definite #0]}"
     },
     "aux-verb": {
       "thisisa": "load",
       "list": "aux-verbs.json",
-      "function": "+[$aux-verb{[lang en]} #0]"
+      "function": "+[$aux-verb #0]"
     },
     "noun": {
       "thisisa": "load",
       "list": "nouns.json",
-      "function": "$noun{[lang en] [is #0] [countable true] [proper false] [plural false]}"
+      "function": "$noun{[is #0] [countable true] [proper false] [plural false]}"
     },
     "plural-noun": {
       "thisisa": "morphologyrule",
@@ -41,7 +43,7 @@
     "prep": {
       "thisisa": "load",
       "list": "prepositions.json",
-      "function": "$preposition{[lang en] [is #0]}"
+      "function": "$preposition{[is #0]}"
     },
     "punct": {
       "thisisa": "litdict",
@@ -52,7 +54,7 @@
         "?": "question-mark",
         "–": "M-dash"
       },
-      "function": "$punct{[lang en] [is #0]}"
+      "function": "$punct{[is #0]}"
     },
     "quot": {
       "thisisa": "litdict",
@@ -74,5 +76,17 @@
       },
       "function": "+[#0 $quot]"
     }
+  },
+  "wordify": {
+    "thisisa": "wordify",
+    "words": [
+      "[A-Z]?[a-z]*(['’]((?<=n.)t|(?<=in.))?",
+      "['’](em|d|ve|s|re|ll)"
+      "(I['’]m|[lL]et['’]s|[oO]['’](clock)?|['’][tT]was)",
+      "[,.'\"‘’“”()!?\\-:]",
+      "[0-9]+(\\.[0-9]*)?(th)?",
+      "[0-9]{1,3}(,[0-9]{3})+(th)?"
+    ],
+    "skip": [" ", "\n", "\t"]
   }
 }
