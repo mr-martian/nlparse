@@ -174,9 +174,7 @@ var loadlang = function(lang, fn) {
     fn(langs[lang]);
   } else {
     waiting += 1;
-    console.log('waiting for main');
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
-      console.log('got main!');
       waiting -= 1;
       langs[lang] = parsetree(stuff);
       lists[lang] = {};
@@ -382,11 +380,15 @@ var dosyntax = function(sen, lang, remdup) {
   }
   return ret;
 }
-var domorphologyrule = function(word, lang, ruleid) {
+var domorphologyrule = function(inword, lang, ruleid) {
   if (!langs[lang].morphology.hasOwnProperty(ruleid)) {
     return [];
   }
   var rule = langs[lang].morphology[ruleid];
+  var word = inword;
+  if (rule.decapitalize) {
+    word = inword.toLowerCase();
+  }
   switch (rule.thisisa) {
     case "load":
       var l = lists[lang][ruleid];
@@ -446,10 +448,10 @@ var domorphology = function(words, lang) {
 }
 var splittext = function(text, lang) {
   var pats = [];
-  for (var i = 0; i < langs[lang].wordify.words; i++) {
-    pats.push(new Regexp('^' + langs[lang].wordify.words[i], 'g'));
+  for (var i = 0; i < langs[lang].wordify.words.length; i++) {
+    pats.push(new RegExp('^' + langs[lang].wordify.words[i], 'g'));
   }
-  var skip = new Regexp('^' + langs[lang].wordify.skip, 'g');
+  var skip = new RegExp('^' + langs[lang].wordify.skip, 'g');
   var ret = [];
   var cur = [[[], text]];
   while (cur.length > 0) {
@@ -459,16 +461,27 @@ var splittext = function(text, lang) {
     }
     if (l[1].length === 0) {
       ret.push(l[0]);
-      break;
-    }
-    for (var i = 0; i < pats.length; i++) {
-      if (pats[i].exec(l[1])) {
-        var l2 = copy_thing(l[0]);
-        l2.push(l[1].slice(0, pats[i].lastIndex));
-        var tx = l[1].slice(pats[i].lastIndex);
-        cur.push([l2, tx]);
+      console.log([ret, cur]);
+    } else {
+      for (var i = 0; i < pats.length; i++) {
+        var m = pats[i].exec(l[1]);
+        if (m) {
+          console.log(m);
+          console.log(cur.length);
+          var ll = copy_thing(l);
+          cur.push([ll[0].concat(m[0]), ll[1].slice(pats[i].lastIndex)]);
+          console.log(cur.length);
+        }
       }
     }
   }
   return ret;
+}
+var fullparse = function(text, lang) {
+  var l = splittext(text, lang);
+  var sens = [];
+  for (var i = 0; i < l.length; i++) {
+    sens.push(dosyntax(domorphology(l[i], lang), lang, true));
+  }
+  return sens;
 }

@@ -72,7 +72,7 @@ var display = function(obj, edit, parent) {
         ret += '<tr><td><span class="key is">is</span></td><td>' + disp.is + '</td></tr>';
       }
       for (var k in obj) {
-        if (k !== 'thisisa') {
+        if (k !== 'thisisa' && k !== 'type' && k !== 'is') {
           ret += '<tr><td><span class="key">' + k + '</span></td><td>' + disp[k] + '</td></tr>';
         }
       }

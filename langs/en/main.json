@@ -21,17 +21,20 @@
         "an": false,
         "the": true
       },
-      "function": "$article{[definite #0]}"
+      "function": "$article{[definite #0]}",
+      "decapitalize": true
     },
     "aux-verb": {
       "thisisa": "load",
       "list": "aux-verbs.json",
-      "function": "+[$aux-verb #0]"
+      "function": "+[$aux-verb #0]",
+      "decapitalize": true
     },
     "noun": {
       "thisisa": "load",
       "list": "nouns.json",
-      "function": "$noun{[is #0] [countable true] [proper false] [plural false]}"
+      "function": "$noun{[is #0] [countable true] [proper false] [plural false]}",
+      "decapitalize": true
     },
     "plural-noun": {
       "thisisa": "morphologyrule",
@@ -43,7 +46,8 @@
     "prep": {
       "thisisa": "load",
       "list": "prepositions.json",
-      "function": "$preposition{[is #0]}"
+      "function": "$preposition{[is #0]}",
+      "decapitalize": true
     },
     "punct": {
       "thisisa": "litdict",
@@ -80,12 +84,15 @@
   "wordify": {
     "thisisa": "wordify",
     "words": [
-      "[A-Z]?[a-z]*(['’]((?<=n.)t|(?<=in.))?",
+      "[A-Z][a-z]*",
+      "[a-z]+",
+      "[A-Z]?[a-z]+n['’]t",
       "['’](em|d|ve|s|re|ll)",
       "(I['’]m|[lL]et['’]s|[oO]['’](clock)?|['’][tT]was)",
       "[,.'\"‘’“”()!?\\-:]",
       "[0-9]+(\\.[0-9]*)?(th)?",
-      "[0-9]{1,3}(,[0-9]{3})+(th)?"
+      "[0-9]{1,3}(,[0-9]{3})+(th)?",
+      "[A-Z]?[a-z]+ (aback|about|across|after|(up |out |)against|ahead|along( with)?|apart|around|aside|astray|(back )?at|away( for| from| with|)|back|before|behind|between|by|down( for)?|for|forth|forward( to)?|from|in( for| with| on|)|into|low|(|out |hold |rid |means |back |case |front |place |spite |top )of|off|on|onto|out(| of| from( under)?)|over|rid|round|through( with)?|(addition |)to|together|towards|under|up( to|)|upon|way|with|without)"
     ],
     "skip": "\\s"
   }

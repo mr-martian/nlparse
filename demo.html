@@ -30,6 +30,7 @@
             <option value="JSON">JSON</option>
             <option value="nodes">Nodes</option>
             <option value="text" selected="selected">Text</option>
+            <option value="words">Words</option>
           </select>
         </td>
         <td>
@@ -69,6 +70,9 @@
           ], true));
           break;
         case "text":
+          $('#in').html('<textarea>An example</textarea>');
+          break;
+        case "words":
           $('#in').html('<ul><li><input value="an"></input></li><li><input value="example"></input></li></ul><button onclick="addword(event);">Add</button>');
           break;
         default:
@@ -82,24 +86,28 @@
       e.target.parentNode.childNodes[0].appendChild(c);
     }
     var getin = function() {
+      var lang = $('#langcode').val();
       switch (inmode) {
         case "JSON":
-          return JSON.parse($('#in')[0].childNodes[0].value);
+          return dosyntax(JSON.parse($('#in')[0].childNodes[0].value), lang, true);
           break;
         case "nodes":
-          return parsediv($('#in')[0].childNodes[0]);
+          return dosyntax(parsediv($('#in')[0].childNodes[0]), lang, true);
           break;
         case "text":
+          var w = $('#in')[0].childNodes[0].value;
+          return fullparse(w, lang);
+        case "words":
           var w = $.map($('#in')[0].childNodes[0].childNodes, function(n) {
             return n.childNodes[0].value;
           });
-          return domorphology(w, $('#langcode').val());
+          return dosyntax(domorphology(w, lang), true);
         default:
           return [];
       }
     }
     var outsel = function() {
-      var sen = dosyntax(getin(), $('#langcode').val(), true);
+      var sen = getin();
       switch ($('#outmode').val()) {
         case "JSON":
           $('#out').html(JSON.stringify(sen));
