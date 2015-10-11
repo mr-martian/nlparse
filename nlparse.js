@@ -128,7 +128,8 @@ var parsetree = function(thing) {
     return thing;
   }
 }
-langs = {};
+var langs = {};
+var curlang;
 var loadlib = function(lang, k, fn) {
   if (langs[lang].morphology[k].hasOwnProperty("words")) {
     fn(langs[lang].morphology[k].words);
@@ -139,7 +140,7 @@ var loadlib = function(lang, k, fn) {
     });
   }
 }
-waiting = 0;
+var waiting = 0;
 var loadlang = function(lang, fn) {
   if (langs.hasOwnProperty(lang)) {
     fn(langs[lang]);
@@ -286,9 +287,9 @@ var dosyntaxrule = function(insen, rule) {
     return pre.concat(evalfn(rule.function, app, copy_thing(path.wilds)), post);
   });
 }
-var dosyntax = function(sen, lang, remdup) {
+var dosyntax = function(sen, remdup) {
   if (_.any(sen, function(i) { return _.isEqual(i, []); })) { return []; }
-  var rules = langs[lang].syntax;
+  var rules = langs[curlang].syntax;
   var sens = [[sen, _.keys(rules)]];
   var ret = [];
   while (sens.length > 0) {
@@ -324,11 +325,11 @@ var dosyntax = function(sen, lang, remdup) {
   }
   return ret;
 }
-var domorphologyrule = function(inword, lang, ruleid) {
-  if (!langs[lang].morphology.hasOwnProperty(ruleid)) {
+var domorphologyrule = function(inword, ruleid) {
+  if (!langs[curlang].morphology.hasOwnProperty(ruleid)) {
     return [];
   }
-  var rule = langs[lang].morphology[ruleid];
+  var rule = langs[curlang].morphology[ruleid];
   var word = inword;
   if (rule.decapitalize) {
     word = inword.toLowerCase();
@@ -354,27 +355,27 @@ var domorphologyrule = function(inword, lang, ruleid) {
     case "morphologyrule":
       if (RegExp(rule.pat).test(word)) {
         var w = word.replace(RegExp(rule.pat), rule.replace);
-        return _.flatten(_.map(rule.next, function(rl) { return _.map(domorphologyrule(w, lang, rl), ef); }));
+        return _.flatten(_.map(rule.next, function(rl) { return _.map(domorphologyrule(w, rl), ef); }));
       } break;
     default:
       return [];
   }
   return [];
 }
-var domorphology = function(words, lang) {
+var domorphology = function(words) {
   return _.map(
     words,
     function(w) {
       return _.map(
-        _.flatten(_.map(_.keys(langs[lang].morphology), function(r) { return domorphologyrule(w, lang, r); })),
-        function(n) { return _.extend(n, {"lang": lang}); }
+        _.flatten(_.map(_.keys(langs[curlang].morphology), function(r) { return domorphologyrule(w, r); })),
+        function(n) { return _.extend(n, {"lang": curlang}); }
       )
     }
   );
 }
-var splittext = function(text, lang) {
-  var pats = _.map(langs[lang].wordify.words, function(w) { return new RegExp('^' + w); });
-  var skip = new RegExp('^' + langs[lang].wordify.skip, 'g');
+var splittext = function(text) {
+  var pats = _.map(langs[curlang].wordify.words, function(w) { return new RegExp('^' + w); });
+  var skip = new RegExp('^' + langs[curlang].wordify.skip, 'g');
   var ret = [];
   var cur = [{"tx": text, "words": []}];
   while (cur.length > 0) {
@@ -395,8 +396,8 @@ var splittext = function(text, lang) {
   }
   return ret;
 }
-var fullparse = function(text, lang) {
-  return _.flatten(_.map(splittext(text, lang), function(w) { return dosyntax(domorphology(w, lang), lang, true); }), true);
+var fullparse = function(text) {
+  return _.flatten(_.map(splittext(text), function(w) { return dosyntax(domorphology(w), true); }), true);
 }
 var display = function(obj, edit, parent) {
   var ret = JSON.stringify(obj);

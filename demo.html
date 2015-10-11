@@ -86,22 +86,22 @@
       e.target.parentNode.childNodes[0].appendChild(c);
     }
     var getin = function() {
-      var lang = $('#langcode').val();
+      curlang = $('#langcode').val();
       switch (inmode) {
         case "JSON":
-          return dosyntax(JSON.parse($('#in')[0].childNodes[0].value), lang, true);
+          return dosyntax(JSON.parse($('#in')[0].childNodes[0].value), true);
           break;
         case "nodes":
-          return dosyntax(parsediv($('#in')[0].childNodes[0]), lang, true);
+          return dosyntax(parsediv($('#in')[0].childNodes[0]), true);
           break;
         case "text":
-          var w = $('#in')[0].childNodes[0].value;
-          return fullparse(w, lang);
+          return fullparse($('#in')[0].childNodes[0].value);
+          break;
         case "words":
           var w = $.map($('#in')[0].childNodes[0].childNodes, function(n) {
             return n.childNodes[0].value;
           });
-          return dosyntax(domorphology(w, lang), true);
+          return dosyntax(domorphology(w), true);
         default:
           return [];
       }
