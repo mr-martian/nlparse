@@ -21,17 +21,18 @@ Click [here](http://mr-martian.github.io/nlparse/demo.html) for a demo.
 - [x] syntax
   - [x] define rules
   - [x] apply rules
-- [ ] morphology
+- [x] morphology
   - [x] define rules
   - [x] apply rules
-  - [ ] properly split sentences into words
+  - [x] properly split sentences into words
 - [ ] documentation
   - [ ] todo lists
     - [x] this
     - [ ] the list in language todo list (formerly at ```nlparse/langs/README.md```)
       - [ ] recreate
   - [ ] JSON format reference
-    - for each value of ```"thisisa"```
+    - [ ] for each value of ```"thisisa"```
+    - [ ] for all the shorthands
 - [ ] make a user friendly interface (for non-programmers)
   - [ ] syntax definer
     - [x] display rules

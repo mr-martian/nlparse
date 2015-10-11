@@ -46,3 +46,4 @@ Because this stuff gets tedious to type, a feature has been added to allow certa
 |             ```@x```                     | ```{"thisisa": "wildcard", "id": x}```                       | x must be an integer |
 |           ```(a b c ...)```              | ```{"thisisa": "or", "options": [a, b, c]}```                |                      |
 |         ```+x```                         | ```{"thisisa": "merge", "things": x}```                      | x must be an array   |
+|           ```*[a b c]```                 | equivalent to ```+[a ${[b c]}]```                            | previously "set"     |
