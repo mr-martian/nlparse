@@ -90,6 +90,9 @@ var display = function(obj, edit, parent) {
     case "wildcard":
       ret = '<span class="wild">' + disp.id + '</span>';
       break;
+    case "wordify":
+      ret = '<span class="wordify">' + JSON.stringify(disp) + '</span>';
+      break;
     default:
       if (obj.constructor === Array) {
         ret = '<ul><li>' + disp.join('</li><li>') + '</li></ul>';
@@ -192,6 +195,8 @@ var parsediv = function(div) {
       break;
     case "wildcard":
       ret.id = div.getElementsByClassName('wild')[0].innerHTML;
+      break;
+    case "wordify":
       break;
     default:
       ret = {

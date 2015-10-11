@@ -29,12 +29,19 @@ Stored in the array in ```nlparse/langs/langs.json```, takes parameters "code", 
 ## morphologyrule
 ## node
 ## noderef
+Only parameter ```"node"``` (integer), will equate to the nth node matched (from 0) in a syntaxrule or to the parse results in a morphologyrule (currently only 0).
+
 ## or
+Only parameter ```"options"``` (array), will equate to any of the items in ```"options"```.
+
 ## syntaxrule
 ## wildcard
+## wordify
 
 ## Substitutions
-Because this stuff gets tedious to type, a feature has been added to allow certain strings to be equivalent to various structures in the main file (this will not work anywhere else at the moment).
+Because this stuff gets tedious to type, a feature has been added to allow certain strings to be equivalent to various structures.
+
+These can currently be used anywhere in the main file except certain properties of ```"morphologyrule"```s, which expect regexs. They will not be evaluated in loaded files.
 
 |       string                             |            expansion                                         |        comment       |
 |------------------------------------------|--------------------------------------------------------------|----------------------|
@@ -47,3 +54,5 @@ Because this stuff gets tedious to type, a feature has been added to allow certa
 |           ```(a b c ...)```              | ```{"thisisa": "or", "options": [a, b, c]}```                |                      |
 |         ```+x```                         | ```{"thisisa": "merge", "things": x}```                      | x must be an array   |
 |           ```*[a b c]```                 | equivalent to ```+[a ${[b c]}]```                            | previously "set"     |
+|   ```? [p] [f] [n]```                    | ```{"thisisa": "syntaxrule", "nodes": p, "function": f, "next": n}``` |             |
+|    ```?! [p] [f] [n]```                  | same as ```? [] [] []```, but with ```{"mandatory": true}``` |                      |
