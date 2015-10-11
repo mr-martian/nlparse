@@ -1,23 +1,6 @@
 var copy_thing = function(thing) {
   return JSON.parse(JSON.stringify(thing));
 }
-var objeq = function(a, b) {
-  if (typeof a !== "object" || typeof b !== "object") {
-    return a === b;
-  } else if (Object.keys(a).length !== Object.keys(b).length) {
-    return false;
-  } else {
-    for (k in a) {
-      if (!objeq(a[k], b[k])) {
-        if (!((a[k].constructor === Array && a[k].length === 1 && objeq(a[k][0], b[k])) ||
-              (b[k].constructor === Array && b[k].length === 1 && objeq(a[k], b[k][0])))) {
-          return false;
-        }
-      }
-    }
-  }
-  return true;
-}
 var parserule = function(in_txt) {
   var txt = in_txt.split('');
   var subparse = function(t) {
@@ -133,37 +116,29 @@ var parserule = function(in_txt) {
   }
 }
 var parsetree = function(thing) {
-  if (typeof thing === "string") {
+  if (_.isString(thing)) {
     return parserule(thing);
-  } else if (thing !== null && thing.constructor === Array) {
-    var ret = [];
-    for (var i = 0; i < thing.length; i++) {
-      ret.push(parsetree(thing[i]));
-    }
-    return ret;
+  } else if (_.isArray(thing)) {
+    return _.map(thing, parsetree);
   } else if (typeof thing === "object" && thing !== null) {
-    var ret = {};
-    for (k in thing) {
-      if ((thing.thisisa === "morphologyrule" && k !== "function") ||
-          thing.thisisa === "wordify") {
-        ret[k] = thing[k];
+    return _.mapObject(thing, function(v, k) {
+      if ((thing.thisisa === "morphologyrule" && k !== "function") || thing.thisisa === "wordify") {
+        return v;
       } else {
-        ret[k] = parsetree(thing[k]);
+        return parsetree(v);
       }
-    }
-    return ret;
+    });
   } else {
     return thing;
   }
 }
 langs = {};
-lists = {};
 var loadlib = function(lang, k, fn) {
-  if (lists[lang].hasOwnProperty(k)) {
-    fn(lists[lang][k]);
+  if (langs[lang].morphology[k].hasOwnProperty("words")) {
+    fn(langs[lang].morphology[k].words);
   } else {
-    $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].list, function(s) {
-      lists[lang][k] = s
+    $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].file, function(s) {
+      langs[lang].morphology[k].words = s;
       fn(s);
     });
   }
@@ -177,9 +152,8 @@ var loadlang = function(lang, fn) {
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
       waiting -= 1;
       langs[lang] = parsetree(stuff);
-      lists[lang] = {};
       for (var k in langs[lang].morphology) {
-        if (langs[lang].morphology[k].thisisa === "load") {
+        if (langs[lang].morphology[k].thisisa === "list" && langs[lang].morphology[k].file) {
           waiting += 1;
           loadlib(lang, k, function() { waiting -= 1; });
         }
@@ -193,19 +167,17 @@ var listlangs = function(fn) {
 }
 var loadalllangs = function() {
   listlangs(function(stuff) {
-    for (var i = 0; i < stuff.length; i++) {
-      loadlang(stuff[i].code, function() {});
-    }
+    _.map(stuff, function(i) { loadlang(i.code, _.noop) });
   });
 }
 var matchone = function(pat, node, wilds) {
-  if (pat === node) {
+  if (_.isEqual(pat, node)) {
     return wilds;
   } else if (pat.thisisa === node.thisisa && typeof pat === "object") {
     //if they're both undefined, this will cover arrays as well
     for (var k in pat) {
       if (pat[k] && pat[k].thisisa === "or") {
-        for (var i = 0; i < pat[k].options; i++) {
+        for (var i = 0; i < pat[k].options.length; i++) {
           var pp = copy_thing(pat);
           pp[k] = pat[k][i];
           var m = matchone(pp, node, wilds);
@@ -214,7 +186,7 @@ var matchone = function(pat, node, wilds) {
           }
         }
         return false;
-      } else if (pat[k] === null) {
+      } else if (_.isNull(pat[k])) {
         if (node.hasOwnProperty(k)) {
           return false;
         }
@@ -246,9 +218,9 @@ var matchone = function(pat, node, wilds) {
   }
 }
 var ls = function(thing) {
-  if (thing === null || thing === undefined) {
+  if (_.isNull(thing) || _.isUndefined(thing)) {
     return [];
-  } else if (thing.constructor === Array) {
+  } else if (_.isArray(thing)) {
     return thing;
   } else {
     return [thing];
@@ -259,11 +231,11 @@ var evalfn = function(fn, nodes, wilds) {
   switch (fn.thisisa) {
     case "merge":
       ret = {};
-      $.each(
-        $.map(copy_thing(fn.things), function(t) { return evalfn(t, nodes, wilds); }),
-        function(i, obj) {
+      _.each(
+        _.map(fn.things, function(t) { return evalfn(t, nodes, wilds); }),
+        function(obj) {
           for (k in obj) {
-            if (ret[k] && ret[k].constructor === Array || obj[k].constructor === Array) {
+            if (ret[k] && _.isArray(ret[k]) || _.isArray(obj[k])) {
               ret[k] = ls(ret[k]).concat(obj[k]);
             } else {
               ret[k] = obj[k];
@@ -279,30 +251,15 @@ var evalfn = function(fn, nodes, wilds) {
       ret = nodes[fn.node];
       break;
     default:
-      if (fn.constructor === Array) {
-        ret = [];
-        for (var i = 0; i < fn.length; i++) {
-          ret.push(evalfn(fn[i], nodes, wilds));
-        }
-      } else if (typeof fn === "object" && fn !== null) {
-        ret = {};
-        for (var k in fn) {
-          ret[k] = evalfn(fn[k], nodes, wilds);
-        }
+      if (_.isArray(fn)) {
+        ret = _.map(fn, function(i) { return evalfn(i, nodes, wilds); });
+      } else if (_.isObject(fn) && fn !== null) {
+        ret = _.mapObject(fn, function(i) { return evalfn(i, nodes, wilds); });
       } else {
         ret = fn;
       }
   }
-  return ret;
-}
-var applyfn = function(path, sen, fn) {
-  var pre = copy_thing(sen.slice(0, path.nodes[0][0]));
-  var post = copy_thing(sen.slice(path.nodes[path.nodes.length-1][0]+1));
-  var app = [];
-  for (var i = 0; i < path.nodes.length; i++) {
-    app.push(copy_thing(sen[path.nodes[i][0]][path.nodes[i][1]]));
-  }
-  return pre.concat(evalfn(copy_thing(fn), app, copy_thing(path.wilds)), post);
+  return copy_thing(ret);
 }
 var dosyntaxrule = function(insen, rule) {
   if (!rule) {
@@ -332,20 +289,17 @@ var dosyntaxrule = function(insen, rule) {
     paths = temp;
     temp = [];
   }
-  var ret = [];
-  for (var p in paths) {
-    ret.push(applyfn(paths[p], sen, rule.function));
-  }
-  return ret;
+  return _.map(paths, function(path) {
+    var pre = copy_thing(sen.slice(0, path.nodes[0][0]));
+    var post = copy_thing(sen.slice(path.nodes[path.nodes.length-1][0]+1));
+    var app = [];
+    var app = _.map(path.nodes, function(n) { return sen[n[0]][n[1]]; });
+    return pre.concat(evalfn(rule.function, app, copy_thing(path.wilds)), post);
+  });
 }
 var dosyntax = function(sen, lang, remdup) {
   var rules = langs[lang].syntax;
-  var sens = [];
-  var l = [];
-  for (var k in rules) {
-    l.push(k);
-  }
-  sens.push([sen, l]);
+  var sens = [[sen, _.keys(rules)]];
   var ret = [];
   while (sens.length > 0) {
     var s = sens.pop();
@@ -365,7 +319,7 @@ var dosyntax = function(sen, lang, remdup) {
       if (remdup) {
         var notmatched = true;
         for (var i = 0; i < ret.length; i++) {
-          if (objeq(ret[i], s[0])) {
+          if (_.isEqual(ret[i], s[0])) {
             notmatched = false;
             break;
           }
@@ -389,43 +343,28 @@ var domorphologyrule = function(inword, lang, ruleid) {
   if (rule.decapitalize) {
     word = inword.toLowerCase();
   }
+  var ef = function(th) {
+    return evalfn(rule.function, [th], {});
+  }
   switch (rule.thisisa) {
-    case "load":
-      var l = lists[lang][ruleid];
-      if (l.constructor === Array) {
-        for (var i = 0; i < l.length; i++) {
-          if (typeof l[i] === "object") {
-            if (word === l[i].is) {
-              return [evalfn(rule.function, copy_thing([l[i]]), {})];
+    case "list":
+      if (_.isArray(rule.words)) {
+        for (var i = 0; i < rule.words.length; i++) {
+          if (_.isObject(rule.words[i])) {
+            if (word === rule.words[i].is) {
+              return [ef(rule.words[i])];
             }
-          } else if (word === l[i]) {
-            return [evalfn(rule.function, copy_thing([word]), {})];
+          } else if (word === rule.words[i]) {
+            return [ef(word)];
           }
         }
-      } else if (l.hasOwnProperty(word)) {
-        var ret = copy_thing(ls(l[word]));
-        for (var i = 0; i < ret.length; i++) {
-          ret[i] = evalfn(rule.function, [ret[i]], {});
-        }
-        return ret;
+      } else if (rule.words.hasOwnProperty(word)) {
+        return _.map(ls(rule.words[word]), ef);
       } break;
     case "morphologyrule":
       if (RegExp(rule.pat).test(word)) {
-        var ret = [];
         var w = word.replace(RegExp(rule.pat), rule.replace);
-        for (var i = 0; i < rule.next.length; i++) {
-          $.each(domorphologyrule(w, lang, rule.next[i]), function(j, th) {
-            ret.push(evalfn(rule.function, [th], {}));
-          });
-        } return ret;
-      } break;
-    case "litdict":
-      if (rule.words.hasOwnProperty(word)) {
-        var ret = copy_thing(ls(rule.words[word]));
-        for (var i = 0; i < ret.length; i++) {
-          ret[i] = evalfn(rule.function, [ret[i]], {});
-        }
-        return ret;
+        return _.flatten(_.map(rule.next, function(rl) { return _.map(domorphologyrule(w, lang, rl), ef); }));
       } break;
     default:
       return [];
@@ -433,24 +372,18 @@ var domorphologyrule = function(inword, lang, ruleid) {
   return [];
 }
 var domorphology = function(words, lang) {
-  var ret = [];
-  for (var i = 0; i < words.length; i++) {
-    var p = [];
-    for (var r in langs[lang].morphology) {
-      p = p.concat(domorphologyrule(words[i], lang, r));
+  return _.map(
+    words,
+    function(w) {
+      return _.map(
+        _.flatten(_.map(_.keys(langs[lang].morphology), function(r) { return domorphologyrule(w, lang, r); })),
+        function(n) { return _.extend(n, {"lang": lang}); }
+      )
     }
-    ret.push(p.map(function(n) {
-      n.lang = lang;
-      return n;
-    }));
-  }
-  return ret;
+  );
 }
 var splittext = function(text, lang) {
-  var pats = [];
-  for (var i = 0; i < langs[lang].wordify.words.length; i++) {
-    pats.push(new RegExp('^' + langs[lang].wordify.words[i]));
-  }
+  var pats = _.map(langs[lang].wordify.words, function(w) { return new RegExp('^' + w); });
   var skip = new RegExp('^' + langs[lang].wordify.skip, 'g');
   var ret = [];
   var cur = [{"tx": text, "words": []}];
@@ -463,12 +396,9 @@ var splittext = function(text, lang) {
       skip.lastIndex = 0;
     } else {
       for (var i = 0; i < pats.length; i++) {
-        //var m = pats[i].match(c.tx);
         var m = c.tx.match(pats[i]);
         if (m) {
-          var l = copy_thing(c.words);
-          l.push(m[0]);
-          cur.push({"tx": c.tx.slice(m[0].length), "words": l});
+          cur.push({"tx": c.tx.slice(m[0].length), "words": _.flatten([copy_thing(c.words), m[0]])});
         }
       }
     }
@@ -477,37 +407,17 @@ var splittext = function(text, lang) {
 }
 var fullparse = function(text, lang) {
   var l = splittext(text, lang);
-  var sens = [];
-  for (var i = 0; i < l.length; i++) {
-    sens.push(dosyntax(domorphology(l[i], lang), lang, true));
-  }
-  //return sens;
-  var ret = [];
-  for (var i = 0; i < sens.length; i++) {
-    ret = ret.concat(sens[i]);
-  }
-  return ret.filter(function(it) {
-    for (var i = 0; i < it.length; i++) {
-      if (it[i].constructor === Array && it[i].length === 0) {
-        return false;
-      }
-    }
-    return true;
-  });
+  var ret = _.flatten(_.map(l, function(w) { return dosyntax(domorphology(w, lang), lang, true); }));
+  return _.filter(ret, function(it) { return _.any(it, function(x) { return !_.isEqual(x, []); }); });
 }
 var display = function(obj, edit, parent) {
-  var ret = "";
+  var ret = JSON.stringify(obj);
   var cls = obj.thisisa;
   var disp;
-  if (obj.constructor === Array) {
+  if (_.isArray(obj)) {
     disp = obj.map(function(o) { return display(o, edit, "array"); });
-  } else if (typeof obj === "object") {
-    disp = {};
-    for (var k in obj) {
-      if (obj.hasOwnProperty(k)) {
-        disp[k] = display(obj[k], edit, obj.thisisa);
-      }
-    }
+  } else if (_.isObject(obj)) {
+    disp = _.mapObject(obj, function(v) { return display(v, edit, obj.thisisa); });
   } else {
     disp = obj;
   }
@@ -541,24 +451,17 @@ var display = function(obj, edit, parent) {
         ret = '<span class="want-type">Unset ' + obj.type + '</span>';
       } break;
     case "function":
-      ret = JSON.stringify(obj);
       break;
     case "grammar":
-      ret = JSON.stringify(obj);
       break;
     case "langname":
-      ret += '<table><tbody><tr><td>Code:</td><td>' + disp.code + '</td></tr>';
+      ret = '<table><tbody><tr><td>Code:</td><td>' + disp.code + '</td></tr>';
       ret += '<tr><td>Short Name:</td><td>' + disp.shortname + '</td></tr>';
       ret += '<tr><td>Long Name:</td><td>' + disp.longname + '</td></tr></tbody></table>';
       break;
-    case "litdict":
-      ret = JSON.stringify(obj);
-      break;
-    case "load":
-      ret = JSON.stringify(obj);
+    case "list":
       break;
     case "morphologyrule":
-      ret = JSON.stringify(obj);
       break;
     case "node":
       ret = '<table><tbody>';
@@ -568,10 +471,8 @@ var display = function(obj, edit, parent) {
       if ('is' in obj) {
         ret += '<tr><td><span class="key is">is</span></td><td>' + disp.is + '</td></tr>';
       }
-      for (var k in obj) {
-        if (k !== 'thisisa' && k !== 'type' && k !== 'is') {
-          ret += '<tr><td><span class="key">' + k + '</span></td><td>' + disp[k] + '</td></tr>';
-        }
+      for (var k in _.omit(obj, 'thisisa', 'type', 'is')) {
+        ret += '<tr><td><span class="key">' + k + '</span></td><td>' + disp[k] + '</td></tr>';
       }
       ret += '</tbody></table>';
       break;
@@ -582,29 +483,25 @@ var display = function(obj, edit, parent) {
       ret = '<ul><li>' + disp.options.join('</li><li>') + '</li></ul>';
       break;
     case "syntaxrule":
-      ret = JSON.stringify(obj);
       break;
     case "wildcard":
       ret = '<span class="wild">' + disp.id + '</span>';
       break;
     case "wordify":
-      ret = '<span class="wordify">' + JSON.stringify(disp) + '</span>';
       break;
     default:
-      if (obj.constructor === Array) {
+      if (_.isArray(obj)) {
         ret = '<ul><li>' + disp.join('</li><li>') + '</li></ul>';
         cls = "list";
-      } else if (typeof obj === "boolean") {
+      } else if (_.isBoolean(obj)) {
         cls = "boolean";
         ret = '<span class="bool">' + obj + '</span>';
-      } else if (typeof obj === "string") {
+      } else if (_.isString(obj)) {
         if (parent !== "node") {
           return obj;
         }
         cls = "symbol";
         ret = '<span class="value">' + obj + '</span>';
-      } else {
-        ret = JSON.stringify(obj);
       }
   }
   var s = '<div class="' + cls + '"><span class="header">' + cls + '</span><span class="showhide" onclick="showhide(event);">Show/Hide</span>';
@@ -615,41 +512,22 @@ var display = function(obj, edit, parent) {
   }
 }
 var dotypesel = function(e, par) {
-  console.log(e.target.parentNode.parentNode);
   e.target.parentNode.parentNode.outerHTML = display({"thisisa": "want", "type": $('input[name="type-sel"]:checked').val()}, true, par);
 }
 var showhide = function(e) {
-  switch (e.target.parentNode.lastChild.style.display) {
-    case "none":
-      e.target.parentNode.lastChild.style.display = "";
-      break;
-    default:
-      e.target.parentNode.lastChild.style.display = "none";
-  }
+  e.target.parentNode.lastChild.style.display = {"": "none", "none": ""}[e.target.parentNode.lastChild.style.display]
 }
 var parsediv = function(div) {
   var dochild = function(d, tag, fn) {
-    var ret = [];
-    for (var i = 0; i < d.childNodes.length; i++) {
-      if (d.childNodes[i].tagName === tag) {
-        var n = d.childNodes[i].childNodes;
-        for (var j = 0; j < n.length; j++) {
-          ret.push(fn(n[j]));
-        }
-      }
-    }
-    return ret;
+    return _.flatten(_.map(d.childNodes, function(n) { return n.tagName === tag ? _.map(n.childNodes, fn) : []; }));
   };
+  var pd1st = function(n) { return parsediv(n.firstChild); }
   var ret = {
     "thisisa": div.className
   };
   switch (div.className) {
     case "boolean":
-      if (div.getElementsByClassName('bool')[0].innerHTML === "true") {
-        ret = true;
-      } else {
-        ret = false;
-      }
+      ret = div.getElementsByClassName('bool')[0].innerHTML === "true" ? true : false;
       break;
     case "function":
       break;
@@ -658,9 +536,7 @@ var parsediv = function(div) {
     case "langname":
       break;
     case "list":
-      ret = dochild(div, "UL", function(t) {
-        return parsediv(t.firstChild);
-      });
+      ret = dochild(div, "UL", pd1st);
       break;
     case "litdict":
       break;
@@ -671,7 +547,7 @@ var parsediv = function(div) {
     case "node":
       dochild(div, "TABLE", function(t) {
         $.each(t.childNodes, function(i, tr) {
-          ret[tr.firstChild.firstChild.innerHTML] = parsediv(tr.childNodes[1].firstChild);
+          ret[tr.firstChild.firstChild.innerHTML] = pd1st(tr.childNodes[1]);
         });
       });
       break;
@@ -680,9 +556,7 @@ var parsediv = function(div) {
     case "or":
       ret = {
         "thisisa": "or",
-        "options": dochild(div, "UL", function(t) {
-          return parsediv(t.firstChild);
-        })
+        "options": dochild(div, "UL", pd1st)
       };
       break;
     case "symbol":

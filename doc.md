@@ -23,8 +23,7 @@ Stored in the array in ```nlparse/langs/langs.json```, takes parameters "code", 
   "longname": "Standard American English"
 }
 ```
-## litdict
-## load
+## list
 ## merge
 ## morphologyrule
 ## node

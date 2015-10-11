@@ -15,7 +15,7 @@
   },
   "morphology": {
     "article": {
-      "thisisa": "litdict",
+      "thisisa": "list",
       "words": {
         "a": false,
         "an": false,
@@ -24,15 +24,28 @@
       "function": "$article{[definite #0]}",
       "decapitalize": true
     },
+    "conjunction": {
+      "thisisa": "list",
+      "words": [
+        "and",
+        "but",
+        "nor",
+        "or",
+        "so",
+        "yet"
+      ],
+      "function": "$conjunction{[is #0]}",
+      "decapitalize": true
+    },
     "aux-verb": {
-      "thisisa": "load",
-      "list": "aux-verbs.json",
+      "thisisa": "list",
+      "file": "aux-verbs.json",
       "function": "+[$aux-verb #0]",
       "decapitalize": true
     },
     "noun": {
-      "thisisa": "load",
-      "list": "nouns.json",
+      "thisisa": "list",
+      "file": "nouns.json",
       "function": "$noun{[is #0] [countable true] [proper false] [plural false]}",
       "decapitalize": true
     },
@@ -40,7 +53,15 @@
       "thisisa": "morphologyrule",
       "pat": "^([a-z]+)ed(( [a-z]+)*)",
       "replace": "$1$2",
-      "next": ["verb"],
+      "next": ["transitive"],
+      "function": "*[#0 tense past]",
+      "decapitalize": true
+    },
+    "past-keep-e": {
+      "thisisa": "morphologyrule",
+      "pat": "^([a-z]+e)d(( [a-z]+)*)",
+      "replace": "$1$2",
+      "next": ["transitive"],
       "function": "*[#0 tense past]",
       "decapitalize": true
     },
@@ -52,13 +73,13 @@
       "function": "*[#0 plural true]"
     },
     "prep": {
-      "thisisa": "load",
-      "list": "prepositions.json",
+      "thisisa": "list",
+      "file": "prepositions.json",
       "function": "$preposition{[is #0]}",
       "decapitalize": true
     },
     "punct": {
-      "thisisa": "litdict",
+      "thisisa": "list",
       "words": {
         ",": "comma",
         ".": "period",
@@ -69,7 +90,7 @@
       "function": "$punct{[is #0]}"
     },
     "quot": {
-      "thisisa": "litdict",
+      "thisisa": "list",
       "words": {
         "(": "${[is paren] [open true]}",
         ")": "${[is paren] [open false]}",
@@ -87,6 +108,12 @@
         "”": "${[is double] [open false]}"
       },
       "function": "+[#0 $quot]"
+    },
+    "transitive": {
+      "thisisa": "list",
+      "file": "transitives.json",
+      "function": "$verb{[is #0] [tense present] [finite true] [valency transitive] [mood indicative]}",
+      "decapitalize": true
     }
   },
   "wordify": {
