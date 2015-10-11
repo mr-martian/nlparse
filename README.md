@@ -12,7 +12,7 @@ Click [here](http://mr-martian.github.io/nlparse/demo.html) for a demo.
 - [ ] current coding:
   - [ ] finish "friendly" IO
   - [ ] add "friendly" editing
-  - [ ] discard old ```format.js```
+  - [x] discard old ```format.js```
   - [ ] finish ```friendly.css```
   - [x] finish ```demo.html```
   - [ ] finish ```langs/en/main.json```
