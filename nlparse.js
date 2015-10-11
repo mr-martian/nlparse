@@ -449,7 +449,7 @@ var domorphology = function(words, lang) {
 var splittext = function(text, lang) {
   var pats = [];
   for (var i = 0; i < langs[lang].wordify.words.length; i++) {
-    pats.push(new RegExp('^' + langs[lang].wordify.words[i], 'g'));
+    pats.push(new RegExp('^' + langs[lang].wordify.words[i]));
   }
   var skip = new RegExp('^' + langs[lang].wordify.skip, 'g');
   var ret = [];
@@ -463,12 +463,12 @@ var splittext = function(text, lang) {
       skip.lastIndex = 0;
     } else {
       for (var i = 0; i < pats.length; i++) {
-        var m = pats[i].exec(c.tx);
+        //var m = pats[i].match(c.tx);
+        var m = c.tx.match(pats[i]);
         if (m) {
           var l = copy_thing(c.words);
           l.push(m[0]);
-          cur.push({"tx": c.tx.slice(pats[i].lastIndex), "words": l});
-          pats[i].lastIndex = 0;
+          cur.push({"tx": c.tx.slice(m[0].length), "words": l});
         }
       }
     }
@@ -479,17 +479,7 @@ var fullparse = function(text, lang) {
   var l = splittext(text, lang);
   var sens = [];
   for (var i = 0; i < l.length; i++) {
-    var m = domorphology(l[i], lang);
-    var add = true;
-    console.log(m);
-    for (var i = 0; i < m.length; i++) {
-      if (objeq(m[i], [])) {
-        console.log(m[i]);
-        add = false;
-        break;
-      }
-    }
-    if (add || true) { sens.push(dosyntax(m, lang, true)); }
+    sens.push(dosyntax(domorphology(l[i], lang), lang, true));
   }
   return sens;
 }
