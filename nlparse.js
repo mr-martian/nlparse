@@ -120,13 +120,9 @@ var parsetree = function(thing) {
     return parserule(thing);
   } else if (_.isArray(thing)) {
     return _.map(thing, parsetree);
-  } else if (typeof thing === "object" && thing !== null) {
+  } else if (_.isObject(thing) && !_.isNull(thing)) {
     return _.mapObject(thing, function(v, k) {
-      if ((thing.thisisa === "morphologyrule" && k !== "function") || thing.thisisa === "wordify") {
-        return v;
-      } else {
-        return parsetree(v);
-      }
+      return (thing.thisisa === "morphologyrule" && k !== "function") || thing.thisisa === "wordify" ? v : parsetree(v);
     });
   } else {
     return thing;
@@ -173,20 +169,10 @@ var loadalllangs = function() {
 var matchone = function(pat, node, wilds) {
   if (_.isEqual(pat, node)) {
     return wilds;
-  } else if (pat.thisisa === node.thisisa && typeof pat === "object") {
+  } else if (_.isObject(pat) && pat.thisisa === node.thisisa) {
     //if they're both undefined, this will cover arrays as well
     for (var k in pat) {
-      if (pat[k] && pat[k].thisisa === "or") {
-        for (var i = 0; i < pat[k].options.length; i++) {
-          var pp = copy_thing(pat);
-          pp[k] = pat[k][i];
-          var m = matchone(pp, node, wilds);
-          if (m) {
-            return m;
-          }
-        }
-        return false;
-      } else if (_.isNull(pat[k])) {
+      if (_.isNull(pat[k])) {
         if (node.hasOwnProperty(k)) {
           return false;
         }
@@ -204,7 +190,7 @@ var matchone = function(pat, node, wilds) {
       }
     }
     return wilds;
-  } else if (pat.thisisa === "wildcard") {
+  } else if (_.isObject(pat) && pat.thisisa === "wildcard") {
     if (pat.id === null) {
       return true;
     } else if (wilds.hasOwnProperty(pat.id)) {
@@ -213,6 +199,12 @@ var matchone = function(pat, node, wilds) {
       wilds[pat.id] = node;
       return wilds;
     }
+  } else if (pat.thisisa === "or") {
+    for (var i = 0; i < pat.options.length; i++) {
+      var m = matchone(pat.options[i], node, wilds);
+      if (m) { return m; }
+    }
+    return false;
   } else {
     return false;
   }
@@ -220,11 +212,8 @@ var matchone = function(pat, node, wilds) {
 var ls = function(thing) {
   if (_.isNull(thing) || _.isUndefined(thing)) {
     return [];
-  } else if (_.isArray(thing)) {
-    return thing;
-  } else {
-    return [thing];
   }
+  return _.isArray(thing) ? thing : [thing];
 }
 var evalfn = function(fn, nodes, wilds) {
   var ret;
@@ -298,6 +287,7 @@ var dosyntaxrule = function(insen, rule) {
   });
 }
 var dosyntax = function(sen, lang, remdup) {
+  if (_.any(sen, function(i) { return _.isEqual(i, []); })) { return []; }
   var rules = langs[lang].syntax;
   var sens = [[sen, _.keys(rules)]];
   var ret = [];
@@ -406,9 +396,7 @@ var splittext = function(text, lang) {
   return ret;
 }
 var fullparse = function(text, lang) {
-  var l = splittext(text, lang);
-  var ret = _.flatten(_.map(l, function(w) { return dosyntax(domorphology(w, lang), lang, true); }));
-  return _.filter(ret, function(it) { return _.any(it, function(x) { return !_.isEqual(x, []); }); });
+  return _.flatten(_.map(splittext(text, lang), function(w) { return dosyntax(domorphology(w, lang), lang, true); }), true);
 }
 var display = function(obj, edit, parent) {
   var ret = JSON.stringify(obj);
