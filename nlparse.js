@@ -481,5 +481,17 @@ var fullparse = function(text, lang) {
   for (var i = 0; i < l.length; i++) {
     sens.push(dosyntax(domorphology(l[i], lang), lang, true));
   }
-  return sens;
+  //return sens;
+  var ret = [];
+  for (var i = 0; i < sens.length; i++) {
+    ret = ret.concat(sens[i]);
+  }
+  return ret.filter(function(it) {
+    for (var i = 0; i < it.length; i++) {
+      if (it[i].constructor === Array && it[i].length === 0) {
+        return false;
+      }
+    }
+    return true;
+  });
 }
