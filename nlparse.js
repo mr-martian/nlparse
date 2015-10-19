@@ -80,15 +80,16 @@ var parserule = function(in_txt) {
         break;
       case '+':
         t.shift();
-        r = {"thisisa": "merge", "things": subparse(t)};
+        var o = false;
+        if (t[0] === "!") {
+          o = true;
+          t.shift();
+        }
+        r = {"thisisa": "merge", "things": subparse(t), "override": o};
         break;
       case '?':
         t.shift();
         r = {"thisisa": "syntaxrule"}
-        if (t[0] === '!') {
-          r.mandatory = true;
-          t.shift();
-        }
         r.nodes = subparse(t);
         r.function = subparse(t);
         r.next = subparse(t);
@@ -101,7 +102,7 @@ var parserule = function(in_txt) {
         break;
       default:
         r = "";
-        while (t.length > 0 && t[0].match(/^[a-z0-9\-]/)) { r += t.shift(); }
+        while (t.length > 0 && t[0].match(/^[a-zA-Z0-9\-]/)) { r += t.shift(); }
         if (r === "true" || r === "false" || r === "null") {
           r = JSON.parse(r);
         }
@@ -168,46 +169,56 @@ var loadalllangs = function() {
   });
 }
 var matchone = function(pat, node, wilds) {
+  //returns [matched, used_matchas, wilds]
   if (_.isEqual(pat, node)) {
-    return wilds;
+    return [true, false, wilds];
   } else if (_.isObject(pat) && pat.thisisa === node.thisisa) {
     //if they're both undefined, this will cover arrays as well
+    //though arrays are kind of supposed to represent unordered collections, so maybe not?
+    var doas = false;
     for (var k in pat) {
       if (_.isNull(pat[k])) {
         if (node.hasOwnProperty(k)) {
-          return false;
+          doas = true; break;
         }
       } else if (!node.hasOwnProperty(k)) {
-        return false;
+        doas = true; break;
       } else if (pat[k] === node[k]) {
         null;
       } else {
         var m = matchone(pat[k], node[k], wilds);
-        if (m) {
-          wilds = m;
+        if (m[0]) {
+          wilds = m[2];
         } else {
-          return false;
+          doas = true; break;
         }
       }
     }
-    return wilds;
+    if (!doas) {
+      return [true, false, wilds];
+    } else if (node.matchas) {
+      var m = matchone(pat, node.matchas, wilds);
+      return [m[0], true, m[2]];
+    } else {
+      return [false, false, wilds];
+    }
   } else if (_.isObject(pat) && pat.thisisa === "wildcard") {
     if (pat.id === null) {
-      return true;
+      return [true, false, wilds];
     } else if (wilds.hasOwnProperty(pat.id)) {
       return matchone(wilds[pat.id], node, wilds);
     } else {
       wilds[pat.id] = node;
-      return wilds;
+      return [true, false, wilds];
     }
   } else if (pat.thisisa === "or") {
     for (var i = 0; i < pat.options.length; i++) {
       var m = matchone(pat.options[i], node, wilds);
-      if (m) { return m; }
+      if (m[0]) { return m; }
     }
-    return false;
+    return [false, false, wilds];
   } else {
-    return false;
+    return [false, false, wilds];
   }
 }
 var ls = function(thing) {
@@ -225,7 +236,7 @@ var evalfn = function(fn, nodes, wilds) {
         _.map(fn.things, function(t) { return evalfn(t, nodes, wilds); }),
         function(obj) {
           for (k in obj) {
-            if (ret[k] && _.isArray(ret[k]) || _.isArray(obj[k])) {
+            if (!fn.override && ret[k] && _.isArray(ret[k]) || _.isArray(obj[k])) {
               ret[k] = ls(ret[k]).concat(obj[k]);
             } else {
               ret[k] = obj[k];
@@ -260,19 +271,19 @@ var dosyntaxrule = function(insen, rule) {
   for (var i = 0; i <= sen.length - rule.nodes.length; i++) {
     for (var j = 0; j < sen[i].length; j++) {
       var m = matchone(rule.nodes[0], sen[i][j], {});
-      if (m) {
-        paths.push({"nodes": [[i, j]], "wilds": m});
+      if (m[0]) {
+        paths.push({"nodes": [[i, j]], "wilds": m[2]});
       }
     }
   }
   var temp = [];
   for (var i = 1; i < rule.nodes.length; i++) {
-    for (var p in paths) {
-      var w = paths[p].nodes[i-1][0] + i; //position of node being tested
+    for (var p = 0; p < paths.length; p++) {
+      var w = paths[p].nodes[0][0] + i; //position of node being tested
       for (var n = 0; n < sen[w].length; n++) {
         var m = matchone(rule.nodes[i], sen[w][n], paths[p].wilds);
-        if (m) {
-          temp.push({"nodes": paths[p].nodes.concat([[w,n]]), "wilds": m});
+        if (m[0]) {
+          temp.push({"nodes": paths[p].nodes.concat([[w, n]]), "wilds": m[2]});
         }
       }
     }
@@ -282,12 +293,11 @@ var dosyntaxrule = function(insen, rule) {
   return _.map(paths, function(path) {
     var pre = copy_thing(sen.slice(0, path.nodes[0][0]));
     var post = copy_thing(sen.slice(path.nodes[path.nodes.length-1][0]+1));
-    var app = [];
     var app = _.map(path.nodes, function(n) { return sen[n[0]][n[1]]; });
     return pre.concat(evalfn(rule.function, app, copy_thing(path.wilds)), post);
   });
 }
-var dosyntax = function(sen, remdup) {
+var dosyntax = function(sen, keepdup) {
   if (_.any(sen, function(i) { return _.isEqual(i, []); })) { return []; }
   var rules = langs[curlang].syntax;
   var sens = [[sen, _.keys(rules)]];
@@ -298,16 +308,15 @@ var dosyntax = function(sen, remdup) {
       sens.push([s[0], s[1].slice(1)]);
       var a = dosyntaxrule(s[0], rules[s[1][0]]);
       if (a.length > 0) {
-        if (rules[s[1][0]].mandatory) {
-          sens.pop();
-        }
         var r = [s[1][0]].concat(rules[s[1][0]].next, s[1].slice(1));
         for (var x in a) {
           sens.push([a[x], r]);
         }
       }
     } else {
-      if (remdup) {
+      if (keepdup) {
+        ret.push(s[0]);
+      } else {
         var notmatched = true;
         for (var i = 0; i < ret.length; i++) {
           if (_.isEqual(ret[i], s[0])) {
@@ -318,8 +327,6 @@ var dosyntax = function(sen, remdup) {
         if (notmatched) {
           ret.push(s[0]);
         }
-      } else {
-        ret.push(s[0]);
       }
     }
   }
@@ -369,7 +376,7 @@ var domorphology = function(words) {
       return _.map(
         _.flatten(_.map(_.keys(langs[curlang].morphology), function(r) { return domorphologyrule(w, r); })),
         function(n) { return _.extend(n, {"lang": curlang}); }
-      )
+      );
     }
   );
 }
@@ -396,8 +403,15 @@ var splittext = function(text) {
   }
   return ret;
 }
+var doreject = function(sen) {
+  return _.any(_.flatten(sen), function(n) {
+    return _.any(langs[curlang].reject, function(p) {
+      return matchone(p, n, {})[0];
+    })
+  });
+}
 var fullparse = function(text) {
-  return _.flatten(_.map(splittext(text), function(w) { return dosyntax(domorphology(w), true); }), true);
+  return _.sortBy(_.reject(_.flatten(_.map(_.map(splittext(text), domorphology), dosyntax), true), doreject), 'length');
 }
 var display = function(obj, edit, parent) {
   var ret = JSON.stringify(obj);
@@ -508,7 +522,7 @@ var showhide = function(e) {
 }
 var parsediv = function(div) {
   var dochild = function(d, tag, fn) {
-    return _.flatten(_.map(d.childNodes, function(n) { return n.tagName === tag ? _.map(n.childNodes, fn) : []; }));
+    return _.flatten(_.map(d.childNodes, function(n) { return n.tagName === tag ? _.map(n.childNodes, fn) : []; }), true);
   };
   var pd1st = function(n) { return parsediv(n.firstChild); }
   var ret = {

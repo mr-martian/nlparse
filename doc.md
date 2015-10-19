@@ -46,12 +46,11 @@ These can currently be used anywhere in the main file except certain properties 
 |------------------------------------------|--------------------------------------------------------------|----------------------|
 | ```"[a b c ...]"```                      |       ```[a, b, c, ...]```                                   |                      |
 |      ```"$x"```                          | ```{"thisisa": "node", "type": x}```                         |                      |
-|      ```"!x"```                          |        ```[x, null]```                                       |                      |
-| ```$x{[a0 a1] [b0 b1] [c0 c1 c2] ...}``` | ```{"thisisa": "node", "type": x, a0: a1, b0: b1, c0: c1}``` |                      |
+|      ```"!x"```                          |  equivalent to ```[x null]```                                |                      |
+| ```$x{[a0 a1] [b0 b1 b2] ...}```         | ```{"thisisa": "node", "type": x, a0: a1, b0: b1, ...}```    |                      |
 |             ```#x```                     | ```{"thisisa": "noderef", "node": x}```                      | x must be an integer |
 |             ```@x```                     | ```{"thisisa": "wildcard", "id": x}```                       | x must be an integer |
 |           ```(a b c ...)```              | ```{"thisisa": "or", "options": [a, b, c]}```                |                      |
 |         ```+x```                         | ```{"thisisa": "merge", "things": x}```                      | x must be an array   |
 |           ```*[a b c]```                 | equivalent to ```+[a ${[b c]}]```                            | previously "set"     |
 |   ```? [p] [f] [n]```                    | ```{"thisisa": "syntaxrule", "nodes": p, "function": f, "next": n}``` |             |
-|    ```?! [p] [f] [n]```                  | same as ```? [] [] []```, but with ```{"mandatory": true}``` |                      |
