@@ -170,7 +170,9 @@ var loadalllangs = function() {
 }
 var matchone = function(pat, node, wilds) {
   //returns [matched, used_matchas, wilds]
-  if (_.isObject(pat) && pat.thisisa === node.thisisa) {
+  if (pat === node) {
+    return [true, false, wilds];
+  } else if (_.isObject(pat) && pat.thisisa === node.thisisa) {
     //if they're both undefined, this will cover arrays as well
     //though arrays are kind of supposed to represent unordered collections, so maybe not?
     var doas = false;
@@ -181,9 +183,7 @@ var matchone = function(pat, node, wilds) {
         }
       } else if (!node.hasOwnProperty(k)) {
         doas = true; break;
-      } else if (pat[k] === node[k]) {
-        null;
-      } else {
+      } else if (pat[k] !== node[k]) {
         var m = matchone(pat[k], node[k], wilds);
         if (m[0]) {
           wilds = m[2];
