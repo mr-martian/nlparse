@@ -10,18 +10,38 @@
     "conj-before": "?[$@0 $punct{[is comma]} $conjunction{[after $@0]}] *[#2 before [#0]] [conj-before]",
     "conj-just-before": "?[$@0 $conjunction{[after $@0] !just-before !before}] *[#1 just-before [#0]] [conj-before]",
     "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
-    "object": "?[$verb{!object [valency (transitive ditransitive)]} $(noun adj)] *[#0 object #1] [object2 verb-prep verb-com-prep]",
-    "object2": "?[$verb{object [valency ditransitive]} $(noun adj)] *[#0 object2 #1] [verb-prep verb-com-prep]",
+    "object": "?[$verb{!object [valency (transitive ditransitive)]} ($(noun adj) $preposition{clause})] *[#0 object #1] [object2 verb-prep verb-com-prep]",
+    "object2": "?[$verb{object [valency ditransitive]} ($(noun adj) $preposition{clause})] *[#0 object2 #1] [verb-prep verb-com-prep]",
     "possessive": "?![$noun{[possessive true]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
     "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
     "prep-com-verb": "?[$preposition{clause} $punct{[is comma]} $verb] *[#2 descs [#0]] []",
     "prep-verb": "?[$preposition{clause} $verb] *[#1 descs [#0]] [prep-com-verb]",
     "punct": "?[$verb $punct{[end true]}] *[#0 punct #1] []",
-    "subject": "?[$(noun adj) $verb{[finite true] [personal true] !subject}] *[#1 subject #0] [object prep-verb prep-com-verb]",
+    "subject": "?[($(noun adj) $preposition{clause}) $verb{[finite true] [personal true] !subject}] *[#1 subject #0] [object prep-verb prep-com-verb]",
     "verb-com-prep": "?[$verb{!punct} $punct{[is comma]} $preposition{clause}] *[#0 descs [#2]] [punct]",
     "verb-prep": "?[$verb{!punct} $preposition{clause}] *[#0 descs [#1]] [verb-com-prep punct]"
   },
   "morphology": {
+    "adjective": {
+      "thisisa": "list",
+      "file": "adjectives.json",
+      "function": "$adj{[is #0]}",
+      "decapitalize": true
+    },
+    "adverb": {
+      "thisisa": "morphologyrule",
+      "pat": "^([a-z]+)ly$",
+      "replace": "$1",
+      "next": ["adjective"],
+      "function": "+[#0 $adv{[from-adj true]}]",
+      "decapitalize": true
+    },
+    "adv-no-adj": {
+      "thisisa": "list",
+      "file": "adverbs.json",
+      "function": "$adv{[is #0] [from-adj false]}",
+      "decapitalize": true
+    },
     "article": {
       "thisisa": "list",
       "words": {
@@ -51,6 +71,30 @@
       "function": "$conjunction{[is #0]}",
       "decapitalize": true
     },
+    "ing": {
+      "thisisa": "morphologyrule",
+      "pat": "^([a-z]+)ing(( [a-z]+)*)$",
+      "replace": "$1$2",
+      "next": ["transitive"],
+      "function": "+[#0 ${[finite false] [participle true] [tense present]}]",
+      "decapitalize": true
+    },
+    "ing-e": {
+      "thisisa": "morphologyrule",
+      "pat": "^([a-z]+)ing(( [a-z]+)*)$",
+      "replace": "$1e$2",
+      "next": ["transitive"],
+      "function": "+[#0 ${[finite false] [participle true] [tense present]}]",
+      "decapitalize": true
+    },
+    "irreg-past": {
+      "thisisa": "list",
+      "words": {
+        "was": "is"
+      },
+      "function": "$verb{[finite true] [tense past] [is #0] [personal true] [valency transitive]}",
+      "decapitalize": true
+    },
     "noun": {
       "thisisa": "list",
       "file": "nouns.json",
@@ -59,7 +103,7 @@
     },
     "past": {
       "thisisa": "morphologyrule",
-      "pat": "^([a-z]+)ed(( [a-z]+)*)",
+      "pat": "^([a-z]+)ed(( [a-z]+)*)$",
       "replace": "$1$2",
       "next": ["transitive"],
       "function": "*[#0 tense past]",
@@ -75,7 +119,7 @@
     },
     "plural-noun": {
       "thisisa": "morphologyrule",
-      "pat": "^(.*)s$",
+      "pat": "^([a-z]+)s$",
       "replace": "$1",
       "next": ["noun", "proper"],
       "function": "*[#0 plural true]"

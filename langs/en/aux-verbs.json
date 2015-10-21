@@ -26,6 +26,21 @@
   },
   "must": {},
   "shall": {},
+  "was": {
+    "pat": {
+      "thisisa": "node",
+      "type": "verb",
+      "finite": false,
+      "tense": "present",
+      "participle": true
+    },
+    "give": {
+      "finite": true,
+      "aspect": "progressive",
+      "participle": false,
+      "tense": "past"
+    }
+  },
   "will": [
     {
       "pat": {

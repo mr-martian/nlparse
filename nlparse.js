@@ -170,9 +170,7 @@ var loadalllangs = function() {
 }
 var matchone = function(pat, node, wilds) {
   //returns [matched, used_matchas, wilds]
-  if (_.isEqual(pat, node)) {
-    return [true, false, wilds];
-  } else if (_.isObject(pat) && pat.thisisa === node.thisisa) {
+  if (_.isObject(pat) && pat.thisisa === node.thisisa) {
     //if they're both undefined, this will cover arrays as well
     //though arrays are kind of supposed to represent unordered collections, so maybe not?
     var doas = false;
