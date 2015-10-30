@@ -1,0 +1,7632 @@
+{
+  "mabble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "macadam": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "macarize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "macromanage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mactate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "madam": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "magic": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "magnetize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "magnify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mailshot": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mainprise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mainstream": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mainswear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maintain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "majorize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "make": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "malign": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "malignify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "malleableize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mamaguy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mammock": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "man": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maneuver": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mangle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manhandle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manifold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manipulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mannerize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manoeuvre": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manswear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mantle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "manufacture": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "map": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maraud": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marbleize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marcel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "march": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marcot": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marginalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marionette": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "market": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marmalade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "martemper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "martyr": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "martyrize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marvel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "marzipan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masculinize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mask": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masker": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mason": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masquerade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "massacre": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "massage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "massify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "master": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masthead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masticate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "masturbate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "match": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "material": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "materialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maternalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mathematicize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mathematize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "matriculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "matronize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "matter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maudle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "maximalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meager": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meagre": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meander": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "measure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mechanicalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mediate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "medicalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meeten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "megadose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "megaphone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "melancholize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "meliorate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mellow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "melodize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "melodramatize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "melt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "memoize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "memorise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mendicate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mentor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mephitize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "merchandise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mercify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mercurialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mercurify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mere": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "merge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mergesort": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "merit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "messenger": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "metabolize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "metallicize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "metamorphize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mete": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "metempsychose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "metric": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "metropolitanize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mic": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microaggress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microchip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microencapsulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microinject": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microphone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microregulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "microwave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "midwife": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miff": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "migrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mildew": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mildewproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "milk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "milse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "milt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mimmer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "min": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mince": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mindwipe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ming": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miniature": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "minimize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "minister": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "minoritize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "minute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mirage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mirror": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mirv": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misaddress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misadjust": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misaim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misallocate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misapprehend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misascribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misattend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbeat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbede": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbefall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbeseem": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbestow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbid": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbuild": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misbutton": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mischoose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mischristen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscolour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscommunicate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misconduct": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misconfigure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misconnect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misconstrue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misconvert": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscounsel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscredit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miscure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdeal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdefend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdescribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdesign": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdetermine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdevote": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdial": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdistinguish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdistribute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misdoom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misemploy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misencode": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misenter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misexplain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misexpress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misfeed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misfile": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misfit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misforgive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misfriend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misgive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misgovern": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misgrade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misgrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misguggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misheed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mishit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mishmash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mishold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mishope": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misimplement": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misimprove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misincline": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misincorporate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misinform": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misinspire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misintend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miskeep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misken": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miskick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miskindle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misland": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mislead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mislist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misload": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mislocate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mislodge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mislook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mislove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismanage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismarket": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismeasure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismeter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mismove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misnomer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misnote": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misnumber": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misnurture": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misorder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misown": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispaint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misperson": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispersuade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misplace": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misplan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misplant": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misplease": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispoint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misportray": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispraise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispresent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misprocess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misprogram": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispronounce": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misproportion": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mispunctuate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misqualify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misraise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrecall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misreceive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misreckon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrecollect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrecord": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrede": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misregard": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misregulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrehearse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrelate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrender": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrepeat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misreport": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misrespect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misroute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missee": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misshelve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mission": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missionaryize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missionize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "missort": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misstrike": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misstructure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mister": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misthread": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misthrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistitle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistrain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistranscribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistreat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistune": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misturn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mistutor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misunderstand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misuse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misvalue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misword": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "misworship": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "miswrite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mitch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mithe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mither": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mitigate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mix": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mob": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mobilise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mobilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mock": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "model": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moderate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "modernize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "modify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "modulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "modulize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moider": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moisten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moistureproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mollycoddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mommick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monarchize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monetarize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monger": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monitor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monogram": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monograph": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monologize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monophthongize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monopolize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "monotone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "montage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mope": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mordant": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "more": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "morph": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mortalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mortgage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mortify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mosh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mothball": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mother": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "motivate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "motive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "motorize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moulder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "moult": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mound": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mount": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mountebank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mourn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mouse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mousle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mouth": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "move": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mucker": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mud": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muddy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muffle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mug": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mules": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "multiply": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "multipost": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "multiracialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mumble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mummify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mummy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "munge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "munify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "murder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "murmur": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muscularize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "museumize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mush": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "music": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "musk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "must": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muster": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mutate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mutex": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mux": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "muzzle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "myelinate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "myspace": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mysterize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mysticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mystify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mythologize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "mythopoeticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nab": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nadir": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nait": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "naken": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "name": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "namesake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "napalm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nappy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "narcotize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "narrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "narrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nativize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "naturize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nauseate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "navigate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "need": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "needle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neg": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "negativize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neglect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "negotiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "negrify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "negrofy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "negroize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neighbour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nerdify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nerve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nesh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neshen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nestle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "net": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nether": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "netsplit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nettle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "network": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neuroimage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neuroticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "neven": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newcast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newcoin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newcreate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newform": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newfront": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newfurnish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newgroup": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newmake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newmodel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newmodelize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newmould": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newname": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newset": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newspaper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "newvamp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nibble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "niblick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "niche": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nickel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nickelize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nickname": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nictitate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nidder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nigger": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "niggerize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "niggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nighen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nipponize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nitrify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nitrogenate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nitrogenize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nixtamalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nock": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nod": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nog": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "noise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "noncuple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nonplus": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nonsensify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nonsuit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "noose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "normalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "normativize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "norn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "noseprint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nostalgize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "notarize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "notch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "note": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "notice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "notify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "noun": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nounize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "noursle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nuclearise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nuclearize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nudge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nudzh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "null": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nullify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "numb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "number": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "numerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nuncupate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nutmeg": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "nutshell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obeah": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obey": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obfirm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "object": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "objectivate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "objurgate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obligate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oblige": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oblique": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obliviate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oblivion": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obscure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obsecrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "observe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obsess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obsolete": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obtain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obtemper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obtest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obtrude": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obtund": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "obviate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "occasion": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "occasionate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "occult": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "occupy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "occur": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ocker": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "octavate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "odize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oedipalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "off": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offcast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offcut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offhold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "officer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "officialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "officiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offlay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offlead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offload": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offprint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offsaddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offsplit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "offstand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ogle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oker": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oligopolize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "omit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "omnibus": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "omnify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "on": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "one": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onfall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onfang": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onforward": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onhold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onlead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onlook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onpass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "onsend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ontake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oompah": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "op": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "opacify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "opaque": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "open": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "operate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "operationalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "opiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "opinion": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "opinionate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oppress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oppugn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "optimize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orange": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orchestrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "order": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ordinate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "organ": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "organize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orient": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orientate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "originate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orphan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orphanize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ort": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "orthographize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "osculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "osmicate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "osmose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ossify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ostentate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "other": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "otherize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "out": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outachieve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outact": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outargue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outask": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbattle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outboob": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbowl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbox": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbrain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbray": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbrazen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbreathe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbreed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbuild": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outburn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outburp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outbuy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcampaign": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcant": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcaste": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcheat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcheer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outclass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outclimb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcompass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcool": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcount": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcrack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcrafty": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcreep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcross": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outcut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdare": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdazzle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdebate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdistance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdream": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdrive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outduel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outdwell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outeat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outengineer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfart": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfence": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfind": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfinesse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outflank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfly": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfool": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfoot": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfox": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outframe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfrown": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outfuck": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgallop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgeneral": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outglare": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outglow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgreen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outguess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outgun": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outhandle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outhire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outjest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outjuggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outken": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outkill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outkiss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlaugh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlearn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlie": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outline": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlitigate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outlustre": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmanage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmantle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmarch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmatch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmeasure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmode": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmount": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outmuscle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outnice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outnigger": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outnim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outnumber": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outorganize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpaint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpiss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpoise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpower": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpreach": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outprize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outpunch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outquench": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outrage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outrange": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outrank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outreason": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outreckon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outreport": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outride": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outrival": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outroar": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outromance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outroot": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outrush": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outscent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outscold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outscorn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outscout": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outscream": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsee": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outseek": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outserve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outshow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outshriek": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outshrill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsing": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outski": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outskin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outskip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsleep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outslick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outslip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outslug": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsmart": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsoar": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outspeak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outspeed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outspell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outspin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsport": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outspread": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsquawk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstink": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstorm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstrategize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstride": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstrike": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstrip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outstudy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsurvive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outswear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outsweeten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outswim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outtalk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outtell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outtrade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outtravel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outvenom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outvillain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outvoice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outweary": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outweep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outweird": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outwing": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outwinter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outwit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outwoo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outworth": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outwrestle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outwrite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outyell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "outyield": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ovariectomize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overaccelerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overaccommodate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overact": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overanesthetize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overapproximate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overattribute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overawe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbalance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overballast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbeat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overblow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbound": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbreak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbrowse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overbuild": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overburn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcanopy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcapitalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcarve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcatch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcategorize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcentralize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overchill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overclaim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overclassify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overclean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcloy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcoat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcoddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcollateralize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcolor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcolour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcome": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcommercialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcomplicate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcompliment": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcompress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcontrol": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcover": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcram": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overcut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdesign": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdilute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdisperse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdot": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdreep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdrive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdrown": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overdye": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overempty": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overenjoy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overenunciate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overequip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overextend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overeye": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfare": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfarm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfatigue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfawn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfeed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfertilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfinance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overflatter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overflow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfreight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overfuck": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overgang": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overget": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overgild": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overgird": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overgive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overglance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overglaze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overgraze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overgrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhale": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhandle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhang": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overheal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overheat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhope": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhunt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overhydrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overidealize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overinfluence": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overinsure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overjudge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overjustify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overkeep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overkill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlabour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlaunch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overleap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overleave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlengthen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overload": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overlubricate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmanage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmanipulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmarch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmarket": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmedicalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmike": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmilk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmodulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmount": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overmultitude": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overnight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overnim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overnoise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overoil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overorder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overornament": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpackage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overparameterize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpart": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpeople": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overperceive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overperch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overplay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overply": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpolish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpot": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpower": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overprepare": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overprime": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overprize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overprocess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpromote": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overprove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpsychologize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpublicize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpublish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpull": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpunch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overpursue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overput": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overquantify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overquell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overquote": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overread": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrelax": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overreport": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrepresent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrestore": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrev": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overroast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overromanticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrotate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrule": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overrun": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversauce": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overschedule": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overscore": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overseal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overseason": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversedate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversee": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversensationalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overserve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overservice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overset": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversexualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overshadow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overshape": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversharpen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overshorten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overshow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overskate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overslaugh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversleep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overslide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overslip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversoak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversoften": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overspan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overspread": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overspring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversprinkle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstimulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstride": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overstrike": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversubsidize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overswarm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversweep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oversweeten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overswing": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtalk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overteach": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overthrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtighten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtoil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtrain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtread": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overtry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overveil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overvolt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwait": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwax": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overweary": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overweigh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwhip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwind": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwing": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwinter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwork": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwrap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwrest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "overwrite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "owe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "own": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oxidize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "oxygenate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  }
+}

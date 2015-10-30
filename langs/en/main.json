@@ -10,10 +10,12 @@
     "conj-after": "?[$conjunction{!after} $@0] +[#0 ${[after #1] [matchas $@0]}] [conj-just-before conj-before conj-adj]",
     "conj-before": "?[$@0 $punct{[is comma]} $conjunction{[matchas $@0]}] *[#2 before [#0]] [conj-before]",
     "conj-just-before": "?[$@0 $conjunction{[matchas $@0] !just-before !before}] *[#1 just-before [#0]] [conj-before]",
+    "ditrans-indir": "?[$verb{!indir-object [valency ditransitive]} ($noun $adj $preposition{clause})] *[#0 indir-object #1] [ditrans-dir]",
+    "ditrans-dir": "?[$verb{!indir-object [valency ditransitive]} ($noun $adj $preposition{clause})] *[#0 indir-object #1] [verb-prep verb-com-prep]",
     "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
-    "object": "?[$verb{!object [valency (transitive ditransitive)]} ($noun $adj $preposition{clause})] *[#0 object #1] [object2 verb-prep verb-com-prep]",
-    "object2": "?[$verb{object [valency ditransitive]} ($noun $adj $preposition{clause})] *[#0 object2 #1] [verb-prep verb-com-prep]",
-    "possessive": "?![$noun{[possessive true]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
+    "object": "?[$offswitch $verb{!object [valency transitive]} ($noun $adj $preposition{clause})] *[#0 object #1] [verb-prep verb-com-prep]",
+    "object": "?[$verb{!object [valency transitive] [args ${[subject @1]}]} (@1 $pronoun)] *[#0 object #1]",
+    "possessive": "?![$noun{[case genitive]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
     "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
     "prep-com-verb": "?[$preposition{clause} $punct{[is comma]} $verb] *[#2 descs [#0]] [adv]",
     "prep-verb": "?[$preposition{clause} $verb] *[#1 descs [#0]] [prep-com-verb adv]",
@@ -26,7 +28,7 @@
     "adjective": {
       "thisisa": "list",
       "file": "adjectives.json",
-      "function": "$adj{[is #0]}",
+      "function": "$adj",
       "decapitalize": true
     },
     "adverb": {
@@ -40,7 +42,7 @@
     "adv-no-adj": {
       "thisisa": "list",
       "file": "adverbs.json",
-      "function": "$adv{[is #0] [from-adj false]}",
+      "function": "$adv{[from-adj false]}",
       "decapitalize": true
     },
     "article": {
@@ -61,29 +63,17 @@
     },
     "conjunction": {
       "thisisa": "list",
-      "words": [
-        "and",
-        "but",
-        "nor",
-        "or",
-        "so",
-        "yet"
-      ],
-      "function": "$conjunction{[is #0]}",
+      "words": "[and but nor or so yet]",
+      "function": "$conjunction",
       "decapitalize": true
     },
     "ing": {
       "thisisa": "morphologyrule",
       "pat": "^([a-z]+)ing(( [a-z]+)*)$",
-      "replace": "$1$2",
-      "next": ["transitive"],
-      "function": "+[#0 ${[finite false] [participle true] [tense present]}]",
-      "decapitalize": true
-    },
-    "ing-e": {
-      "thisisa": "morphologyrule",
-      "pat": "^([a-z]+)ing(( [a-z]+)*)$",
-      "replace": "$1e$2",
+      "replace": [
+        "$1$2",
+        "$1e$2"
+      ],
       "next": ["transitive"],
       "function": "+[#0 ${[finite false] [participle true] [tense present]}]",
       "decapitalize": true
@@ -93,26 +83,21 @@
       "words": {
         "was": "is"
       },
-      "function": "$verb{[finite true] [tense past] [is #0] [personal true] [valency transitive]}",
+      "function": "$verb{[finite true] [tense past] [personal true] [valency transitive]}",
       "decapitalize": true
     },
     "noun": {
       "thisisa": "list",
       "file": "nouns.json",
-      "function": "$noun{[is #0] [countable true] [proper false] [plural false]}",
+      "function": "$noun{[countable true] [proper false] [plural false]}",
       "decapitalize": true
     },
     "past": {
       "thisisa": "morphologyrule",
-      "pat": "^([a-z]+)ed(( [a-z]+)*)$",
-      "replace": "$1$2",
-      "next": ["transitive"],
-      "function": "*[#0 tense past]",
-      "decapitalize": true
-    },
-    "past-keep-e": {
-      "thisisa": "morphologyrule",
-      "pat": "^([a-z]+e)d(( [a-z]+)*)",
+      "pat": [
+        "^([a-z]+)ed(( [a-z]+)*)$",
+        "^([a-z]+e)d(( [a-z]+)*)"
+      ],
       "replace": "$1$2",
       "next": ["transitive"],
       "function": "*[#0 tense past]",
@@ -128,7 +113,7 @@
     "prep": {
       "thisisa": "list",
       "file": "prepositions.json",
-      "function": "$preposition{[is #0]}",
+      "function": "$preposition",
       "decapitalize": true
     },
     "punct": {
@@ -162,10 +147,53 @@
       },
       "function": "+[#0 $quot]"
     },
-    "transitive": {
-      "thisisa": "list",
-      "file": "transitives.json",
-      "function": "$verb{[is #0] [tense present] [finite true] [valency transitive] [mood indicative] [personal true]}",
+    "verb": {
+      "thisisa": "morphologyrule",
+      "pat": "^(.*)$",
+      "replace": "$1",
+      "function": "+[$verb{[tense present] [finite true] [mood indicative] [personal true]} #0]",
+      "next": [
+        {
+          "thisisa": "list",
+          "file": "verbsAC.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsDF.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsGI.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsJL.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsMO.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsPR.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsSU.json",
+          "function": "#0"
+        },
+        {
+          "thisisa": "list",
+          "file": "verbsVZ.json",
+          "function": "#0"
+        }
+      ],
       "decapitalize": true
     }
   },
@@ -176,7 +204,7 @@
       "[a-z]+",
       "[A-Z]?[a-z]+n['’]t",
       "['’](em|d|ve|s|re|ll)",
-      "(I['’]m|[lL]et['’]s|[oO]['’](clock)?|['’][tT]was)",
+      "I['’]m|[lL]et['’]s|[oO]['’](clock)?|['’][tT]was",
       "[,.'\"‘’“”()!?\\-:]",
       "[0-9]+(\\.[0-9]*)?(th)?",
       "[0-9]{1,3}(,[0-9]{3})+(th)?",

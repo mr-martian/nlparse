@@ -1,0 +1,5441 @@
+{
+  "gab": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gainset": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gainstand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gainstay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gainstrive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gale": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gallant": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gallicize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "galvanise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "galvanize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gam": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gamahuche": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gamble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "game": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gange": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gangrene": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "garb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "garbage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gargle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "garland": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "garnishee": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "garrote": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "garrotte": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gas": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gasp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gateway": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gather": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gauffer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gauge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gaze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gelatinate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geld": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gem": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "genderize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "generate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "genericize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geneticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geniculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "genitalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "genlock": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "genotype": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gentilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gentle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gentrify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geocache": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geoengineer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geographize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geometricize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geometrize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geotag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "geotarget": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gerrymander": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gesticulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gesture": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "get": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gherao": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ghettoize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ghost": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ghosten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ghostwrite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "giantize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gibbet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gibe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "giddy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gift": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gild": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gillie": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gird": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "girdle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "give": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glad": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gladden": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gladder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glamour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glare": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glasspaper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glaze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glib": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glimpse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "globalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glomp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gloom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gloppen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glorify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gloss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gluck": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "glue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnarl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnasp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnaw": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnod": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gnosticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "go": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "goat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gobbet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gobsmack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "godfather": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "godmother": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "golden": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "goo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "good": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gooden": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "google": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "goozer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gospel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gouge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "govern": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grab": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grace": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gradation": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graduate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graecicize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graft": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graith": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grame": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grammaticalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grammaticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grangerize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "granularize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "granulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graph": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grapple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graticulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gratinate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gravel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grayscale": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "graze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grease": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greaseproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greaten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grecicize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grecize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "green": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greenlight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greenline": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "greylist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gride": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grieve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grift": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grig": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gripe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gripple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "groan": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grok": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grommet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "groom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ground": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "group": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "growl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grubstake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "grumble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guarantee": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guard": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guerdon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guesstimate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guillotine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guilt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gully": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gum": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gunzip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gust": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gutter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gutturize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "guy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gyrostabilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "gzip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hackle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "haemorrhage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "haggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halalify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "half": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hallo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hallow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hallucinate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halogenate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halsen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "halve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hamble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hammer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hammermill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hamper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hamshackle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hamstring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handbag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handfast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handicap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handmake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handsel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "handsome": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hang": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "haplologize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "happen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "haramize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harangue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harass": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harbinger": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harbor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harbour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harden": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harlequin": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harmonize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harness": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harpoon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harsh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hartshorn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "harvest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hashtag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "haste": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hatch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hatchel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hatchet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "haunt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "have": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hawk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "head": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "headlong": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "headquarter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "healthen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "healthify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heapsort": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hearken": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hearsome": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heart": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hearthstone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heathenize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heatproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heatsink": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heavenize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hebetate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heckle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hector": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hedge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heeltap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heeze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heft": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hele": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "helicopter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heliograph": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hello": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "help": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "helve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hem": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hemisect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hemorrhage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "henna": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "herald": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "herd": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hereticate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hereticize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "herry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "herye": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hesitate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heteronormalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "heterosexualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hew": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hidate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hiddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hide": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hield": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hierarchize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "highen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "highlight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hightail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hijack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hilt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hinder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hinge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hipe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hiss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "histogram": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hitch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoarsen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoax": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hob": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hobnail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hock": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hockle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hocuspocus": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hode": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hog": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hole": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "holk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "holler": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hollow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "holystone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "homologate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "homologize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "homosexualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "homotope": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "honk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "honor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoodoo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hoover": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hope": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hopple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "horizontalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hork": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hornify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hornswoggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "horse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hospitate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hotplug": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hound": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "house": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "housebreak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "houseclean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "housel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "housewive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hovel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hover": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "howel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hox": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "huckster": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "huddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hug": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hull": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hum": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "humanify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "humanitarianize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "humiliate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "humour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hump": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hunt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hurl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hurrah": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hurray": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hurry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hurt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hurtle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "husband": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hush": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "husk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hustle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hutch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hybridize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydraulic": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydroentangle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydrogenate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydrogenise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydrogenize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hydrophilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hymn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hype": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hyperbolize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypercompute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypercorrect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hyperspace": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hyperstimulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypertextualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypertexture": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hyphen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hyphenate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypostasize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypostatize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hypothecate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "hystericize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iambize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iconify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iconize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "idealize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "identify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ideologize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "idle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "idolatrize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iggy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ignite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ignore": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "illegitimatize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "illiberalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "illuminate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "illumine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "illure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "image": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imagine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbarn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbastardize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbecilitate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbosom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbox": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbricate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imbue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immanacle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immaterialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immerge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immerse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immortalise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immould": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immune": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immunize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immunosuppress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "immute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impact": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impaint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impair": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impallid": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impalm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impalsy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impanate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imparadise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impassion": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impassionate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impasture": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impawn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imperil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impermeabilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impersonalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impersonate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impetrate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impignorate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impinge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "implant": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "implate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "implode": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imply": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impoor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "import": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impound": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impoverish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imprecate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impregnate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "imprison": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "improper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "improve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impugn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "impute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inactuate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inaugur": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inaugurate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inawe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbeat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbelch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbind": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbland": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inblind": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inblow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inborrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbreak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbreathe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inbring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inburn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incarnate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incask": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incense": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incentivise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incentivize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incinerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incline": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "include": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incoop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incorporate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "increase": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incremate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "increment": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "increst": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incriminate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incubate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inculcate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inculk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incur": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incurvate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "incuse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indagate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indart": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indebt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indelve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indenize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "index": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indignify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indispose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inditch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "induce": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indulge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "indulgence": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inearth": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inebriate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ineffectualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ineye": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infamize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infang": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infantilize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infatuate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infield": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infilm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infix": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inflate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inflect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inflesh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "influence": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infoliate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inform": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "informalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infract": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infringe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infumate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "infuse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ingather": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ingenerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ingerminate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ingravidate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ingress": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inhabit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inhale": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inhearse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inheart": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inherit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inhive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inhoop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inhume": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "initial": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "initiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inject": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "injunct": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "injure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ink": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inkle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inlapidate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inlaw": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inlead": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inlet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inlight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inline": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inmantle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inmix": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inmove": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "innerve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "innovate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inoculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inodiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inorb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inorder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inosculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "input": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inquiet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inroad": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insaniate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inscribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inscroll": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insert": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inset": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insolate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insonify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inspire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inspissate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "install": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instance": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instanciate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instantiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instaurate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instaure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insteep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instinctualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "institute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instrengthen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instrew": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instruct": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instrument": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "instyle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insuck": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insufflate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insularize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insult": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "insure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intellectualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intemperate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intenerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intensate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intensify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interblend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interbring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intercept": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interchange": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intercloud": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interclude": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interconnect": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intercouple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intercut": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interdash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interdict": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interdigitate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interesterify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interface": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interfere": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interflow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interfold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interiorize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interjaculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interject": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interlace": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interlaminate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interleave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interlink": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interlist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interlude": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intermeddle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intermediate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intermit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intermix": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intern": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "internalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "internetwork": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interpel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interpellate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interpoint": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interpolate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interpose": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interracialize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interrogate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interrupt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interscribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intersert": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intersperse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intersubstitute": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intertangle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intertwine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intervene": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intervert": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "interwork": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intimate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intimidate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intitule": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intreasure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intricate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intrigue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intro": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "introduce": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intromit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "introsume": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "intubate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inturbidate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inturn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inure": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inurn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inveigh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inveigle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inveil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inventorize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inventory": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invert": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "investigate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invigorate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invile": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invisiblize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invite": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invoice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "invoke": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inwall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inwood": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "inwork": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iodine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iodoformize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iotize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ipsatize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iridize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "irk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "iron": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ironize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "irradiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "irregulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "irritate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "irrorate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "irrupt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "island": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "isochronize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "isolate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "isotope": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "isotropize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "itch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "itemize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ixnay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  }
+}

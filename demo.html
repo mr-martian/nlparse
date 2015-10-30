@@ -89,10 +89,10 @@
       curlang = $('#langcode').val();
       switch (inmode) {
         case "JSON":
-          return dosyntax(JSON.parse($('#in')[0].childNodes[0].value), true);
+          return dosyntax(JSON.parse($('#in')[0].childNodes[0].value));
           break;
         case "nodes":
-          return dosyntax(parsediv($('#in')[0].childNodes[0]), true);
+          return dosyntax(parsediv($('#in')[0].childNodes[0]));
           break;
         case "text":
           return fullparse($('#in')[0].childNodes[0].value);
@@ -101,7 +101,7 @@
           var w = $.map($('#in')[0].childNodes[0].childNodes, function(n) {
             return n.childNodes[0].value;
           });
-          return dosyntax(domorphology(w), true);
+          return dosyntax(domorphology(w));
         default:
           return [];
       }
@@ -120,9 +120,8 @@
       }
     }
     $(document).ready(function() {
-      loadlang("en", function(stuff) {
-        insel();
-      });
+      loadlang("en");
+      insel();
     });
     $(document).mousemove(function() {
       if (waiting === 0) {

@@ -123,7 +123,7 @@ var parsetree = function(thing) {
     return _.map(thing, parsetree);
   } else if (_.isObject(thing) && !_.isNull(thing)) {
     return _.mapObject(thing, function(v, k) {
-      return (thing.thisisa === "morphologyrule" && k !== "function") || thing.thisisa === "wordify" ? v : parsetree(v);
+      return (thing.thisisa === "morphologyrule" && k !== "function" && k !== "next") || thing.thisisa === "wordify" ? v : parsetree(v);
     });
   } else {
     return thing;
@@ -131,32 +131,27 @@ var parsetree = function(thing) {
 }
 var langs = {};
 var curlang;
-var loadlib = function(lang, k, fn) {
-  if (langs[lang].morphology[k].hasOwnProperty("words")) {
-    fn(langs[lang].morphology[k].words);
-  } else {
-    $.getJSON("langs/" + lang + "/" + langs[lang].morphology[k].file, function(s) {
-      langs[lang].morphology[k].words = s;
-      fn(s);
-    });
-  }
-}
 var waiting = 0;
-var loadlang = function(lang, fn) {
-  if (langs.hasOwnProperty(lang)) {
-    fn(langs[lang]);
-  } else {
+var loadlang = function(lang) {
+  if (!langs.hasOwnProperty(lang)) {
     waiting += 1;
     $.getJSON("langs/" + lang + "/main.json", function(stuff) {
       waiting -= 1;
       langs[lang] = parsetree(stuff);
-      for (var k in langs[lang].morphology) {
-        if (langs[lang].morphology[k].thisisa === "list" && langs[lang].morphology[k].file) {
+      var loadfiles = function(rule) {
+        if (rule.thisisa === "list" && rule.file) {
           waiting += 1;
-          loadlib(lang, k, function() { waiting -= 1; });
+          $.getJSON("langs/" + lang + "/" + rule.file, function(s) {
+            rule.words = parsetree(s);
+            waiting -= 1;
+          });
+        } else if (rule.thisisa === "morphologyrule") {
+          rule.next.map(loadfiles);
         }
       }
-      fn(langs[lang]);
+      for (var k in langs[lang].morphology) {
+        loadfiles(langs[lang].morphology[k]);
+      }
     });
   }
 }
@@ -164,9 +159,7 @@ var listlangs = function(fn) {
   $.getJSON("langs/langs.json", fn);
 }
 var loadalllangs = function() {
-  listlangs(function(stuff) {
-    _.map(stuff, function(i) { loadlang(i.code, _.noop) });
-  });
+  listlangs(function(stuff) { _.map(stuff, loadlang); });
 }
 var matchone = function(pat, node, wilds) {
   //returns [matched, used_matchas, wilds]
@@ -295,11 +288,11 @@ var dosyntaxrule = function(insen, rule) {
     return pre.concat(evalfn(rule.function, app, copy_thing(path.wilds)), post);
   });
 }
-var dosyntax = function(sen, keepdup) {
+var syntaxret = [];
+var dosyntax = function(sen) {
   if (_.any(sen, function(i) { return _.isEqual(i, []); })) { return []; }
   var rules = langs[curlang].syntax;
   var sens = [[sen, _.keys(rules)]];
-  var ret = [];
   while (sens.length > 0) {
     var s = sens.pop();
     if (s[1].length > 0) {
@@ -312,35 +305,40 @@ var dosyntax = function(sen, keepdup) {
         }
       }
     } else {
-      if (keepdup) {
-        ret.push(s[0]);
-      } else {
-        var notmatched = true;
-        for (var i = 0; i < ret.length; i++) {
-          if (_.isEqual(ret[i], s[0])) {
-            notmatched = false;
-            break;
-          }
+      var add = true;
+      for (var i = 0; i < syntaxret.length; i++) {
+        if (_.isEqual(syntaxret[i], s[0])) {
+          add = false;
+          break;
         }
-        if (notmatched) {
-          ret.push(s[0]);
-        }
+      }
+      if (add) {
+        syntaxret.push(s[0]);
       }
     }
   }
-  return ret;
+}
+var doallsyntax = function(sens) {
+  syntaxret = [];
+  sens.map(dosyntax);
+  return syntaxret;
 }
 var domorphologyrule = function(inword, ruleid) {
-  if (!langs[curlang].morphology.hasOwnProperty(ruleid)) {
-    return [];
+  if (typeof ruleid === "string") {
+    if (!langs[curlang].morphology.hasOwnProperty(ruleid)) {
+      return [];
+    }
+    var rule = langs[curlang].morphology[ruleid];
+  } else if (typeof ruleid === "object") {
+    if (!ruleid.thisisa) {
+      return [];
+    }
+    var rule = ruleid;
   }
-  var rule = langs[curlang].morphology[ruleid];
-  var word = inword;
-  if (rule.decapitalize) {
-    word = inword.toLowerCase();
-  }
+  var word = rule.decapitalize ? inword.toLowerCase() : inword;
   var ef = function(th) {
-    return evalfn(rule.function, [th], {});
+    var r = evalfn(rule.function, [th], {});
+    return r.is ? r : _.extend(r, {"is": word});
   }
   switch (rule.thisisa) {
     case "list":
@@ -358,10 +356,21 @@ var domorphologyrule = function(inword, ruleid) {
         return _.map(ls(rule.words[word]), ef);
       } break;
     case "morphologyrule":
-      if (RegExp(rule.pat).test(word)) {
-        var w = word.replace(RegExp(rule.pat), rule.replace);
-        return _.flatten(_.map(rule.next, function(rl) { return _.map(domorphologyrule(w, rl), ef); }));
-      } break;
+      var pats = ls(rule.pat).map(function(s) { return RegExp(s); });
+      var reps = ls(rule.replace);
+      var ret = [];
+      var w;
+      for (var p = 0; p < pats.length; p++) {
+        for (var r = 0; r < pats.length; r++) {
+          if (pats[p].test(word)) {
+            w = word.replace(pats[p], reps[r]);
+            for (var n = 0; n < rule.next.length; n++) {
+              ret.push(domorphologyrule(w, rule.next[n]).map(ef));
+            }
+          }
+        }
+      }
+      return _.flatten(ret); break;
     default:
       return [];
   }
@@ -402,6 +411,7 @@ var splittext = function(text) {
   return ret;
 }
 var doreject = function(sen) {
+  return false;
   return _.any(_.flatten(sen), function(n) {
     return _.any(langs[curlang].reject, function(p) {
       return matchone(p, n, {})[0];
@@ -409,9 +419,12 @@ var doreject = function(sen) {
   });
 }
 var fullparse = function(text) {
-  return _.sortBy(_.reject(_.flatten(_.map(_.map(splittext(text), domorphology), dosyntax), true), doreject), 'length');
+  return _.sortBy(_.reject(doallsyntax(_.map(splittext(text), domorphology)), doreject), 'length');
 }
 var display = function(obj, edit, parent) {
+  if (obj === null) {
+    return null;
+  }
   var ret = JSON.stringify(obj);
   var cls = obj.thisisa;
   var disp;

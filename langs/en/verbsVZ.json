@@ -1,0 +1,2207 @@
+{
+  "vaccinize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vacuum": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vaginate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "valet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "valve": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vamp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vampirize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "van": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vandyke": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vanish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vanpool": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vantage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vapor": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vapour": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vapulate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "variate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "variegate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "varify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "varnish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vary": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vassal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vaticinate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vault": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vaunt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vectorize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "veer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vegetize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "venditate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "venerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ventilate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ventriloquize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "venture": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "veratrize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verbal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verberate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verbify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vermilion": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vernacularize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "versify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "verticalize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vesiculate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vessel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vestibule": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "veto": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vex": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vial": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "victimize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "victual": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "videotape": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vie": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "view": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vilify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "villagize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "villain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vinegar": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vintage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "violent": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "virtualize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "visa": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vision": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "visit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "visualise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vitiate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vitrify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vitriol": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vitriolize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vituperate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "viva": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vivificate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vlog": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vociferate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vocode": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "voice": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "void": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "volcanize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "volley": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "volunteer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "voluntell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "voucher": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vowelize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vulcanize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "vulnerate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waddy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wade": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wafer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waffle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wage": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wager": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wagon": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wait": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waken": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wald": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "walk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wallop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wallpaper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waltz": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wand": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wander": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wane": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wangle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "want": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wanton": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "ward": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warrant": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warray": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "warry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wassail": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waste": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "watch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "watchlist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "water": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waterlog": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "watermark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wattle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waulk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waw": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wax": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "waylay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weaken": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weasel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weatherboard": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "web": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "webify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "webize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weep": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weest": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weigh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weight": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weird": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "welcome": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "weld": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wem": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wend": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wern": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wether": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wetproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wetten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whale": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whang": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wheedle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wheel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wheelbarrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whelp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whemmle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wherret": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whetten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whiff": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whiffle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whig": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "while": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whimsy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whinny": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whirl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whirr": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whirry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whisk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whisper": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whist": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whistle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whiten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whitestone": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whitewash": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whittle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whois": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whoop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whore": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "whump": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wick": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "widen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "widow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wiggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wiki": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wikify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "will": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "willow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wiln": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wilt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wimble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wimp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "win": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wince": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wind": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "windmill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "window": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "windproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "windrow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "windscreen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "windshield": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wing": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wink": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "winnow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "winter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "winterize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "winterkill": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "winterproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wipe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wire": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withbear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withcall": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withdraw": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withdrive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wither": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withgo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withhold": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withsake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withsave": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withsay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withset": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withspeak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withstay": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withstrain": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "withtake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "witness": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "witticise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wizard": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wlate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wobble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wolf": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "woman": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "womanize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wonder": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wont": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "woo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wood": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "word": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wordprocess": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "work": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "workshop": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worm": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worrit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worsen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worship": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worst": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worthen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "worthy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wound": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrack": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wramp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrangle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrap": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wraple": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wreak": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wreathe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wreck": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrench": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrestle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wriggle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrinkle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "write": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "writhe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrixle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wrongtake": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "wry": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "xylograph": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yammer": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yank": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yard": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yawn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yean": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yearn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yell": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yellow": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yes": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yiff": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yive": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yodel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "you": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "youthen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "yowl": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zero": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zhoosh": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zincify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zip": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zombify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zonk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  },
+  "zoom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "@",
+      "object": "@"
+    }
+  }
+}
