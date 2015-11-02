@@ -3999,8 +3999,8 @@
   "steal": {
     "valency": "transitive",
     "args": {
-      "subject": "$",
-      "object": "$"
+      "subject": "$noun",
+      "object": "$noun"
     }
   },
   "steam": {
@@ -4244,9 +4244,17 @@
   "stoke": {
     "valency": "transitive",
     "args": {
-      "subject": "$",
-      "object": "$"
+      "subject": "$noun",
+      "object": "$noun"
     }
+  },
+  "stole": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$noun",
+      "object": "$noun"
+    },
+    "tense": "past"
   },
   "stomach": {
     "valency": "transitive",

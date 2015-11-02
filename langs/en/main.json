@@ -5,20 +5,21 @@
     "adv": "?[$adv $(adj adv verb)] *[#1 descs [#0]] [adj-noun]",
     "adj-noun": "?[$adj $noun] *[#1 descs [#0]] []",
     "art-noun": "?[$article{[definite @1]} $noun{!definite !possessor}] *[#1 definite @1] [prep-noun]",
-    "aux-verb": "?[$aux-verb{[pat @0] [give @1]} @0] +[#1 @1] [subject object]",
+    "aux-verb": "?[$aux-verb{[pat @0] [give @1]} @0] +[#1 @1] [subject object ditrans-dir ditrans-indir]",
+    "clause": "?[$relative-pronoun $verb] *[#1 clause #0] [subject object ditrans-dir ditrans-indir]",
     "conj-after": "?[$conjunction{!after} $@0] +[#0 ${[after #1] [matchas $@0]}] [conj-just-before conj-before]",
     "conj-before": "?[$@0 $punct{[is comma]} $conjunction{[matchas $@0]}] +[${[before [#0]]} #2] [conj-before]",
     "conj-just-before": "?[$@0 $conjunction{[matchas $@0] !before}] *[#1 before [#0]] [conj-before]",
     "ditrans-indir": "?[$verb{!indir-object [valency ditransitive] [args ${[indir-object @1]}]} (@1 $pronoun)] *[#0 indir-object #1] [ditrans-dir]",
     "ditrans-dir": "?[$verb{!object [valency ditransitive] [args ${[object @1]}]} (@1 $pronoun)] *[#0 object #1] [verb-prep verb-com-prep]",
     "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
-    "object": "?[$verb{!object [valency transitive] [args ${[object @1]}]} (@1 $pronoun{[case accusative]} $pronoun{[reflexive true]})] *[#0 object #1] [verb-prep verb-com-prep]",
+    "object": "?[$verb{!object [valency transitive] [args ${[object @1]}]} (@1 $pronoun{[case accusative]} $pronoun{[reflexive true]})] *[#0 object #1] [verb-prep verb-com-prep punct]",
     "possessive": "?[($noun{[case genitive]} $pos-det) $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
     "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
     "prep-com-verb": "?[$preposition{clause} $punct{[is comma]} $verb] *[#2 descs [#0]] [adv]",
     "prep-verb": "?[$preposition{clause} $verb] *[#1 descs [#0]] [prep-com-verb adv]",
     "punct": "?[$verb $punct{[end true]}] *[#0 punct #1] []",
-    "subject": "?[($pronoun{[case nominative]} @1) $verb{[finite true] [personal true] !subject [args ${[subject @!1]}]}] *[#1 subject #0] [object prep-verb prep-com-verb adv]",
+    "subject": "?[($pronoun{[case nominative]} @1) $verb{[finite true] [personal true] !subject [args ${[subject @!1]}]}] *[#1 subject #0] [object prep-verb prep-com-verb adv clause]",
     "verb-com-prep": "?[$verb{!punct} $punct{[is comma]} $preposition{clause}] *[#0 descs [#2]] [adv punct]",
     "verb-prep": "?[$verb{!punct} $preposition{clause}] *[#0 descs [#1]] [verb-com-prep adv punct]"
   },
@@ -143,6 +144,11 @@
       },
       "function": "+[#0 $quot]"
     },
+    "relative-pronoun": {
+      "thisisa": "list",
+      "words": "[that who whom which whose]",
+      "function": "$relative-pronoun"
+    },
     "verb": {
       "thisisa": "morphologyrule",
       "pat": "^(.*)$",
@@ -191,6 +197,7 @@
     "$verb{[valency ditransitive] !indir-object}",
     "$verb{[personal true] !subject}",
     "$punct",
-    "$preposition{!clause}"
+    "$preposition{!clause}",
+    "$relative-pronoun"
   ]
 }
