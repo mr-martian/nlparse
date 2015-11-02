@@ -25,8 +25,19 @@ Stored in the array in ```nlparse/langs/langs.json```, takes parameters "code", 
 ```
 
 ## list
+Takes a list of nodes in parameter ```words``` or points to such a list in another file (```file```, assumed to be in the same directory).
+If ```words``` is an array, it will be iterated over, returning any items who's ```is``` parameter matches the input string, or which is a string equal to the input.
+If ```words``` is an object, the value or array of values with a key equal to the input will be returned.
+All return values will be passed through ```function```, and any that do not have parameter ```is``` will have it automatically set to the input string.
+If ```decapitalize``` is true, the input will only be tested in lower case.
+
 ## merge
+Takes each item in ```things``` and consecutively merges them, property by property, merging arrays if ```override``` is false, overwriting otherwise.
+
 ## morphologyrule
+Input strings matching the regex in ```pat``` or one of the array of regexes in ```pat```, will be passed through the replacement string or array of replacement strings in ```replace```. Resulting strings will be passed to each item in ```next```, which is an array containing names of morphologyrules and lists and/or morphologyrules and lists. Any output from these will be passed through ```function``` and returned.
+As with list, if ```decapitalize``` is true, strings will only be handled in lower case.
+
 ## node
 A single word. ```"type"``` identifies the type (for example "noun", "adj", "verb"), ```"is"``` is word itself, and ```"descs"``` is an array of describers (such as adjectives on nouns). All other properties are syntactic data (like ```"valency": "transitive"``` on a verb).
 
@@ -48,7 +59,7 @@ Directs the splitting of text into words. Has parameters ```"words"``` regex or 
 ## Substitutions
 Because this stuff gets tedious to type, a feature has been added to allow certain strings to be equivalent to various structures.
 
-These can currently be used anywhere in the main file except certain properties of ```"morphologyrule"```s, which expect regexs. They will not be evaluated in loaded files.
+These can currently be used anywhere except certain properties of ```"morphologyrule"```s and ```wordify```s, which expect regexs.
 
 |       string                             |            expansion                                         |        comment       |
 |------------------------------------------|--------------------------------------------------------------|----------------------|
@@ -58,7 +69,9 @@ These can currently be used anywhere in the main file except certain properties 
 | ```$x{[a0 a1] [b0 b1 b2] ...}```         | ```{"thisisa": "node", "type": x, a0: a1, b0: b1, ...}```    |                      |
 |             ```#x```                     | ```{"thisisa": "noderef", "node": x}```                      | x must be an integer |
 |             ```@x```                     | ```{"thisisa": "wildcard", "id": x}```                       | x must be an integer |
+|            ```@```                       | ```{"thisisa": "wildcard", "id": null}```                    |                      |
 |           ```(a b c ...)```              | ```{"thisisa": "or", "options": [a, b, c]}```                |                      |
-|         ```+x```                         | ```{"thisisa": "merge", "things": x}```                      | x must be an array   |
+|         ```+[a b c]```                   | ```{"thisisa": "merge", "things": [a, b, c]}```              |                      |
+|         ```+![a b c]```                  |```{"thisisa": "merge", "things": [a, b, c], override: true}```|                     |
 |           ```*[a b c]```                 | equivalent to ```+[a ${[b c]}]```                            | previously "set"     |
 |   ```? [p] [f] [n]```                    | ```{"thisisa": "syntaxrule", "nodes": p, "function": f, "next": n}``` |             |

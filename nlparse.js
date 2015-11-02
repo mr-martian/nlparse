@@ -22,6 +22,10 @@ var parserule = function(in_txt) {
       case '@':
         r = {"thisisa": "wildcard", "id": ""};
         t.shift();
+        if (t[0] === "!") {
+          t.shift();
+          r.ispat = true;
+        }
         while (t.length > 0 && t[0].match(/^[a-z\-0-9]/)) { r.id += t.shift(); }
         if (r.id === "") {
           r.id = null;
@@ -32,7 +36,7 @@ var parserule = function(in_txt) {
         t.shift();
         r = {"thisisa": "node", "type": subparse(t)};
         if (r.type === "") {
-          delete r.type;
+          r = {};
         }
         rem(t, ' ');
         if (t.length > 0 && t[0] === '{') {
@@ -140,10 +144,17 @@ var loadlang = function(lang) {
       langs[lang] = parsetree(stuff);
       var loadfiles = function(rule) {
         if (rule.thisisa === "list" && rule.file) {
-          waiting += 1;
-          $.getJSON("langs/" + lang + "/" + rule.file, function(s) {
-            rule.words = parsetree(s);
-            waiting -= 1;
+          _.map(ls(rule.file), function(f) {
+            waiting += 1;
+            $.getJSON("langs/" + lang + "/" + f, function(s) {
+              var r = parsetree(s);
+              if (_.isArray(r)) {
+                rule.words = (rule.words || []).concat(r);
+              } else {
+                rule.words = _.extend((rule.words || {}), r);
+              }
+              waiting -= 1;
+            });
           });
         } else if (rule.thisisa === "morphologyrule") {
           rule.next.map(loadfiles);
@@ -197,7 +208,11 @@ var matchone = function(pat, node, wilds) {
     if (pat.id === null) {
       return [true, false, wilds];
     } else if (wilds.hasOwnProperty(pat.id)) {
-      return matchone(wilds[pat.id], node, wilds);
+      if (pat.ispat) {
+        return matchone(node, wilds[pat.id], wilds);
+      } else {
+        return matchone(wilds[pat.id], node, wilds);
+      }
     } else {
       wilds[pat.id] = node;
       return [true, false, wilds];
@@ -337,8 +352,7 @@ var domorphologyrule = function(inword, ruleid) {
   }
   var word = rule.decapitalize ? inword.toLowerCase() : inword;
   var ef = function(th) {
-    var r = evalfn(rule.function, [th], {});
-    return r.is ? r : _.extend(r, {"is": word});
+    return ls(evalfn(rule.function, [th], {})).map(function(r) { return r.is ? r : _.extend(r, {"is": word}); });
   }
   switch (rule.thisisa) {
     case "list":
@@ -346,14 +360,14 @@ var domorphologyrule = function(inword, ruleid) {
         for (var i = 0; i < rule.words.length; i++) {
           if (_.isObject(rule.words[i])) {
             if (word === rule.words[i].is) {
-              return [ef(rule.words[i])];
+              return ef(rule.words[i]);
             }
           } else if (word === rule.words[i]) {
-            return [ef(word)];
+            return ef(word);
           }
         }
       } else if (rule.words.hasOwnProperty(word)) {
-        return _.map(ls(rule.words[word]), ef);
+        return _.flatten(_.map(ls(rule.words[word]), ef));
       } break;
     case "morphologyrule":
       var pats = ls(rule.pat).map(function(s) { return RegExp(s); });
@@ -411,15 +425,19 @@ var splittext = function(text) {
   return ret;
 }
 var doreject = function(sen) {
-  return false;
   return _.any(_.flatten(sen), function(n) {
     return _.any(langs[curlang].reject, function(p) {
       return matchone(p, n, {})[0];
     })
   });
 }
-var fullparse = function(text) {
-  return _.sortBy(_.reject(doallsyntax(_.map(splittext(text), domorphology)), doreject), 'length');
+var fullparse = function(text, filter) {
+  var ret = doallsyntax(_.map(splittext(text), domorphology));
+  if (filter) {
+    return _.sortBy(_.reject(ret, doreject), 'length');
+  } else {
+    return _.sortBy(ret, 'length');
+  }
 }
 var display = function(obj, edit, parent) {
   if (obj === null) {
@@ -529,7 +547,7 @@ var dotypesel = function(e, par) {
   e.target.parentNode.parentNode.outerHTML = display({"thisisa": "want", "type": $('input[name="type-sel"]:checked').val()}, true, par);
 }
 var showhide = function(e) {
-  e.target.parentNode.lastChild.style.display = {"": "none", "none": ""}[e.target.parentNode.lastChild.style.display]
+  e.target.parentNode.lastElementChild.style.display = {"": "none", "none": ""}[e.target.parentNode.lastElementChild.style.display]
 }
 var parsediv = function(div) {
   var dochild = function(d, tag, fn) {

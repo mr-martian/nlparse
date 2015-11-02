@@ -6,21 +6,19 @@
     "adj-noun": "?[$adj $noun] *[#1 descs [#0]] []",
     "art-noun": "?[$article{[definite @1]} $noun{!definite !possessor}] *[#1 definite @1] [prep-noun]",
     "aux-verb": "?[$aux-verb{[pat @0] [give @1]} @0] +[#1 @1] [subject object]",
-    "conj-adj": "?[$conjunction{[matchas $(preposition adj)]}] *[#0 matchas $(preposition adj)] [conj-just-before conj-before]",
-    "conj-after": "?[$conjunction{!after} $@0] +[#0 ${[after #1] [matchas $@0]}] [conj-just-before conj-before conj-adj]",
-    "conj-before": "?[$@0 $punct{[is comma]} $conjunction{[matchas $@0]}] *[#2 before [#0]] [conj-before]",
-    "conj-just-before": "?[$@0 $conjunction{[matchas $@0] !just-before !before}] *[#1 just-before [#0]] [conj-before]",
-    "ditrans-indir": "?[$verb{!indir-object [valency ditransitive]} ($noun $adj $preposition{clause})] *[#0 indir-object #1] [ditrans-dir]",
-    "ditrans-dir": "?[$verb{!indir-object [valency ditransitive]} ($noun $adj $preposition{clause})] *[#0 indir-object #1] [verb-prep verb-com-prep]",
+    "conj-after": "?[$conjunction{!after} $@0] +[#0 ${[after #1] [matchas $@0]}] [conj-just-before conj-before]",
+    "conj-before": "?[$@0 $punct{[is comma]} $conjunction{[matchas $@0]}] +[${[before [#0]]} #2] [conj-before]",
+    "conj-just-before": "?[$@0 $conjunction{[matchas $@0] !before}] *[#1 before [#0]] [conj-before]",
+    "ditrans-indir": "?[$verb{!indir-object [valency ditransitive] [args ${[indir-object @1]}]} (@1 $pronoun)] *[#0 indir-object #1] [ditrans-dir]",
+    "ditrans-dir": "?[$verb{!object [valency ditransitive] [args ${[object @1]}]} (@1 $pronoun)] *[#0 object #1] [verb-prep verb-com-prep]",
     "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
-    "object": "?[$offswitch $verb{!object [valency transitive]} ($noun $adj $preposition{clause})] *[#0 object #1] [verb-prep verb-com-prep]",
-    "object": "?[$verb{!object [valency transitive] [args ${[subject @1]}]} (@1 $pronoun)] *[#0 object #1]",
+    "object": "?[$verb{!object [valency transitive] [args ${[object @1]}]} (@1 $pronoun)] *[#0 object #1] [verb-prep verb-com-prep]",
     "possessive": "?![$noun{[case genitive]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
     "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
     "prep-com-verb": "?[$preposition{clause} $punct{[is comma]} $verb] *[#2 descs [#0]] [adv]",
     "prep-verb": "?[$preposition{clause} $verb] *[#1 descs [#0]] [prep-com-verb adv]",
     "punct": "?[$verb $punct{[end true]}] *[#0 punct #1] []",
-    "subject": "?[($noun $adj $preposition{clause}) $verb{[finite true] [personal true] !subject}] *[#1 subject #0] [object prep-verb prep-com-verb adv]",
+    "subject": "?[(@1 $pronoun) $verb{[finite true] [personal true] !subject [args ${[subject @!1]}]}] *[#1 subject #0] [object prep-verb prep-com-verb adv]",
     "verb-com-prep": "?[$verb{!punct} $punct{[is comma]} $preposition{clause}] *[#0 descs [#2]] [adv punct]",
     "verb-prep": "?[$verb{!punct} $preposition{clause}] *[#0 descs [#1]] [verb-com-prep adv punct]"
   },
@@ -74,16 +72,8 @@
         "$1$2",
         "$1e$2"
       ],
-      "next": ["transitive"],
+      "next": ["verb"],
       "function": "+[#0 ${[finite false] [participle true] [tense present]}]",
-      "decapitalize": true
-    },
-    "irreg-past": {
-      "thisisa": "list",
-      "words": {
-        "was": "is"
-      },
-      "function": "$verb{[finite true] [tense past] [personal true] [valency transitive]}",
       "decapitalize": true
     },
     "noun": {
@@ -99,8 +89,8 @@
         "^([a-z]+e)d(( [a-z]+)*)"
       ],
       "replace": "$1$2",
-      "next": ["transitive"],
-      "function": "*[#0 tense past]",
+      "next": ["verb"],
+      "function": "[*[#0 tense past] +[#0 ${[finite false] [participle true] [tense past]}]]",
       "decapitalize": true
     },
     "plural-noun": {
@@ -155,42 +145,18 @@
       "next": [
         {
           "thisisa": "list",
-          "file": "verbsAC.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsDF.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsGI.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsJL.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsMO.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsPR.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsSU.json",
-          "function": "#0"
-        },
-        {
-          "thisisa": "list",
-          "file": "verbsVZ.json",
+          "file": [
+            "verbsA.json",
+            "verbsB.json",
+            "verbsC.json",
+            "verbsDF.json",
+            "verbsGI.json",
+            "verbsJL.json",
+            "verbsMO.json",
+            "verbsPR.json",
+            "verbsSU.json",
+            "verbsVZ.json"
+          ],
           "function": "#0"
         }
       ],
@@ -200,8 +166,7 @@
   "wordify": {
     "thisisa": "wordify",
     "words": [
-      "[A-Z][a-z]*",
-      "[a-z]+",
+      "[A-Za-z][a-z]*",
       "[A-Z]?[a-z]+n['’]t",
       "['’](em|d|ve|s|re|ll)",
       "I['’]m|[lL]et['’]s|[oO]['’](clock)?|['’][tT]was",
@@ -217,7 +182,7 @@
     "$article",
     "$conjunction{!after}",
     "$verb{[valency (transitive ditransitive)] !object}",
-    "$verb{[valency ditransitive] !object2}",
+    "$verb{[valency ditransitive] !indir-object}",
     "$verb{[personal true] !subject}",
     "$punct",
     "$preposition{!clause}"

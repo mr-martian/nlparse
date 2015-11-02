@@ -1,5445 +1,6081 @@
 {
-  "gab": {
+  "babbitt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gack": {
+  "babble": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gag": {
+  "baby": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gain": {
+  "back": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gainset": {
+  "backcheck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gainstand": {
+  "backdrop": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gainstay": {
+  "backfoot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gainstrive": {
+  "backlist": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gale": {
+  "backlog": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gall": {
+  "backpack": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gallant": {
+  "backport": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gallicize": {
+  "backprint": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "galvanise": {
+  "backquote": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "galvanize": {
+  "backreference": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gam": {
+  "backshift": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gamahuche": {
+  "backshine": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gamble": {
+  "backslash": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "game": {
+  "backspin": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gange": {
+  "backstab": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gangrene": {
+  "backstop": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gank": {
+  "backtag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gap": {
+  "backwind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "garb": {
+  "bad": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "garbage": {
+  "badge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gargle": {
+  "badmouth": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "garland": {
+  "bag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "garnishee": {
+  "bagsy": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "garrote": {
+  "bail": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "garrotte": {
+  "bait": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gas": {
+  "bake": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gasp": {
+  "balance": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gate": {
+  "bale": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gateway": {
+  "ball": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gather": {
+  "ballarag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gauffer": {
+  "balloon": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gauge": {
+  "ballyrag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gaze": {
+  "balsam": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gear": {
+  "balter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gel": {
+  "bamboo": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gelatinate": {
+  "ban": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geld": {
+  "banalize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gem": {
+  "bandsaw": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "genderize": {
+  "bane": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "generate": {
+  "bang": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "genericize": {
+  "bangle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geneticize": {
+  "banhammer": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geniculate": {
+  "bank": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "genitalize": {
+  "bankroll": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "genlock": {
+  "bankrupt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "genotype": {
+  "banninate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gentilize": {
+  "banter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gentle": {
+  "bar": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gentrify": {
+  "barbarize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geocache": {
+  "bare": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geoengineer": {
+  "bargain": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geographize": {
+  "barge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geometricize": {
+  "bark": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geometrize": {
+  "barken": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geotag": {
+  "barn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "geotarget": {
+  "barrack": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gerrymander": {
+  "barrage": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gesticulate": {
+  "barrel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gesture": {
+  "base": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "get": {
+  "bash": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gherao": {
+  "basil": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ghettoize": {
+  "bastinado": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ghost": {
+  "bat": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ghosten": {
+  "bate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ghostwrite": {
+  "bath": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "giantize": {
+  "bathe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gibbet": {
+  "batten": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gibe": {
+  "battle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "giddy": {
+  "bay": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gift": {
+  "bayonet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gild": {
+  "baze": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gill": {
+  "be": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gillie": {
+  "bead": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gin": {
+  "beak": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gird": {
+  "beam": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "girdle": {
+  "bear": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "give": {
+  "beard": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glad": {
+  "bearhug": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gladden": {
+  "bearproof": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gladder": {
+  "beat": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glamour": {
+  "beath": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glare": {
+  "beatify": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glark": {
+  "beautify": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glass": {
+  "bebang": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glasspaper": {
+  "bebar": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glaze": {
+  "bebark": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glib": {
+  "bebathe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glide": {
+  "bebay": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glimpse": {
+  "bebeast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "globalize": {
+  "beblast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glom": {
+  "bebleed": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glomp": {
+  "bebless": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gloom": {
+  "beblind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gloppen": {
+  "beblister": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glorify": {
+  "beblood": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gloss": {
+  "bebloody": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glove": {
+  "beblot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glow": {
+  "beblow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gluck": {
+  "beblubber": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "glue": {
+  "beblur": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnarl": {
+  "bebreak": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnash": {
+  "bebroyde": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnasp": {
+  "bebump": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnast": {
+  "bebury": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnaw": {
+  "bebusy": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnide": {
+  "becall": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnod": {
+  "becalm": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gnosticize": {
+  "becare": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "go": {
+  "becarve": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "goat": {
+  "becast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gobbet": {
+  "becatch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gobsmack": {
+  "bechance": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "godfather": {
+  "becharm": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "godmother": {
+  "bechat": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "golden": {
+  "bechill": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "goo": {
+  "beckon": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "good": {
+  "beclam": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gooden": {
+  "beclart": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "google": {
+  "beclaw": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "goozer": {
+  "beclepe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gospel": {
+  "beclip": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gouge": {
+  "beclog": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "govern": {
+  "beclose": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grab": {
+  "beclothe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grace": {
+  "beclout": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gradation": {
+  "beclumpse": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graduate": {
+  "becolour": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graecicize": {
+  "become": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graft": {
+  "becover": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grain": {
+  "becrave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graith": {
+  "becrawl": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grame": {
+  "becringe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grammaticalize": {
+  "becripple": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grammaticize": {
+  "becross": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grangerize": {
+  "becrown": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "granularize": {
+  "becry": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "granulate": {
+  "becudgel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graph": {
+  "becurl": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grapple": {
+  "becurse": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grass": {
+  "becut": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grate": {
+  "bed": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graticulate": {
+  "bedaff": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gratinate": {
+  "bedag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grave": {
+  "bedamn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gravel": {
+  "bedamp": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grayscale": {
+  "bedance": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "graze": {
+  "bedare": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grease": {
+  "bedark": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greaseproof": {
+  "bedaub": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greaten": {
+  "bedaw": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greave": {
+  "bedazzle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grecicize": {
+  "bedeal": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grecize": {
+  "bedear": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "green": {
+  "bedeck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greenlight": {
+  "bedeem": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greenline": {
+  "bedelve": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greet": {
+  "bedew": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "greylist": {
+  "bediaper": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gride": {
+  "bedim": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grieve": {
+  "bedinner": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grift": {
+  "bedirt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grig": {
+  "bedizen": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grill": {
+  "bedo": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grin": {
+  "bedoctor": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grip": {
+  "bedole": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gripe": {
+  "bedoubt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gripple": {
+  "bedrabble": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "groan": {
+  "bedraw": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grok": {
+  "bedream": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grommet": {
+  "bedribble": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "groom": {
+  "bedrift": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ground": {
+  "bedrink": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "group": {
+  "bedrite": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grow": {
+  "bedrive": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "growl": {
+  "bedrug": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grubstake": {
+  "bedrum": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "grumble": {
+  "beduck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guarantee": {
+  "bedumb": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guard": {
+  "bedung": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guerdon": {
+  "bedutch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guess": {
+  "bedwarf": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guesstimate": {
+  "bedwell": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guest": {
+  "bedye": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guide": {
+  "beef": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guillotine": {
+  "beep": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guilt": {
+  "beer": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gully": {
+  "befall": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gum": {
+  "befang": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gunzip": {
+  "befeather": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gust": {
+  "befetter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gut": {
+  "befie": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gutter": {
+  "befight": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gutturize": {
+  "befile": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "guy": {
+  "befilth": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gyrostabilize": {
+  "befind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "gzip": {
+  "befinger": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hack": {
+  "beflake": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hackle": {
+  "beflatter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hade": {
+  "beflay": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "haemorrhage": {
+  "beflea": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hag": {
+  "beflee": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "haggle": {
+  "beflood": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hail": {
+  "beflow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halal": {
+  "beflutter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halalify": {
+  "befly": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halalize": {
+  "befoam": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "half": {
+  "befoe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hallo": {
+  "befold": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hallow": {
+  "befool": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hallucinate": {
+  "befortune": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halo": {
+  "beframe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halogenate": {
+  "befree": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halse": {
+  "befreeze": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halsen": {
+  "befriend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halt": {
+  "befuck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "halve": {
+  "befuddle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hamble": {
+  "befur": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hammer": {
+  "beg": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hammermill": {
+  "begab": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hamper": {
+  "begall": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hamshackle": {
+  "begallow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hamstring": {
+  "begather": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hance": {
+  "begay": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hand": {
+  "begaze": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handbag": {
+  "begeck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handfast": {
+  "beggar": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handicap": {
+  "beghast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handle": {
+  "beghost": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handmake": {
+  "begift": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handsel": {
+  "begild": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "handsome": {
+  "begin": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hang": {
+  "begird": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hank": {
+  "begive": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hap": {
+  "begladden": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "haplologize": {
+  "beglammer": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "happen": {
+  "beglare": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "haramize": {
+  "beglisten": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harangue": {
+  "begloom": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harass": {
+  "beglory": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harbinger": {
+  "begnaw": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harbor": {
+  "begod": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harbour": {
+  "begold": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harden": {
+  "begore": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harl": {
+  "begrace": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harlequin": {
+  "begrasp": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harm": {
+  "begrave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harmonize": {
+  "begrease": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harness": {
+  "begreet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harp": {
+  "begrime": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harpoon": {
+  "begrip": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harry": {
+  "begripe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harsh": {
+  "begroan": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hartshorn": {
+  "begruntle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "harvest": {
+  "beguess": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hash": {
+  "beguile": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hashtag": {
+  "beguilt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "haste": {
+  "beguilty": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hatch": {
+  "begum": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hatchel": {
+  "begunk": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hatchet": {
+  "behallow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hate": {
+  "behand": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "haunt": {
+  "behandle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "have": {
+  "behang": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hawk": {
+  "behappen": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "head": {
+  "behat": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "headlong": {
+  "behate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "headquarter": {
+  "behave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heal": {
+  "behead": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "healthen": {
+  "behear": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "healthify": {
+  "behearken": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hean": {
+  "beheart": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heap": {
+  "behedge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heapsort": {
+  "behell": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hear": {
+  "behelm": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hearken": {
+  "behelp": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hearsome": {
+  "behew": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heart": {
+  "behight": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hearthstone": {
+  "behold": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heat": {
+  "behoney": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heathenize": {
+  "behorn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heatproof": {
+  "behowl": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heatsink": {
+  "behue": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heave": {
+  "bein": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heavenize": {
+  "bejade": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hebetate": {
+  "bejape": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heckle": {
+  "bejumble": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hector": {
+  "beken": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hedge": {
+  "bekiss": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heed": {
+  "beknave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heel": {
+  "beknight": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heeltap": {
+  "beknit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heeze": {
+  "beknow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heft": {
+  "beknowledge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heist": {
+  "belabour": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hele": {
+  "belace": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "helicopter": {
+  "beladle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heliograph": {
+  "belam": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hello": {
+  "beland": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "help": {
+  "belap": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "helve": {
+  "belast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hem": {
+  "belate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hemisect": {
+  "belaud": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hemorrhage": {
+  "belaugh": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "henna": {
+  "belave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "herald": {
+  "belay": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "herd": {
+  "belead": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hereticate": {
+  "beleap": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hereticize": {
+  "belearn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "herry": {
+  "beleave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "herye": {
+  "belecture": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hesitate": {
+  "belibel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heteronormalize": {
+  "belick": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "heterosexualize": {
+  "belie": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hew": {
+  "believe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hidate": {
+  "belight": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hiddle": {
+  "belike": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hide": {
+  "belimb": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hield": {
+  "belime": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hierarchize": {
+  "belirt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "highen": {
+  "belitter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "highlight": {
+  "bell": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hight": {
+  "belly": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hightail": {
+  "beload": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hijack": {
+  "belock": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hilt": {
+  "belong": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hinder": {
+  "belook": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hinge": {
+  "belord": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hint": {
+  "belout": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hip": {
+  "belove": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hipe": {
+  "belt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hire": {
+  "belull": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hiss": {
+  "belute": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "histogram": {
+  "bemad": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hit": {
+  "beman": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hitch": {
+  "bemangle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hive": {
+  "bemar": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoarsen": {
+  "bemark": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoax": {
+  "bemask": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hob": {
+  "bemaul": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hobnail": {
+  "bemaze": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hock": {
+  "bemean": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hockle": {
+  "bemeet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hocuspocus": {
+  "bemercy": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hode": {
+  "bemerd": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoe": {
+  "bemete": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hog": {
+  "bemind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoise": {
+  "bemingle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoist": {
+  "bemirror": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hold": {
+  "bemist": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hole": {
+  "bemix": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "holk": {
+  "bemoan": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "holler": {
+  "bemock": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hollow": {
+  "bemoisten": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "holystone": {
+  "bemonster": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "homologate": {
+  "bemood": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "homologize": {
+  "bemourn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "homosexualize": {
+  "bemouth": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "homotope": {
+  "bemow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "honk": {
+  "bemud": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "honor": {
+  "bemuffle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoodoo": {
+  "bemulce": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoof": {
+  "bemuse": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hook": {
+  "bename": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoop": {
+  "bench": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hoover": {
+  "benchmark": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hop": {
+  "bend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hope": {
+  "benefit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hopple": {
+  "benegro": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "horizontalize": {
+  "benews": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hork": {
+  "benight": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hornify": {
+  "benighten": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hornswoggle": {
+  "benim": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "horse": {
+  "benote": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hose": {
+  "benothing": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hospitate": {
+  "benumb": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hotplug": {
+  "bepaint": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hound": {
+  "bepelt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "house": {
+  "bepinch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "housebreak": {
+  "bepiss": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "houseclean": {
+  "beplaster": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "housel": {
+  "bepommel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "housewive": {
+  "bepowder": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hove": {
+  "bepower": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hovel": {
+  "bepraise": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hover": {
+  "beprose": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "howel": {
+  "bepucker": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hox": {
+  "bepuff": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "huckster": {
+  "bepuzzle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "huddle": {
+  "bequest": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hug": {
+  "bequiet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hull": {
+  "bequote": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hum": {
+  "berain": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "humanify": {
+  "berate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "humanitarianize": {
+  "berattle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "humiliate": {
+  "beread": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "humour": {
+  "bereave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hump": {
+  "berede": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hunt": {
+  "berend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hurl": {
+  "bergh": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hurrah": {
+  "berhyme": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hurray": {
+  "beride": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hurry": {
+  "berine": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hurt": {
+  "berisp": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hurtle": {
+  "berob": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "husband": {
+  "berry": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hush": {
+  "berth": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "husk": {
+  "bescare": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hustle": {
+  "bescatter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hut": {
+  "bescorch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hutch": {
+  "bescrape": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hybridize": {
+  "bescratch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydrate": {
+  "bescreen": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydraulic": {
+  "bescrub": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydroentangle": {
+  "besee": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydrogenate": {
+  "beseek": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydrogenise": {
+  "beselve": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydrogenize": {
+  "besend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hydrophilize": {
+  "beset": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hymn": {
+  "besew": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hype": {
+  "beshade": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hyperbolize": {
+  "beshadow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypercompute": {
+  "beshake": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypercorrect": {
+  "beshame": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hyperspace": {
+  "beshape": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hyperstimulate": {
+  "beshare": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypertextualize": {
+  "beshear": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypertexture": {
+  "beshield": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hyphen": {
+  "beshine": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hyphenate": {
+  "beshit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypostasize": {
+  "beshite": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypostatize": {
+  "beshoe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hypothecate": {
+  "beshrew": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "hystericize": {
+  "beshroud": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iambize": {
+  "beshut": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iconify": {
+  "besiege": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iconize": {
+  "besilver": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "idealize": {
+  "besing": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "identify": {
+  "besinge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ideologize": {
+  "besit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "idle": {
+  "beskirt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "idolatrize": {
+  "beslabber": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iggy": {
+  "beslap": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ignite": {
+  "beslave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ignore": {
+  "beslaver": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "illegitimatize": {
+  "besleep": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "illiberalize": {
+  "besleeve": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "illuminate": {
+  "beslime": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "illumine": {
+  "beslipper": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "illure": {
+  "beslobber": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "image": {
+  "beslurry": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imagine": {
+  "besmall": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbarn": {
+  "besmart": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbastardize": {
+  "besmear": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbecilitate": {
+  "besmell": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbosom": {
+  "besmile": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbox": {
+  "besmirch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbricate": {
+  "besmirk": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imbue": {
+  "besmoke": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immanacle": {
+  "besmooth": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immaterialize": {
+  "besmut": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immerge": {
+  "besmutch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immerse": {
+  "besnow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immortalise": {
+  "besnowball": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immould": {
+  "besnuff": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immune": {
+  "besoil": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immunize": {
+  "besoot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immunosuppress": {
+  "besoothe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immure": {
+  "besorrow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "immute": {
+  "besort": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impact": {
+  "besoul": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impaint": {
+  "besour": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impair": {
+  "besow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impallid": {
+  "bespatter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impalm": {
+  "bespattle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impalsy": {
+  "bespawl": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impanate": {
+  "bespeak": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imparadise": {
+  "bespeed": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impark": {
+  "bespell": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impassion": {
+  "bespend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impassionate": {
+  "bespice": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impasture": {
+  "bespin": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impawn": {
+  "bespit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impel": {
+  "besplash": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imperil": {
+  "bespoil": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impermeabilize": {
+  "bespot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impersonalize": {
+  "bespout": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impersonate": {
+  "bespread": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impest": {
+  "best": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impetrate": {
+  "bestagger": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impignorate": {
+  "bestain": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impinge": {
+  "bestand": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "implant": {
+  "bestar": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "implate": {
+  "bestay": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "implode": {
+  "bestead": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imply": {
+  "besteer": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impoor": {
+  "bestem": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "import": {
+  "bestep": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impose": {
+  "bestick": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impound": {
+  "bestill": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impoverish": {
+  "bestir": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imprecate": {
+  "bestock": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impregnate": {
+  "bestorm": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impress": {
+  "bestow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "imprison": {
+  "bestraddle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "improper": {
+  "bestrange": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "improve": {
+  "bestreak": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impugn": {
+  "bestream": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impure": {
+  "bestrew": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "impute": {
+  "bestride": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inactuate": {
+  "bestrut": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inaugur": {
+  "bestud": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inaugurate": {
+  "beswaddle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inawe": {
+  "beswike": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbear": {
+  "beswinge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbeat": {
+  "betag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbelch": {
+  "betail": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbend": {
+  "betake": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbind": {
+  "betalk": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbland": {
+  "betall": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inblind": {
+  "betallow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inblow": {
+  "betassel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inborrow": {
+  "betawder": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbreak": {
+  "beteach": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbreathe": {
+  "betear": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inbring": {
+  "betee": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inburn": {
+  "beteem": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incarnate": {
+  "betell": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incask": {
+  "bethank": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incense": {
+  "bethatch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incent": {
+  "bethink": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incentivise": {
+  "bethrall": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incentivize": {
+  "bethrong": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incinerate": {
+  "bethrow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incline": {
+  "bethrust": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "include": {
+  "bethumb": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incoop": {
+  "bethump": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incorporate": {
+  "bethwack": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "increase": {
+  "betide": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incremate": {
+  "betie": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "increment": {
+  "betimber": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "increst": {
+  "betine": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incriminate": {
+  "betoil": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incubate": {
+  "betone": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inculcate": {
+  "betongue": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inculk": {
+  "betoss": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incur": {
+  "betouch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incurvate": {
+  "betow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "incuse": {
+  "betrack": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indagate": {
+  "betrail": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indart": {
+  "betrample": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indebt": {
+  "betrap": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indelve": {
+  "betrash": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indenize": {
+  "betravail": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indent": {
+  "betravel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "index": {
+  "betread": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indignify": {
+  "betrench": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indispose": {
+  "betrend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inditch": {
+  "betrow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indite": {
+  "betrump": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "induce": {
+  "betrumpet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indulge": {
+  "betrunk": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "indulgence": {
+  "betrust": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inearth": {
+  "better": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inebriate": {
+  "betumble": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ineffectualize": {
+  "beturn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ineye": {
+  "betwattle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infamize": {
+  "betwine": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infang": {
+  "betwynde": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infantilize": {
+  "beveil": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infatuate": {
+  "bevel": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infect": {
+  "bevoice": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infer": {
+  "bevomit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infield": {
+  "bewag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infilm": {
+  "bewake": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infix": {
+  "beward": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inflate": {
+  "beware": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inflect": {
+  "bewarm": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inflesh": {
+  "bewash": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "influence": {
+  "bewaste": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infold": {
+  "bewatch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infoliate": {
+  "bewater": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inform": {
+  "bewave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "informalize": {
+  "beweapon": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infract": {
+  "bewed": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infringe": {
+  "beweep": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infumate": {
+  "beweigh": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "infuse": {
+  "bewelcome": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ingather": {
+  "bewelter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ingenerate": {
+  "bewend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ingerminate": {
+  "bewet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ingravidate": {
+  "bewhape": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ingress": {
+  "bewhisper": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inhabit": {
+  "bewhore": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inhale": {
+  "bewield": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inhearse": {
+  "bewig": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inheart": {
+  "bewilder": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inherit": {
+  "bewile": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inhive": {
+  "bewill": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inhoop": {
+  "bewimple": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inhume": {
+  "bewin": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "initial": {
+  "bewind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "initiate": {
+  "bewinter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inject": {
+  "bewish": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "injunct": {
+  "bewit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "injure": {
+  "bewizard": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ink": {
+  "bewonder": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inkle": {
+  "bework": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inlapidate": {
+  "beworry": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inlaw": {
+  "bewound": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inlead": {
+  "bewray": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inlet": {
+  "bewreak": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inlight": {
+  "bewreck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inline": {
+  "bewreke": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inmantle": {
+  "bewrinkle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inmix": {
+  "bewrite": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inmove": {
+  "beyearn": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inn": {
+  "beyelp": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "innerve": {
+  "bias": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "innovate": {
+  "bichromatize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inoculate": {
+  "bid": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inodiate": {
+  "bide": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inorb": {
+  "bield": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inorder": {
+  "big": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inosculate": {
+  "bigfoot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "input": {
+  "bigg": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inquiet": {
+  "bilge": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inroad": {
+  "bilingualize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insaniate": {
+  "bilk": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inscribe": {
+  "bill": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inscroll": {
+  "billet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insend": {
+  "billingsgate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insert": {
+  "bin": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inset": {
+  "bind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insolate": {
+  "biofilter": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insonify": {
+  "biograph": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inspire": {
+  "biographize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inspissate": {
+  "biography": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instal": {
+  "biologize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "install": {
+  "biomagnify": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instance": {
+  "biosynthesize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instanciate": {
+  "biotreat": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instantiate": {
+  "birdie": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instate": {
+  "birdlime": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instaurate": {
+  "bisexualize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instaure": {
+  "bit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insteep": {
+  "bitch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instinctualize": {
+  "bite": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "institute": {
+  "bitmask": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instop": {
+  "bituminate": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instrengthen": {
+  "bituminize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instrew": {
+  "blab": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instruct": {
+  "blackball": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instrument": {
+  "blackenize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "instyle": {
+  "blackhole": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insuck": {
+  "blackline": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insufflate": {
+  "blacklist": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insularize": {
+  "blackmail": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insult": {
+  "blackwash": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "insure": {
+  "bladder": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intellectualize": {
+  "blade": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intemperate": {
+  "blag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intend": {
+  "blame": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intenerate": {
+  "bland": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intensate": {
+  "blandify": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intensify": {
+  "blandish": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interblend": {
+  "blank": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interbring": {
+  "blanket": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intercept": {
+  "blaspheme": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interchange": {
+  "blast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intercloud": {
+  "blaze": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interclude": {
+  "blazon": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interconnect": {
+  "bleach": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intercouple": {
+  "bleed": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intercut": {
+  "bleep": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interdash": {
+  "blench": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interdict": {
+  "blend": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interdigitate": {
+  "blenderize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interess": {
+  "blesh": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interest": {
+  "bless": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interesterify": {
+  "blight": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interface": {
+  "blind": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interfere": {
+  "blindside": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interflow": {
+  "blink": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interfold": {
+  "blip": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interiorize": {
+  "blister": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interjaculate": {
+  "blit": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interject": {
+  "blithen": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interlace": {
+  "block": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interlaminate": {
+  "blockade": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interleave": {
+  "bloom": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interlink": {
+  "blot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interlist": {
+  "blotch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interlude": {
+  "blote": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intermeddle": {
+  "blow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intermediate": {
+  "bludgeon": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intermit": {
+  "blue": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intermix": {
+  "bluejack": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intern": {
+  "blunder": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "internalize": {
+  "blush": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "internetwork": {
+  "board": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interpel": {
+  "boast": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interpellate": {
+  "boat": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interpoint": {
+  "bob": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interpolate": {
+  "bobbitt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interpose": {
+  "body": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interracialize": {
+  "bodyguard": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interrogate": {
+  "bog": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interrupt": {
+  "boggle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interscribe": {
+  "boil": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intersert": {
+  "boing": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intersperse": {
+  "boke": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intersubstitute": {
+  "bold": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intertangle": {
+  "bolk": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intertwine": {
+  "bollock": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intervene": {
+  "bollocks": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intervert": {
+  "bolshevize": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "interwork": {
+  "bolt": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intimate": {
+  "bomb": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intimidate": {
+  "bond": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intitule": {
+  "bone": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intone": {
+  "bonify": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intreasure": {
+  "bonjour": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intricate": {
+  "bonnet": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intrigue": {
+  "bonsai": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intro": {
+  "bonus": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "introduce": {
+  "boo": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intromit": {
+  "booby": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "introsume": {
+  "boobytrap": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "intubate": {
+  "book": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inturbidate": {
+  "bookmark": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inturn": {
+  "boom": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inure": {
+  "boost": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inurn": {
+  "boot": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invade": {
+  "bootblack": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inveigh": {
+  "bootleg": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inveigle": {
+  "bootlick": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inveil": {
+  "border": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invent": {
+  "bore": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inventorize": {
+  "borrow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inventory": {
+  "boss": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invert": {
+  "botch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "investigate": {
+  "bother": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invigorate": {
+  "bottle": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invile": {
+  "bottleneck": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invisiblize": {
+  "bottom": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invite": {
+  "boule": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invoice": {
+  "bounce": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "invoke": {
+  "bound": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inwall": {
+  "bow": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inwood": {
+  "bowl": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "inwork": {
+  "bowstring": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iodine": {
+  "box": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iodoformize": {
+  "boy": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iotize": {
+  "boycott": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ipsatize": {
+  "brace": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ire": {
+  "brag": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iridize": {
+  "braid": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "irk": {
+  "brain": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "iron": {
+  "brainwipe": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ironize": {
+  "brake": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "irradiate": {
+  "branch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "irregulate": {
+  "brand": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "irritate": {
+  "brandish": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "irrorate": {
+  "brandy": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "irrupt": {
+  "brave": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "is": {
+  "brawn": {
     "valency": "transitive",
-    "is": "be",
     "args": {
-      "subject": "$noun",
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bray": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brazen": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breach": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bread": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breadboard": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breadcrumb": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "break": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breakfast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breast": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breastfeed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breathe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breech": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "breed": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brew": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bribe": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bridle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brief": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brighten": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brim": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brine": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bring": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brisk": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brit": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "broach": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "broaden": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "broadseal": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "broadside": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brog": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brogue": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "broil": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brominate": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bromize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bronze": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brooch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brood": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brook": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "broom": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brother": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "browbeat": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brown": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "browse": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bruise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brush": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brutalise": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "brutify": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bubble": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buck": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bucket": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buckle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buckram": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "budge": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "budget": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buffalo": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buffet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bug": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bugbear": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "build": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bulbectomize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bull": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bulldog": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bullet": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bulletize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bullirag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bully": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bullyproof": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bullyrag": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bulwark": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bum": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bump": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bumrush": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bunch": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bunco": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bundle": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bung": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bunt": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buoy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burden": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burn": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burnettize": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burnish": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burp": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burr": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "burst": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bury": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bus": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bush": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "bushel": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "buss": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "busy": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "butcher": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
+      "object": "$"
+    }
+  },
+  "butter": {
+    "valency": "transitive",
+    "args": {
+      "subject": "$",
       "object": "$"
     }
   },
-  "island": {
+  "button": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "isochronize": {
+  "buy": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "isolate": {
+  "buycott": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "isotope": {
+  "buzz": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "isotropize": {
+  "bycatch": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "itch": {
+  "byheart": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "itemize": {
+  "byline": {
     "valency": "transitive",
     "args": {
       "subject": "$",
       "object": "$"
     }
   },
-  "ixnay": {
+  "byname": {
     "valency": "transitive",
     "args": {
       "subject": "$",

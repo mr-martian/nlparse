@@ -2,7631 +2,7631 @@
   "mabble": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "macadam": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "macarize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "macromanage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mactate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "madam": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maddle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "magic": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "magnetize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "magnify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mail": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mailshot": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mainprise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mainstream": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mainswear": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maintain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "majorize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "make": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "malign": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "malignify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "malleableize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mamaguy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mammock": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "man": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maneuver": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mangle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manhandle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manifold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manipulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mank": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mannerize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manoeuvre": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manswear": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mantle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manualize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "manufacture": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "map": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maraud": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marble": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marbleize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marcel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "march": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marcot": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marginalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marionette": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mark": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "market": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marmalade": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marry": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "martemper": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "martyr": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "martyrize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marvel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "marzipan": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masculate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masculinize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mash": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mask": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masker": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mason": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masquerade": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mass": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "massacre": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "massage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "massify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "master": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masthead": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masticate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "masturbate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "match": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "material": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "materialize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maternalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mathematicize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mathematize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "matriculate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "matronize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "matter": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maudle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "maximalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meager": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meagre": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meal": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mean": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meander": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "measure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mechanicalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meddle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mediate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "medicalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meed": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meeten": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "megadose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "megaphone": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "melancholize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "meliorate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mellow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "melodize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "melodramatize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "melt": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "memoize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "memorise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mendicate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mentor": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mephitize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "merchandise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mercify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mercurialize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mercurify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mere": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "merge": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mergesort": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "merit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mess": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "messenger": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "metabolize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "metallicize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "metamorphize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mete": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "metempsychose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "metric": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "metropolitanize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mic": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microaggress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microchip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microencapsulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microinject": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microphone": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microregulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "microwave": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "midwife": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miff": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "migrate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mildew": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mildewproof": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "milk": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mill": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "milse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "milt": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mimmer": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "min": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mince": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mindwipe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mine": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ming": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miniature": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "minimize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "minister": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "minoritize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mint": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "minute": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mirage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mirror": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mirv": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misaddress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misadjust": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misaim": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misallocate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misapprehend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misascribe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misattend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbeat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbede": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbefall": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbeseem": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbestow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbid": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbuild": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misbutton": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mischoose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mischristen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscolour": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscommunicate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misconduct": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misconfigure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misconnect": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misconstrue": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misconvert": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscook": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscounsel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscredit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscue": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miscure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdeal": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdefend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdescribe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdesign": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdetermine": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdevote": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdial": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdistinguish": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdistribute": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdo": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misdoom": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misemploy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misencode": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misenter": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misexplain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misexpress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misfeed": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misfile": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misfit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misforgive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misfriend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misgive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misgovern": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misgrade": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misgrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misguggle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misheed": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mishit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mishmash": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mishold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mishope": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misimplement": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misimprove": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misincline": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misincorporate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misinform": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misinspire": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misintend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miskeep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misken": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miskick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miskindle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misland": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mislead": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mislist": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misload": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mislocate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mislodge": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mislook": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mislove": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismail": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismanage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismap": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismark": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismarket": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismean": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismeasure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismeter": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mismove": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misnomer": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misnote": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misnumber": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misnurture": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misorder": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misown": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispaint": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misperson": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispersuade": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misplace": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misplan": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misplant": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misplease": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispoint": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misportray": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispraise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispresent": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misprocess": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misprogram": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispronounce": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misproportion": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mispunctuate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misqualify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misraise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrecall": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misreceive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misreckon": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrecollect": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrecord": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrede": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misregard": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misregulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrehearse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrelate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrender": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrepeat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misreport": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misrespect": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misroute": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miss": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missee": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misshelve": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mission": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missionaryize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missionize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "missort": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misstrike": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misstructure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistag": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mister": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misthread": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misthrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistide": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistitle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistrain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistranscribe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistreat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistune": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misturn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mistutor": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misunderstand": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misuse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misvalue": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misword": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "misworship": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "miswrite": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mitch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mithe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mither": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mitigate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mix": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moan": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mob": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mobilise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mobilize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mock": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "model": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moderate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "modernize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "modify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "modulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "modulize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moider": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moisten": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moistureproof": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mollycoddle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mommick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monarchize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mone": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monetarize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monger": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monitor": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monogram": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monograph": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monologize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monophthongize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monopolize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "monotone": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "montage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moon": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moor": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mop": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mope": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mordant": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "more": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "morph": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mortalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mortgage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mortify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mosh": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moss": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mothball": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mother": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "motivate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "motive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "motorize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moulder": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "moult": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mound": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mount": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mountebank": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mourn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mouse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mousle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mouth": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "move": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mucker": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mud": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muddle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muddy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muffle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mug": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muggle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mules": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "multiply": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "multipost": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "multiracialize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mumble": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mummify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mummy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "munge": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "munify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "murder": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "murmur": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muscularize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "museumize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mush": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "music": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "musk": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muss": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "must": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muster": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mutate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mute": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mutex": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mux": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "muzzle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "myelinate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "myspace": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mysterize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mysticize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mystify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mythologize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "mythopoeticize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nab": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nadir": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nail": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nait": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "naken": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "name": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "namesake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "napalm": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nappy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "narcotize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nark": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "narrate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "narrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nativize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "naturize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nauseate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "navigate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "need": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "needle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neg": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "negativize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neglect": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "negotiate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "negrify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "negrofy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "negroize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neighbour": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nerdify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nerve": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nesh": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neshen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nest": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nestle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "net": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nether": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "netsplit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nettle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "network": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neuroimage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neuroticize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "neven": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newcast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newcoin": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newcreate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newform": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newfront": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newfurnish": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newgroup": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newmake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newmodel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newmodelize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newmould": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newname": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newset": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newspaper": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "newvamp": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nibble": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "niblick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nice": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "niche": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nickel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nickelize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nickname": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nictitate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nidder": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nigger": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "niggerize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "niggle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nighen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nill": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nim": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nipponize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nitrify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nitrogenate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nitrogenize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nixtamalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nock": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nod": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nog": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "noise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nom": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "noncuple": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nonplus": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nonsensify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nonsuit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "noose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "normalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "normativize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "norn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "noseprint": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nostalgize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "notarize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "notch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "note": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "notice": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "notify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "noun": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nounize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "noursle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nuclearise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nuclearize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nudge": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nudzh": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "null": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nullify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "numb": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "number": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "numerate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nuncupate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nut": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nutmeg": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "nutshell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obeah": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obey": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obfirm": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "object": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "objectivate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "objurgate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obligate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oblige": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oblique": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obliviate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oblivion": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obscure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obsecrate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "observe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obsess": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obsolete": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obtain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obtemper": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obtest": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obtrude": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obtund": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "obviate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "occasion": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "occasionate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "occult": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "occupy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "occur": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ocker": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "octavate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "odize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oedipalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "off": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offcast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offcut": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offer": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offhold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "officer": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "officialize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "officiate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offlay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offlead": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offload": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offprint": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offsaddle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offsplit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "offstand": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ogle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oil": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oker": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oligopolize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "omit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "omnibus": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "omnify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "on": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "one": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onfall": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onfang": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onforward": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onhold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onlead": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onlook": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onpass": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "onsend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ontake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oompah": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "op": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "opacify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "opaque": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "open": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "operate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "operationalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "opiate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "opinion": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "opinionate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oppress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oppugn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "optimize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orange": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orb": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orchestrate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "order": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ordinate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "organ": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "organize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orient": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orientate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "originate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orphan": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orphanize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ort": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "orthographize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "osculate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "osmicate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "osmose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ossify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ostentate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "other": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "otherize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "out": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outachieve": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outact": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outargue": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outask": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbark": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbattle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbear": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outboob": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbowl": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbox": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbrain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbray": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbrazen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbreathe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbreed": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbribe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbring": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbuild": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outburn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outburp": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outbuy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcampaign": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcant": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcaste": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcheat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcheer": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outclass": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outclimb": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcompass": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcon": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcook": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcool": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcount": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcrack": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcrafty": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcreep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcross": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcry": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outcut": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdare": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdazzle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdebate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdistance": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdo": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdream": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdrive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outduel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outdwell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outeat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outengineer": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfall": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfart": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfence": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfind": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfinesse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfire": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfish": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outflank": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfly": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfool": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfoot": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfox": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outframe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfrown": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outfuck": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgallop": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgeneral": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outglare": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outglow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgreen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outguess": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outgun": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outhandle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outhire": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outjest": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outjuggle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outken": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outkill": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outkiss": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlaugh": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlead": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlearn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlie": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outline": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlitigate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlook": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outlustre": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmanage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmantle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmarch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmatch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmeasure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmode": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmount": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outmuscle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outnice": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outnigger": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outnim": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outnumber": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outorganize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpaint": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpass": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpiss": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpoise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpower": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpreach": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outprize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outpunch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outquench": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outrage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outrange": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outrank": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outreason": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outreckon": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outreport": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outride": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outring": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outrival": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outroar": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outromance": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outroot": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outrush": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsave": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outscent": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outscold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outscorn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outscout": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outscream": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsee": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outseek": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outserve": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outshow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outshriek": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outshrill": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsing": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outski": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outskin": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outskip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsleep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outslick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outslip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outslug": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsmart": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsoar": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outspeak": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outspeed": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outspell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outspin": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsport": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outspread": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsquawk": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstand": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstink": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstorm": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstrategize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstride": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstrike": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstrip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outstudy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsurvive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outswear": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outsweeten": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outswim": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outtalk": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outtell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outtrade": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outtravel": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outvenom": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outvillain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outvoice": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outweary": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outweep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outweird": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outwing": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outwinter": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outwit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outwoo": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outworth": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outwrestle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outwrite": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outyell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "outyield": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "ovariectomize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overaccelerate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overaccommodate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overact": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overanesthetize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overapproximate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overattribute": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overawe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbalance": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overballast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbear": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbeat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbide": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overblow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbound": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbreak": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbrowse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overbuild": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overburn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcanopy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcapitalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcark": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcarve": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcatch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcategorize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcentralize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overchill": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcite": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overclaim": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overclassify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overclean": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcloy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcoat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcoddle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcollateralize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcolor": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcolour": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcome": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcommercialize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcomplicate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcompliment": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcompress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcontrol": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcover": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcram": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overcut": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdesign": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdilute": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdisperse": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdose": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdot": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdreep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdrive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdrown": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overdye": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overempty": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overenjoy": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overenunciate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overequip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overextend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overeye": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfall": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfare": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfarm": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfatigue": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfawn": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfeed": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfertilize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfinance": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfire": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overflatter": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overflow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfreight": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overfuck": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overgang": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overget": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overgild": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overgird": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overgive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overglance": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overglaze": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overgraze": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overgrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhale": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhandle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhang": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overheal": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overheat": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhend": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhold": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhope": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhunt": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overhydrate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overidealize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overinfluence": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overinsure": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overjudge": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overjustify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overkeep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overkill": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlabour": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlade": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlap": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlaunch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlead": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlean": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overleap": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overleave": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlengthen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlick": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlight": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overload": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overlubricate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmanage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmanipulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmarch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmarket": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmedicalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmike": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmilk": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmodulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmount": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overmultitude": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overnight": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overnim": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overnoise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overoil": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overorder": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overornament": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpackage": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overparameterize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpart": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpass": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpeople": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overperceive": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overperch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overplay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overply": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpolish": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpot": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpower": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overprepare": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpress": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overprime": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overprize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overprocess": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpromote": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overprove": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpsychologize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpublicize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpublish": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpull": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpunch": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overpursue": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overput": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overquantify": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overquell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overquote": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrake": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overread": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrelax": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overreport": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrepresent": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrestore": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrev": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrise": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overroast": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overromanticize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrotate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrule": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overrun": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversail": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversauce": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overschedule": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overscore": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overseal": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overseason": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversedate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversee": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversell": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversensationalize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overserve": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overservice": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overset": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversexualize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overshadow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overshape": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversharpen": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overshorten": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overshow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overskate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overslaugh": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversleep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overslide": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overslip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversoak": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversoften": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overspan": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overspread": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overspring": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversprinkle": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstand": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstay": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstimulate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstride": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overstrike": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversubsidize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overswarm": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversweep": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oversweeten": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overswing": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtalk": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtan": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overteach": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overthrow": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtighten": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtire": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtoil": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtrain": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtread": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overtry": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overveil": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overvolt": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwait": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwash": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwax": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overweary": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overweigh": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwhip": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwin": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwind": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwing": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwinter": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwit": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwork": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwrap": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwrest": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "overwrite": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "owe": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "own": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oxidize": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   },
   "oxygenate": {
     "valency": "transitive",
     "args": {
-      "subject": "@",
-      "object": "@"
+      "subject": "$",
+      "object": "$"
     }
   }
 }

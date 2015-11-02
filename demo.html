@@ -8,12 +8,28 @@
   #in, #out {
     border-width: 0px;
   }
+  #hi {
+    border-width: 0px;
+  }
 </style>
 </head>
 <body>
+  <div>
+    <span onclick="showhide(event);">Show/Hide</span>
+    <div id="hi">
+      <p>Hello! This program is intended to parse sentences. To use it, type stuff into the textbox and click "parse". If you get an enourmous amount of output, check "Filter Output", and click "parse" again.</p>
+      <p>If you get blank output, the page freezes, or the output is incorrect, press Control-Shift-R to be sure you have the most recent version of the page. If the problem persists, <a id="email" href="mailto:popcorn.tomato.dude@gmail.com?subject=Issue with nlparse/demo.html">email me</a>.</p>
+      <p>Click <a href="https://github.com/mr-martian/nlparse">here</a> to view this project on Github.</p>
+      <p>Please note that "Language:" will only accept "en" as input, I hope to rectify this soon.</p>
+      <p align="right">--Daniel (02015-11-1)</p>
+    </div>
+  </div>
   <span>Language: </span>
   <input value="en" id="langcode"></input>
   <span id="loading" title="click for language list" onclick="alertlangs();"></span>
+  <br>
+  <input type="checkbox" id="doreject"></input>
+  <label for="doreject">Filter Output</label>
   <br>
   <table border="1" style="border: 1px solid black;">
     <thead>
@@ -95,7 +111,7 @@
           return dosyntax(parsediv($('#in')[0].childNodes[0]));
           break;
         case "text":
-          return fullparse($('#in')[0].childNodes[0].value);
+          return fullparse($('#in')[0].childNodes[0].value, document.getElementById('doreject').checked);
           break;
         case "words":
           var w = $.map($('#in')[0].childNodes[0].childNodes, function(n) {
@@ -122,6 +138,15 @@
     $(document).ready(function() {
       loadlang("en");
       insel();
+      $('#email').click(function() {
+        if (inmode === "text") {
+          this.href = "mailto:popcorn.tomato.dude@gmail.com?subject=Issue with nlparse/demo.html&body=I typed";
+          this.href += encodeURIComponent('\n"' + $('#in')[0].childNodes[0].value + '"\n');
+          this.href += "into the box the following ocurred:\n\n"
+        } else {
+          this.href = "mailto:popcorn.tomato.dude@gmail.com?subject=Issue with nlparse/demo.html"
+        }
+      });
     });
     $(document).mousemove(function() {
       if (waiting === 0) {
