@@ -13,7 +13,7 @@
     "ditrans-dir": "?[$verb{!object [valency ditransitive] [args ${[object @1]}]} (@1 $pronoun)] *[#0 object #1] [verb-prep verb-com-prep]",
     "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
     "object": "?[$verb{!object [valency transitive] [args ${[object @1]}]} (@1 $pronoun{[case accusative]} $pronoun{[reflexive true]})] *[#0 object #1] [verb-prep verb-com-prep]",
-    "possessive": "?![$(noun pronoun){[case genitive]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
+    "possessive": "?[($noun{[case genitive]} $pos-det) $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
     "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
     "prep-com-verb": "?[$preposition{clause} $punct{[is comma]} $verb] *[#2 descs [#0]] [adv]",
     "prep-verb": "?[$preposition{clause} $verb] *[#1 descs [#0]] [prep-com-verb adv]",
