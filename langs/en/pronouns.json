@@ -1,0 +1,56 @@
+{
+  "i": "${[person 1] [plural false] [case nominative] [reflexive false]}",
+  "me": "${[person 1] [plural false] [case accusative] [reflexive false]}",
+  "my": "${[person 1] [plural false] [type pos-det]}",
+  "mine": "${[person 1] [plural false] [case genitive] [reflexive false]}",
+  "myself": "${[person 1] [plural false] [reflexive true]}",
+  "you": [
+    "${[person 2] [plural false] [case nominative] [reflexive false]}",
+    "${[person 2] [plural false] [case accusative] [reflexive false]}",
+    "${[person 2] [plural true] [case nominative] [reflexive false]}",
+    "${[person 2] [plural true] [case accusative] [reflexive false]}"
+  ],
+  "your": [
+    "${[person 2] [plural false] [type pos-det]}",
+    "${[person 2] [plural true] [type pos-det]}"
+  ],
+  "yours": [
+    "${[person 2] [plural false] [case genitive] [reflexive false]}",
+    "${[person 2] [plural true] [case genitive] [reflexive false]}"
+  ],
+  "yourself": "${[person 2] [plural false] [reflexive true]}",
+  "he": "${[person 3] [plural false] [case nominative] [reflexive false] [gender male]}",
+  "him": "${[person 3] [plural false] [case accusative] [reflexive false] [gender male]}",
+  "his": [
+    "${[person 3] [plural false] [type pos-det]}",
+    "${[person 3] [plural false] [case genitive] [reflexive false] [gender male]}"
+  ],
+  "himself": "${[person 3] [plural false] [reflexive true] [gender male]}",
+  "she": "${[person 3] [plural false] [case nominative] [reflexive false] [gender female]}",
+  "her": [
+    "${[person 3] [plural false] [type pos-det] [gender female]}",
+    "${[person 3] [plural false] [case accusative] [reflexive false] [gender female]}"
+  ],
+  "hers": "${[person 3] [plural false] [case nominative] [reflexive false] [gender female]}",
+  "herself": "${[person 3] [plural false] [case accusative] [reflexive false] [gender female]}",
+  "it": [
+    "${[person 3] [plural false] [case nominative] [reflexive false] [gender neuter]}",
+    "${[person 3] [plural false] [case accusative] [reflexive false] [gender neuter]}"
+  ],
+  "its": [
+    "${[person 3] [plural false] [type pos-det] [gender neuter]}",
+    "${[person 3] [plural false] [case genitive] [reflexive false] [gender neuter]}"
+  ],
+  "itself": "${[person 3] [plural false] [reflexive true] [gender neuter]}",
+  "yourselves": "${[person 2] [plural true] [reflexive true]}",
+  "we": "${[person 1] [plural true] [case nominative] [reflexive false]}",
+  "us": "${[person 1] [plural true] [case accusative] [reflexive false]}",
+  "our": "${[person 1] [plural true] [type pos-det]}",
+  "ours": "${[person 1] [plural true] [case genitive] [reflexive false]}",
+  "ourselves": "${[person 1] [plural true] [reflexive true]}",
+  "they": "${[person 3] [plural true] [case nominative] [reflexive false]}",
+  "them": "${[person 3] [plural true] [case accusative] [reflexive false]}",
+  "their": "${[person 3] [plural true] [type pos-det]}",
+  "theirs": "${[person 3] [plural true] [case genitive] [reflexive false]}",
+  "themselves": "${[person 3] [plural true] [reflexive true]}"
+}

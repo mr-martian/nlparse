@@ -12,13 +12,13 @@
     "ditrans-indir": "?[$verb{!indir-object [valency ditransitive] [args ${[indir-object @1]}]} (@1 $pronoun)] *[#0 indir-object #1] [ditrans-dir]",
     "ditrans-dir": "?[$verb{!object [valency ditransitive] [args ${[object @1]}]} (@1 $pronoun)] *[#0 object #1] [verb-prep verb-com-prep]",
     "noun-prep": "?[$noun $preposition{clause}] *[#0 descs [#1]] [prep-noun]",
-    "object": "?[$verb{!object [valency transitive] [args ${[object @1]}]} (@1 $pronoun)] *[#0 object #1] [verb-prep verb-com-prep]",
-    "possessive": "?![$noun{[case genitive]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
+    "object": "?[$verb{!object [valency transitive] [args ${[object @1]}]} (@1 $pronoun{[case accusative]} $pronoun{[reflexive true]})] *[#0 object #1] [verb-prep verb-com-prep]",
+    "possessive": "?![$(noun pronoun){[case genitive]} $noun{!possessor !definite}] +[#1 ${[possessor #0] [definite true]}] [prep-noun]",
     "prep-noun": "?[$preposition{!clause} $noun] *[#0 clause #1] [noun-prep]",
     "prep-com-verb": "?[$preposition{clause} $punct{[is comma]} $verb] *[#2 descs [#0]] [adv]",
     "prep-verb": "?[$preposition{clause} $verb] *[#1 descs [#0]] [prep-com-verb adv]",
     "punct": "?[$verb $punct{[end true]}] *[#0 punct #1] []",
-    "subject": "?[(@1 $pronoun) $verb{[finite true] [personal true] !subject [args ${[subject @!1]}]}] *[#1 subject #0] [object prep-verb prep-com-verb adv]",
+    "subject": "?[($pronoun{[case nominative]} @1) $verb{[finite true] [personal true] !subject [args ${[subject @!1]}]}] *[#1 subject #0] [object prep-verb prep-com-verb adv]",
     "verb-com-prep": "?[$verb{!punct} $punct{[is comma]} $preposition{clause}] *[#0 descs [#2]] [adv punct]",
     "verb-prep": "?[$verb{!punct} $preposition{clause}] *[#0 descs [#1]] [verb-com-prep adv punct]"
   },
@@ -104,6 +104,12 @@
       "thisisa": "list",
       "file": "prepositions.json",
       "function": "$preposition",
+      "decapitalize": true
+    },
+    "personal-pronoun": {
+      "thisisa": "list",
+      "file": "pronouns.json",
+      "function": "+[$pronoun #0]",
       "decapitalize": true
     },
     "punct": {
