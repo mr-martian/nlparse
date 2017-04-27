@@ -2,4 +2,7 @@ update_github.sh
 *~
 *.pyc
 jai/*
+python/*
 Genesis.txt
+langs/he/*
+trans/*

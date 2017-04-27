@@ -1,184 +1,164 @@
+var ls = function(thing) {
+  if (_.isNull(thing) || _.isUndefined(thing)) {
+    console.log(thing);
+    return [];
+  }
+  return _.isArray(thing) ? thing : [thing];
+}
 var copy_thing = function(thing) {
   return JSON.parse(JSON.stringify(thing));
 }
-var parserule = function(in_txt) {
-  var txt = in_txt.split('');
-  var subparse = function(t) {
-    var rem = function(t, c) {
-      while (t.length > 0 && t[0] === c) { t.shift(); }
-    }
-    var r;
-    if (t.length === 0) {
-      return undefined;
-    }
-    rem(t, ' ');
-    switch (t[0]) {
-      case '#':
-        r = {"thisisa": "noderef", "node": ""};
-        t.shift();
-        while (t.length > 0 && t[0].match(/^[0-9]/)) { r.node += t.shift(); }
-        r.node = parseInt(r.node);
-        break;
-      case '@':
-        r = {"thisisa": "wildcard", "id": ""};
-        t.shift();
-        if (t[0] === "!") {
-          t.shift();
-          r.ispat = true;
+var match = function(pat, nodes, wilds, offset, nested) {
+  if (pat.length > nodes.length) { return false; }
+  if (!wilds) { wilds = {}; }
+  if (!offset) { offset = 0; }
+  if (!nested) { nested = false; }
+  var p = pat[0];
+  var n = nodes[0];
+  var ret = false;
+  if (p === n) {
+    wilds[offset] = n;
+  } else if (_.isArray(p) && _.isArray(n)) {
+    var f = false;
+    for (var pi = 0; pi < p.length; pi++) {
+      var f = false;
+      for (var ni = 0; ni < n.length; ni++) {
+        if (literal(p[pi], n[ni])) {
+          f = true;
+          break;
         }
-        while (t.length > 0 && t[0].match(/^[a-z\-0-9]/)) { r.id += t.shift(); }
-        if (r.id === "") {
-          r.id = null;
+      }
+      if (!f) { return false; }
+    }
+    ret = true;
+  } else if (_.isObject(p) && p.thisisa === 'wildcard') {
+    if (p.id === null) {
+      ret = true;
+    } else if (wilds.hasOwnProperty(p.id)) {
+      ret = match([wilds[p.id]], [n], wilds, offset, true);
+    } else {
+      wilds[p.id] = n;
+      ret = true;
+    }
+  } else if (_.isObject(p) && p.thisisa === 'or') {
+    for (var i = 0; i < p.options.length; i++) {
+      var m = match([p.options[i]].concat(pat.slice(1)), nodes, wilds, offset, nested);
+      if (m) { return m; }
+    }
+  } else if (_.isObject(p) && p.thisisa === 'group') {
+    var namestr = function(i) {
+      return 'PAT_INTERNAL_' + i;
+    }
+    var pp = [];
+    for (var i = 0; i < p.pat.length; i++) {
+      pp.push({thisisa: 'name', pat: p.pat[i], name: namestr(i)});
+    }
+    var arr = [];
+    var update = function(l) {
+      return match(pp, nodes, wilds, offset, true);
+    }
+    var clearnames = function(wilds, len) {
+      for (var i = 0; i < len; i++) {
+        delete wilds[namestr(i)];
+      }
+      return wilds;
+    }
+    var m = update();
+    while (m) {
+      arr.push(m[p.collect]);
+      wilds = clearnames(m);
+      nodes = nodes.slice(nodes.length - wilds.remaining);
+      m = update();
+    }
+    if (arr.length >= p.min) {
+      wilds[p.name] = arr;
+    } else {
+      return false;
+    }
+  } else if (_.isObject(p) && p.thisisa === 'name') {
+    var m = match([p.pat], nodes, wilds, offset, true);
+    if (m) {
+      wilds = m;
+      wilds[p.name] = n;
+    }
+  } else if (_.isObject(p) && _.isObject(n) && p.thisisa !== undefined) {
+    for (var k in p) {
+      if ((p[k] === null && n.hasOwnProperty(k)) || !node.hasOwnProperty(k) || !literal(p[k], n[k])) {
+        if (n.matchas !== undefined) {
+          return match(pat, [n.matchas].concat(nodes.slice(1)), wilds, offset, nested);
         } else {
-          r.id = parseInt(r.id);
-        } break;
-      case '$':
-        t.shift();
-        r = {"thisisa": "node", "type": subparse(t)};
-        if (r.type === "") {
-          r = {};
+          return false;
         }
-        rem(t, ' ');
-        if (t.length > 0 && t[0] === '{') {
-          t.shift();
-          var a;
-          while (t.length > 0 && t[0] !== '}') {
-            a = subparse(t);
-            if (a.constructor === Array) {
-              r[a[0]] = a[1];
+      }
+    }
+    ret = true;
+  }
+  if (ret) {
+    if (!nested) {
+      wilds[offset] = n;
+    }
+    if (pat.length === 1) {
+      wilds.remaining = nodes.length - 1;
+      return wilds;
+    } else {
+      return match(pat.slice(1), nodes.slice(1), wilds, offset+1, nested);
+    }
+  } else {
+    return false;
+  }
+}
+var evalfnnew = function(fn, wilds) {
+  var ret;
+  var rec = function(t) { return evalfnnew(t, wilds); };
+  switch (fn.thisisa) {
+    case "merge":
+      ret = {};
+      _.each(
+        fn.things.map(rec),
+        function(obj) {
+          for (k in obj) {
+            if (!fn.override && ret[k] && _.isArray(ret[k]) || _.isArray(obj[k])) {
+              ret[k] = ls(ret[k]).concat(obj[k]);
             } else {
-              r[a] = {"thisisa": "wildcard", "id": null}
+              ret[k] = obj[k];
             }
           }
-          if (t.length === 0) {
-            return undefined;
-          } else {
-            t.shift();
-          }
-        } break;
-      case '[':
-        t.shift();
-        r = [];
-        while (t.length > 0 && t[0] !== ']') {
-          r.push(subparse(t));
         }
-        if (t.length > 0) {
-          t.shift();
-        } else {
-          return undefined;
-        } break;
-      case '(':
-        t.shift();
-        r = {"thisisa": "or", "options": []};
-        while (t.length > 0 && t[0] !== ')') {
-          r.options.push(subparse(t));
-        }
-        if (t.length > 0) {
-          t.shift();
-        } else {
-          return undefined;
-        } break;
-      case '!':
-        t.shift();
-        r = [subparse(t), null];
-        break;
-      case '+':
-        t.shift();
-        var o = false;
-        if (t[0] === "!") {
-          o = true;
-          t.shift();
-        }
-        r = {"thisisa": "merge", "things": subparse(t), "override": o};
-        break;
-      case '?':
-        t.shift();
-        r = {"thisisa": "syntaxrule"}
-        r.nodes = subparse(t);
-        r.function = subparse(t);
-        r.next = subparse(t);
-        break;
-      case '*':
-        t.shift();
-        l = subparse(t);
-        r = {"thisisa": "merge", "things": [l[0], {"thisisa": "node"}]};
-        r.things[1][l[1]] = l[2];
-        break;
-      default:
-        r = "";
-        while (t.length > 0 && t[0].match(/^[a-zA-Z0-9\-]/)) { r += t.shift(); }
-        if (r === "true" || r === "false" || r === "null") {
-          r = JSON.parse(r);
-        }
-    }
-    return r;
+      );
+      break;
+    case "wildcard":
+      ret = wilds[fn.id];
+      break;
+    default:
+      ret = _.isArray(fn) ? fn.map(rec) : fn && _.isObject(fn) ? _.mapObject(fn, rec) : fn;
   }
-  var ret = subparse(txt);
-  if (txt.length === 0 && ret !== undefined) {
-    return ret;
-  } else {
-    return in_txt;
-  }
+  return copy_thing(ret);
 }
-var parsetree = function(thing) {
-  if (_.isString(thing)) {
-    return parserule(thing);
-  } else if (_.isArray(thing)) {
-    return _.map(thing, parsetree);
-  } else if (_.isObject(thing) && !_.isNull(thing)) {
-    return _.mapObject(thing, function(v, k) {
-      return (thing.thisisa === "morphologyrule" && k !== "function" && k !== "next") || thing.thisisa === "wordify" ? v : parsetree(v);
-    });
-  } else {
-    return thing;
-  }
-}
-var langs = {};
-var curlang;
-var waiting = 0;
-var loadlang = function(lang) {
-  if (!langs.hasOwnProperty(lang)) {
-    waiting += 1;
-    $.getJSON("langs/" + lang + "/main.json", function(stuff) {
-      waiting -= 1;
-      langs[lang] = parsetree(stuff);
-      var loadfiles = function(rule) {
-        if (rule.thisisa === "list" && rule.file) {
-          _.map(ls(rule.file), function(f) {
-            waiting += 1;
-            $.getJSON("langs/" + lang + "/" + f, function(s) {
-              var r = parsetree(s);
-              if (_.isArray(r)) {
-                rule.words = (rule.words || []).concat(r);
-              } else {
-                rule.words = _.extend((rule.words || {}), r);
-              }
-              waiting -= 1;
-            });
-          });
-        } else if (rule.thisisa === "morphologyrule") {
-          rule.next.map(loadfiles);
-        }
-      }
-      for (var k in langs[lang].morphology) {
-        loadfiles(langs[lang].morphology[k]);
-      }
-    });
-  }
-}
-var listlangs = function(fn) {
-  $.getJSON("langs/langs.json", fn);
-}
-var loadalllangs = function() {
-  listlangs(function(stuff) { _.map(stuff, loadlang); });
+var dosyntaxrulenew = function(insen, rule) {
+  if (!rule) { return []; }
 }
 var matchone = function(pat, node, wilds) {
   //returns [matched, used_matchas, wilds]
   if (pat === node) {
     return [true, false, wilds];
-  } else if (_.isObject(pat) && pat.thisisa === node.thisisa) {
-    //if they're both undefined, this will cover arrays as well
-    //though arrays are kind of supposed to represent unordered collections, so maybe not?
+  } else if (_.isArray(pat) && _.isArray(node)) {
+    var f = false;
+    for (var p = 0; p < pat.length; p++) {
+      f = false;
+      for (var n = 0; n < node.length; n++) {
+        var m = matchone(pat[p], node[n], wilds);
+        if (m[0]) {
+          wilds = m[2];
+          f = true;
+          break;
+        }
+      }
+      if (!f) {
+        return [false, false, wilds];
+      }
+    }
+    return [true, false, wilds];
+  } else if (_.isObject(pat) && pat.thisisa !== undefined && pat.thisisa === node.thisisa) {
     var doas = false;
     for (var k in pat) {
       if (_.isNull(pat[k])) {
@@ -227,19 +207,14 @@ var matchone = function(pat, node, wilds) {
     return [false, false, wilds];
   }
 }
-var ls = function(thing) {
-  if (_.isNull(thing) || _.isUndefined(thing)) {
-    return [];
-  }
-  return _.isArray(thing) ? thing : [thing];
-}
 var evalfn = function(fn, nodes, wilds) {
   var ret;
+  var rec = function(t) { return evalfn(t, nodes, wilds); };
   switch (fn.thisisa) {
     case "merge":
       ret = {};
       _.each(
-        _.map(fn.things, function(t) { return evalfn(t, nodes, wilds); }),
+        fn.things.map(rec),
         function(obj) {
           for (k in obj) {
             if (!fn.override && ret[k] && _.isArray(ret[k]) || _.isArray(obj[k])) {
@@ -258,13 +233,7 @@ var evalfn = function(fn, nodes, wilds) {
       ret = nodes[fn.node];
       break;
     default:
-      if (_.isArray(fn)) {
-        ret = _.map(fn, function(i) { return evalfn(i, nodes, wilds); });
-      } else if (_.isObject(fn) && fn !== null) {
-        ret = _.mapObject(fn, function(i) { return evalfn(i, nodes, wilds); });
-      } else {
-        ret = fn;
-      }
+      ret = _.isArray(fn) ? fn.map(rec) : fn && _.isObject(fn) ? _.mapObject(fn, rec) : fn;
   }
   return copy_thing(ret);
 }
@@ -371,15 +340,19 @@ var domorphologyrule = function(inword, ruleid) {
       } break;
     case "morphologyrule":
       var pats = ls(rule.pat).map(function(s) { return RegExp(s); });
-      var reps = ls(rule.replace);
+      var reps = ls(rule.replace || "$0");
       var ret = [];
       var w;
       for (var p = 0; p < pats.length; p++) {
-        for (var r = 0; r < pats.length; r++) {
+        for (var r = 0; r < reps.length; r++) {
           if (pats[p].test(word)) {
             w = word.replace(pats[p], reps[r]);
-            for (var n = 0; n < rule.next.length; n++) {
-              ret.push(domorphologyrule(w, rule.next[n]).map(ef));
+            if (rule.next) {
+              for (var n = 0; n < rule.next.length; n++) {
+                ret.push(domorphologyrule(w, rule.next[n]).map(ef));
+              }
+            } else {
+              ret.push(ef(w));
             }
           }
         }
@@ -438,182 +411,4 @@ var fullparse = function(text, filter) {
   } else {
     return _.sortBy(ret, 'length');
   }
-}
-var display = function(obj, edit, parent) {
-  if (obj === null) {
-    return null;
-  }
-  var ret = JSON.stringify(obj);
-  var cls = obj.thisisa;
-  var disp;
-  if (_.isArray(obj)) {
-    disp = obj.map(function(o) { return display(o, edit, "array"); });
-  } else if (_.isObject(obj)) {
-    disp = _.mapObject(obj, function(v) { return display(v, edit, obj.thisisa); });
-  } else {
-    disp = obj;
-  }
-  switch (obj.thisisa) {
-    case "want":
-      if (edit) {
-        switch (obj.type) {
-          case "key":
-            ret = '<span>WANT KEY</span>';
-            break;
-          case "node":
-            cls = "node";
-            var v = display({"thisisa": "want", "type": "type", "typs": ["merge", "node", "noderef", "or", "wildcard"]}, edit, obj.thisisa);
-            ret = '<table><tbody><tr><td><span class="key type">type</span></td><td>' + v + '</td></tr><tr><td>';
-            ret += '<span class="key is">is</span></td><td>' + v + '</td></tr><tr><td>';
-            ret += display({"thisisa": "want", "type": "key"}, edit, obj.thisisa);
-            ret += '</td><td>' + v + '</td></tr></tbody></table>';
-            break;
-          case "string":
-            ret = '<span>WANT STRING</span>';
-            break;
-          case "type":
-            ret = '<div class="select">';
-            ret += obj.typs.map(function(t) { return '<input type="radio" name="type-sel" value="' + t + '">' + t + '</input>'; }).join('');
-            ret += '<button onclick="dotypesel(event, \'' + parent + '\');">Select</button></div>';
-            break;
-          default:
-            ret = '<span class="err">Unknown Want Type "' + obj.type + '"</span>';
-        }
-      } else {
-        ret = '<span class="want-type">Unset ' + obj.type + '</span>';
-      } break;
-    case "function":
-      break;
-    case "grammar":
-      break;
-    case "langname":
-      ret = '<table><tbody><tr><td>Code:</td><td>' + disp.code + '</td></tr>';
-      ret += '<tr><td>Short Name:</td><td>' + disp.shortname + '</td></tr>';
-      ret += '<tr><td>Long Name:</td><td>' + disp.longname + '</td></tr></tbody></table>';
-      break;
-    case "list":
-      break;
-    case "morphologyrule":
-      break;
-    case "node":
-      ret = '<table><tbody>';
-      if ('type' in obj) {
-        ret += '<tr><td><span class="key type">type</span></td><td>' + disp.type + '</td></tr>';
-      }
-      if ('is' in obj) {
-        ret += '<tr><td><span class="key is">is</span></td><td>' + disp.is + '</td></tr>';
-      }
-      for (var k in _.omit(obj, 'thisisa', 'type', 'is')) {
-        ret += '<tr><td><span class="key">' + k + '</span></td><td>' + disp[k] + '</td></tr>';
-      }
-      ret += '</tbody></table>';
-      break;
-    case "noderef":
-      ret = '<span class="wildcard">' + disp.id + '</span>';
-      break;
-    case "or":
-      ret = '<ul><li>' + disp.options.join('</li><li>') + '</li></ul>';
-      break;
-    case "syntaxrule":
-      break;
-    case "wildcard":
-      ret = '<span class="wild">' + disp.id + '</span>';
-      break;
-    case "wordify":
-      break;
-    default:
-      if (_.isArray(obj)) {
-        ret = '<ul><li>' + disp.join('</li><li>') + '</li></ul>';
-        cls = "list";
-      } else if (_.isBoolean(obj)) {
-        cls = "boolean";
-        ret = '<span class="bool">' + obj + '</span>';
-      } else if (_.isString(obj)) {
-        if (parent !== "node") {
-          return obj;
-        }
-        cls = "symbol";
-        ret = '<span class="value">' + obj + '</span>';
-      }
-  }
-  var s = '<div class="' + cls + '"><span class="header">' + cls + '</span><span class="showhide" onclick="showhide(event);">Show/Hide</span>';
-  if (edit) {
-    return s + '<span class="delete" onclick="delthing(event);">Delete</span><br>' + ret + '</div>';
-  } else {
-    return s + '<br>' + ret + '</div>';
-  }
-}
-var dotypesel = function(e, par) {
-  e.target.parentNode.parentNode.outerHTML = display({"thisisa": "want", "type": $('input[name="type-sel"]:checked').val()}, true, par);
-}
-var showhide = function(e) {
-  e.target.parentNode.lastElementChild.style.display = {"": "none", "none": ""}[e.target.parentNode.lastElementChild.style.display]
-}
-var parsediv = function(div) {
-  var dochild = function(d, tag, fn) {
-    return _.flatten(_.map(d.childNodes, function(n) { return n.tagName === tag ? _.map(n.childNodes, fn) : []; }), true);
-  };
-  var pd1st = function(n) { return parsediv(n.firstChild); }
-  var ret = {
-    "thisisa": div.className
-  };
-  switch (div.className) {
-    case "boolean":
-      ret = div.getElementsByClassName('bool')[0].innerHTML === "true" ? true : false;
-      break;
-    case "function":
-      break;
-    case "grammar":
-      break;
-    case "langname":
-      break;
-    case "list":
-      ret = dochild(div, "UL", pd1st);
-      break;
-    case "litdict":
-      break;
-    case "load":
-      break;
-    case "morphologyrule":
-      break;
-    case "node":
-      dochild(div, "TABLE", function(t) {
-        $.each(t.childNodes, function(i, tr) {
-          ret[tr.firstChild.firstChild.innerHTML] = pd1st(tr.childNodes[1]);
-        });
-      });
-      break;
-    case "noderef":
-      break;
-    case "or":
-      ret = {
-        "thisisa": "or",
-        "options": dochild(div, "UL", pd1st)
-      };
-      break;
-    case "symbol":
-      ret = div.getElementsByClassName('value')[0].innerHTML;
-      break;
-    case "syntaxrule":
-      break;
-    case "wildcard":
-      ret.id = div.getElementsByClassName('wild')[0].innerHTML;
-      break;
-    case "wordify":
-      break;
-    default:
-      ret = {
-        "thisisa": "unknown"
-      };
-  }
-  return ret;
-}
-var delthing = function(e) {
-  var d = e.target.parentNode;
-  if (d.parentNode.tagName === "LI") {
-    d = d.parentNode;
-  } else if (d.parentNode.tagName === "TD") {
-    d = d.parentNode.parentNode;
-  }
-  d.outerHTML = "";
 }
